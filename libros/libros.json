@@ -86,7 +86,7 @@
    "d0": "2026-06-27",
    "d1": "2026-07-25",
    "r": true,
-   "c": "/libros/portadas/9786075942186.jpg"
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/83/69/836949cdb117b01aa3ca8bdf427a688e.jpg"
   },
   {
    "t": "Apuntes del Subsuelo",
@@ -97,7 +97,8 @@
    "e": "leido",
    "d0": "2026-06-01",
    "d1": "2026-06-26",
-   "r": true
+   "r": true,
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/ac/48/ac4814a570f51f65c359f8c6e5404901.jpg"
   },
   {
    "t": "Crepúsculo de los Ídolos",
@@ -321,7 +322,7 @@
    "d0": "2026-04-15",
    "d1": "2026-05-31",
    "r": true,
-   "c": "/libros/portadas/9788411489416.jpg"
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/ad/39/ad391318846638588ae1194a9a066c28.jpg"
   },
   {
    "t": "Nuestra señora de París",
@@ -801,7 +802,7 @@
    "d0": "2026-01-24",
    "d1": "2026-02-13",
    "r": true,
-   "c": "/libros/portadas/9786070742255.jpg"
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/b8/7d/b87d4a28c97ff60bd7ccddcf2470cf8b.jpg"
   },
   {
    "t": "La gratitudes",
@@ -830,7 +831,7 @@
    "d0": "2025-09-12",
    "d1": "2025-10-11",
    "r": true,
-   "c": "/libros/portadas/9786073806749.jpg"
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/cc/84/cc84256ad2517f7413f9f3e24088f3ce.jpg"
   },
   {
    "t": "1984",
@@ -918,7 +919,8 @@
    "e": "leido",
    "d0": "2025-08-01",
    "d1": "2025-08-11",
-   "r": false
+   "r": false,
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/bc/ec/bcecd5b5862d3528ef8edceb1b062bef.jpg"
   },
   {
    "t": "Aprende a jugar ajedrez",
@@ -952,7 +954,8 @@
    "e": "leido",
    "d0": "2025-03-14",
    "d1": "2025-04-16",
-   "r": false
+   "r": false,
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/7a/6e/7a6ebc7902451fc5d8dd75cc069ef675.jpg"
   },
   {
    "t": "La magia de pensar en grande",
@@ -962,7 +965,7 @@
    "s": 2,
    "e": "leido",
    "r": false,
-   "c": "/libros/portadas/9781607380696.jpg"
+   "c": "https://images.cdn3.buscalibre.com/fit-in/660x660/0b/fa/0bfac80a363211751eeb5ac8d57f123b.jpg"
   },
   {
    "t": "Dune",
@@ -974,7 +977,7 @@
    "d0": "2024-03-05",
    "d1": "2024-03-20",
    "r": true,
-   "c": "/libros/portadas/9786073194648.jpg"
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/bb/1f/bb1f2daa9d7fdb7bc9caf1006b329ca5.jpg"
   },
   {
    "t": "La brevedad de la vida",
@@ -1018,7 +1021,7 @@
    "s": 3,
    "e": "leido",
    "r": true,
-   "c": "/libros/portadas/9789706666796.jpg"
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/d4/8c/d48c77f53ac46f88edd2c1538d3dd099.jpg"
   },
   {
    "t": "Este dolor no es mio",
@@ -1062,7 +1065,7 @@
    "s": 3,
    "e": "leido",
    "r": true,
-   "c": "/libros/portadas/9786073150620.jpg"
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/2d/ed/2ded013889603dc201e33566178aaf5e.jpg"
   },
   {
    "t": "Las batallas en el desierto",
@@ -1072,7 +1075,7 @@
    "s": 3,
    "e": "leido",
    "r": true,
-   "c": "/libros/portadas/9786073912549.jpg"
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/20/ca/20cad114fa2e0398f55e5e12f8b731d8.jpg"
   },
   {
    "t": "Rebelion de la granja",
@@ -1105,7 +1108,8 @@
    "e": "leido",
    "d0": "2024-04-27",
    "d1": "2024-05-12",
-   "r": true
+   "r": true,
+   "c": "https://images.cdn3.buscalibre.com/fit-in/660x660/f0/67/f0677500cfd4a574eff6cd307af7a7f0.jpg"
   },
   {
    "t": "La vida está en otra parte",
@@ -1121,7 +1125,8 @@
    "e": "leido",
    "d0": "2024-04-13",
    "d1": "2024-04-27",
-   "r": true
+   "r": true,
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/a7/3e/a73e0d70fdfa59bc3fe516193a502a62.jpg"
   },
   {
    "t": "Meditaciones",
@@ -1133,7 +1138,7 @@
    "d0": "2026-08-03",
    "d1": "2026-09-10",
    "r": true,
-   "c": "/libros/portadas/9788420688466.jpg"
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/e9/54/e9543dd1aa73963f5d9f6529cd587c65.jpg"
   },
   {
    "t": "Como acercarse al ajedrez",
@@ -1150,7 +1155,8 @@
    "e": "leido",
    "d0": "2024-02-03",
    "d1": "2024-02-07",
-   "r": false
+   "r": false,
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/2f/8f/2f8f323e974734f7f5616b5f0a59c5ac.jpg"
   },
   {
    "t": "Cadáver exquisito",
@@ -1164,7 +1170,8 @@
    "i": "9786075691312",
    "s": 5,
    "e": "leido",
-   "r": true
+   "r": true,
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/3a/09/3a097577b3ecff97bfb0c570d501a56b.jpg"
   },
   {
    "t": "Esperando A Godot",
@@ -1179,7 +1186,7 @@
    "s": 4,
    "e": "leido",
    "r": true,
-   "c": "/libros/portadas/9786078538003.jpg"
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/c8/3c/c83cbe279525fc93d56bea7e15601598.jpg"
   },
   {
    "t": "El drama del niño dotado",
@@ -1195,7 +1202,8 @@
    "e": "leido",
    "d0": "2025-06-09",
    "d1": "2025-06-22",
-   "r": false
+   "r": false,
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/fa/b4/fab496082094968c5724b6d880cb6c7e.jpg"
   },
   {
    "t": "Orgullo y prejuicio",
@@ -1244,7 +1252,8 @@
    "e": "leido",
    "d0": "2024-03-20",
    "d1": "2024-03-21",
-   "r": false
+   "r": false,
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/a5/13/a5132a3bacdc4c993411c33655af4652.jpg"
   },
   {
    "t": "Falso",
@@ -1265,7 +1274,8 @@
    "i": "9786124463273",
    "s": 5,
    "e": "leido",
-   "r": true
+   "r": true,
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/b5/70/b570052e2ce7cb1ba62273d4509bc646.jpg"
   },
   {
    "t": "Nacidos para ser héroes",
@@ -1297,7 +1307,7 @@
    "d0": "2024-07-31",
    "d1": "2024-08-07",
    "r": false,
-   "c": "/libros/portadas/9786075573076.jpg"
+   "c": "https://images.cdn3.buscalibre.com/fit-in/660x660/8c/4d/8c4d7c9bb4099f68be3fda112090c7dc.jpg"
   },
   {
    "t": "los atomos",
@@ -1354,7 +1364,8 @@
    "e": "leido",
    "d0": "2024-02-16",
    "d1": "2024-02-18",
-   "r": true
+   "r": true,
+   "c": "https://images.cdn3.buscalibre.com/fit-in/660x660/94/ae/94ae2b7ee3cd169e5c73b2ba698b6ef1.jpg"
   },
   {
    "t": "Make Time",
@@ -1376,7 +1387,8 @@
    "s": 4,
    "e": "leido",
    "d1": "2024-02-15",
-   "r": true
+   "r": true,
+   "c": "https://images.cdn3.buscalibre.com/fit-in/660x660/25/15/251553a638ffadea0014f33ab72f1292.jpg"
   },
   {
    "t": "El mesías de Dune",
@@ -1387,7 +1399,8 @@
    "e": "leido",
    "d0": "2024-03-23",
    "d1": "2024-03-31",
-   "r": true
+   "r": true,
+   "c": "https://images.cdn3.buscalibre.com/fit-in/660x660/f3/7d/f37d7104ca03cde5250d5b6b55cc298b.jpg"
   },
   {
    "t": "Just Kids",
@@ -1403,7 +1416,8 @@
    "e": "leido",
    "d0": "2024-05-12",
    "d1": "2024-06-24",
-   "r": true
+   "r": true,
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/af/fb/affb91103c397012fb7d5ddad113cd1e.jpg"
   },
   {
    "t": "El señor de las moscas",
@@ -1452,7 +1466,7 @@
    "s": 5,
    "e": "leido",
    "r": true,
-   "c": "/libros/portadas/9788483595879.jpg"
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/38/34/3834640ae049641ec3e501ae091a8ef8.jpg"
   },
   {
    "t": "Sin novedad en el frente",
@@ -1469,7 +1483,7 @@
    "d0": "2024-03-13",
    "d1": "2024-03-13",
    "r": true,
-   "c": "/libros/portadas/9788499899855.jpg"
+   "c": "https://images.cdn3.buscalibre.com/fit-in/660x660/d6/34/d6349ef456fd11a34ff8f1fdc09ef0c5.jpg"
   },
   {
    "t": "Un mundo feliz",
@@ -1492,7 +1506,8 @@
    "e": "leido",
    "d0": "2024-02-08",
    "d1": "2024-02-14",
-   "r": false
+   "r": false,
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/0f/9e/0f9e5919a3301f4f6d60931a6b2e6cee.jpg"
   },
   {
    "t": "Los 7 habitos de la gente altamente efectiva",
@@ -1504,7 +1519,7 @@
    "d0": "2024-06-25",
    "d1": "2024-11-16",
    "r": false,
-   "c": "/libros/portadas/9786075693200.jpg"
+   "c": "https://images.cdn3.buscalibre.com/fit-in/660x660/69/ae/69aeff7aad4db2951bd7b6bf8333f555.jpg"
   },
   {
    "t": "Hijos de Dune",
@@ -1515,7 +1530,8 @@
    "e": "leido",
    "d0": "2024-03-31",
    "d1": "2024-04-12",
-   "r": true
+   "r": true,
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/5d/7c/5d7c2523a550b672888ce52c27a18849.jpg"
   },
   {
    "t": "El sutil arte de que te importe un carajo",
@@ -1524,7 +1540,8 @@
    "i": "9781404117150",
    "s": 4,
    "e": "leido",
-   "r": false
+   "r": false,
+   "c": "https://images.cdn3.buscalibre.com/fit-in/660x660/ff/36/ff365a5252b85b869b7c4200c4bf0a69.jpg"
   },
   {
    "t": "No me puedes lastimar",
@@ -1539,7 +1556,7 @@
    "s": 5,
    "e": "leido",
    "r": true,
-   "c": "/libros/portadas/9786076411018.jpg"
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/f8/29/f829fca1859bdec71bf68b7bd202d13e.jpg"
   },
   {
    "t": "El poder del ahora",
@@ -1551,7 +1568,7 @@
    "d0": "2024-10-01",
    "d1": "2024-10-09",
    "r": false,
-   "c": "/libros/portadas/9786073837521.jpg"
+   "c": "https://images.cdn3.buscalibre.com/fit-in/660x660/87/20/87203cbd4641dd3beb01e09585afcbd2.jpg"
   },
   {
    "t": "El enigma de la habitación 622",
@@ -1580,7 +1597,7 @@
    "d0": "2025-07-01",
    "d1": "2025-07-31",
    "r": true,
-   "c": "/libros/portadas/9789585118010.jpg"
+   "c": "https://images.cdn3.buscalibre.com/fit-in/660x660/50/a3/50a33f98323772d2c61aa4b5b2e9c9c4.jpg"
   },
   {
    "t": "The Second World War",
@@ -1606,7 +1623,8 @@
    "e": "leido",
    "d0": "2024-12-19",
    "d1": "2025-01-15",
-   "r": false
+   "r": false,
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/86/a4/86a49a2c5db0473966a0295d26d03a9c.jpg"
   },
   {
    "t": "Elon Musk",
@@ -1617,7 +1635,8 @@
    "e": "leido",
    "d0": "2024-02-19",
    "d1": "2024-02-26",
-   "r": false
+   "r": false,
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/cf/85/cf8582957c552678af0e0b2d46a2f633.jpg"
   },
   {
    "t": "Al final mueren los dos",
