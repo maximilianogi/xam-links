@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Películas de xam</title>
+<meta name="description" content="Las películas que he visto, con calificación, y las que tengo pendientes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#D8D3CC; --surface:#EEEAE4; --surface-2:#E4DFD8; --ink:#1E1B19; --muted:#6B625B;
+  --line:rgba(30,27,25,.14); --signal:#F2E15B; --signal-ink:#1E1B19; --shadow:rgba(30,27,25,.28);
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#2F2925; --surface:#3D3530; --surface-2:#463D37; --ink:#F3EEE8; --muted:#B5AAA0;
+    --line:rgba(243,238,232,.14); --shadow:rgba(0,0,0,.45);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#2F2925; --surface:#3D3530; --surface-2:#463D37; --ink:#F3EEE8; --muted:#B5AAA0;
+  --line:rgba(243,238,232,.14); --shadow:rgba(0,0,0,.45);
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Bricolage Grotesque",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:17px;line-height:1.45;-webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+button{font:inherit;color:inherit}
+.page{max-width:760px;margin:0 auto;padding:0 16px 64px}
+
+.top{display:flex;justify-content:space-between;align-items:center;padding:16px 4px 0;font-size:15px}
+.top a{text-decoration:none;font-weight:600;white-space:nowrap}
+.top span{color:var(--muted)}
+
+h1{
+  margin:28px 0 0;font-size:clamp(60px,18.5vw,140px);font-weight:800;letter-spacing:-.06em;line-height:.82;
+  font-variation-settings:"opsz" 96;
+}
+.lede{margin:14px 4px 0;color:var(--muted);max-width:38ch}
+.lede b{color:var(--ink);font-weight:600}
+
+/* Leyendo ahora */
+.now{margin-top:28px;background:var(--signal);color:var(--signal-ink);border-radius:24px;padding:20px 18px 22px}
+.now h2{margin:0 0 16px;font-size:22px;font-weight:800;letter-spacing:-.02em}
+.now-list{display:grid;grid-template-columns:1fr;gap:16px}
+.now-item{width:100%;display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:center;text-align:left;background:none;border:0;padding:0;cursor:pointer;color:inherit}
+.now-item .cover{width:64px;font-size:8px}
+.now-item strong{display:block;font-size:17px;line-height:1.15}
+.now-item span{display:block;font-size:14px;opacity:.72;margin-top:3px}
+.now-item em{display:block;font-style:normal;font-size:13px;margin-top:8px;opacity:.72}
+@media (min-width:600px){.now-list{grid-template-columns:repeat(3,1fr)}.now-item{grid-template-columns:78px 1fr}.now-item .cover{width:78px;font-size:10px}}
+
+/* Controles */
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);margin:28px -16px 0;padding:12px 16px;padding-top:calc(12px + env(safe-area-inset-top,0px));border-bottom:1px solid var(--line)}
+.search{width:100%;font:inherit;font-size:16px;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.search::placeholder{color:var(--muted)}
+.chips{display:flex;gap:8px;margin-top:10px;overflow-x:auto;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:transparent;border-radius:999px;padding:7px 13px;font-size:14px;font-weight:600;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+/* Años */
+.year{margin-top:36px}
+.year-head{display:flex;align-items:baseline;gap:12px;margin:0 4px 16px}
+.year-head h2{margin:0;font-size:44px;font-weight:800;letter-spacing:-.04em;line-height:1}
+.year-head span{color:var(--muted);font-size:15px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px 14px;align-items:start}
+@media (min-width:560px){.grid{grid-template-columns:repeat(5,1fr)}}
+.book{background:none;border:0;padding:0;text-align:left;cursor:pointer;color:inherit;display:block;width:100%}
+.book .title{display:block;margin-top:9px;font-size:14px;font-weight:600;line-height:1.2}
+.book .meta{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+
+/* Portadas */
+.cover{
+  position:relative;aspect-ratio:2/3;border-radius:3px 7px 7px 3px;overflow:hidden;
+  background:var(--c);color:#F6F1E9;box-shadow:0 1px 0 var(--line),0 8px 18px -10px var(--shadow);
+  display:flex;flex-direction:column;justify-content:space-between;padding:10% 10% 10% 16%;
+  font-size:12px;
+}
+.cover::before{content:"";position:absolute;inset:0 auto 0 0;width:7%;background:linear-gradient(90deg,rgba(0,0,0,.28),rgba(0,0,0,0));}
+.cover b{font-weight:800;font-size:1.08em;line-height:1.08;letter-spacing:-.01em;overflow-wrap:break-word;hyphens:auto;-webkit-hyphens:auto;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
+.cover i{font-style:normal;font-size:.82em;opacity:.8;line-height:1.15}
+.cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .25s}
+.cover img.ok{opacity:1}
+.stars{letter-spacing:1px;color:var(--ink)}
+.stars .off{opacity:.22}
+
+/* Pendientes */
+.pending{margin-top:40px}
+.pending details{background:var(--surface);border-radius:18px;margin-top:10px}
+.pending summary{cursor:pointer;list-style:none;padding:16px 18px;display:flex;justify-content:space-between;align-items:baseline;font-weight:600}
+.pending summary::-webkit-details-marker{display:none}
+.pending summary span{color:var(--muted);font-weight:400;font-size:15px}
+.pending ul{list-style:none;margin:0;padding:0 18px 10px}
+.pending li{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-top:1px solid var(--line);font-size:15px}
+.pending li small{display:block;color:var(--muted);font-size:13px}
+.pending li a{flex:none;font-size:13px;font-weight:600;align-self:center}
+.empty{margin:40px 4px;color:var(--muted)}
+
+/* Detalle */
+dialog{border:0;padding:0;background:var(--surface);color:var(--ink);border-radius:22px;width:min(92vw,420px);max-height:88vh;overflow:auto}
+dialog::backdrop{background:rgba(20,17,15,.55)}
+.sheet{padding:22px;display:grid;grid-template-columns:110px 1fr;gap:18px}
+.sheet .cover{width:110px;font-size:12px}
+.sheet h3{margin:0;font-size:22px;line-height:1.1;letter-spacing:-.02em}
+.sheet p{margin:4px 0 0;color:var(--muted);font-size:15px}
+.sheet .stars{font-size:18px;margin-top:10px}
+.sheet dl{grid-column:1/-1;margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:15px}
+.sheet dt{color:var(--muted)}
+.sheet dd{margin:0}
+.sheet .actions{grid-column:1/-1;display:flex;gap:8px}
+.btn{flex:1;text-align:center;text-decoration:none;font-weight:600;font-size:15px;padding:12px 14px;border-radius:12px;border:0;cursor:pointer}
+.btn-main{background:var(--ink);color:var(--bg)}
+.btn-sec{background:transparent;box-shadow:inset 0 0 0 1.5px var(--line)}
+
+.foot{margin:48px 4px 0;color:var(--muted);font-size:13px}
+a:focus-visible,button:focus-visible,.search:focus-visible,summary:focus-visible{outline:2.5px solid var(--ink);outline-offset:3px}
+.now :focus-visible{outline-color:var(--signal-ink)}
+@media (prefers-reduced-motion: reduce){.cover img{transition:none}}
+.cover.poster{justify-content:space-between;padding:10%}
+.cover.poster::before{display:none}
+.cover.poster::after{content:"";position:absolute;inset:auto 0 0 0;height:45%;background:linear-gradient(transparent,rgba(0,0,0,.35));}
+.cover.poster b{position:relative;z-index:1;order:2;font-size:1.25em;letter-spacing:-.02em}
+.cover.poster i{position:relative;z-index:1;order:1}
+.cover.poster img{z-index:2}
+.tmdb{margin-top:8px}
+</style>
+</head>
+<body>
+<main class="page">
+  <div class="top"><a href="/">← xam</a><span id="updated"></span></div>
+
+  <h1>Películas</h1>
+  <p class="lede" id="lede"></p>
+
+  <section class="now" aria-labelledby="now-title">
+    <h2 id="now-title">Lo último que vi</h2>
+    <div class="now-list" id="now"></div>
+  </section>
+
+  <div class="controls">
+    <input class="search" id="q" type="search" placeholder="Buscar película o director" aria-label="Buscar película o director" autocomplete="off">
+    <div class="chips" role="group" aria-label="Filtros">
+      <button class="chip" data-f="all" aria-pressed="true">Todas</button>
+      <button class="chip" data-f="five" aria-pressed="false">5 estrellas</button>
+      <button class="chip" data-f="again" aria-pressed="false">Las volvería a ver</button>
+    </div>
+  </div>
+
+  <div id="years"></div>
+  <p class="empty" id="empty" hidden>Ninguna película coincide con la búsqueda.</p>
+
+  <section class="pending" aria-labelledby="pend-title">
+    <div class="year-head"><h2 id="pend-title" style="font-size:32px">Pendientes</h2></div>
+    <details id="d-porver"><summary>Por ver <span></span></summary><ul></ul></details>
+  </section>
+
+  <p class="foot">Registro personal de xam. Las calificaciones son a gusto propio.<!-- Cuando se conecten los pósters de TMDB, agregar aquí su aviso de atribución. --></p>
+</main>
+
+<dialog id="sheet" aria-labelledby="sheet-title"></dialog>
+
+<script>
+/* Datos exportados de Notion. Más adelante se reemplazan por peliculas.json generado automáticamente.
+   Campos: t título, a director, s estrellas, e estado (vista / por_ver), d1 fecha, r la volvería a ver, p póster (TMDB, opcional), sin sinopsis (TMDB, opcional). */
+const PELIS = [{"t":"Babel","a":"Alejandro González Iñárritu","s":5,"e":"vista","r":true},{"t":"Marty Supreme","a":"Josh Safdie","s":5,"e":"vista","r":true},{"t":"Fractured","e":"por_ver"},{"t":"The invisible guest","e":"por_ver"},{"t":"The butterfly effect","e":"por_ver"},{"t":"Oldboy","a":"Park Chan-wook","s":5,"e":"vista","d1":"2026-02-28","r":true},{"t":"Memories of murder","a":"Bong Joon-ho","e":"por_ver"},{"t":"Predestination","a":"Michael Spierig, Peter Spierig","e":"por_ver"},{"t":"Source Code","a":"Duncan Jones","e":"por_ver"},{"t":"Mother","a":"Darren Aronofsky","e":"por_ver"},{"t":"The Game","a":"David Fincher","e":"por_ver"},{"t":"Memento","a":"Christopher Nolan","e":"por_ver"},{"t":"Tenet","a":"Christopher Nolan","e":"por_ver"},{"t":"The skin i live in","a":"Pedro Almodóvar","e":"por_ver"},{"t":"Moon","a":"Duncan Jones","e":"por_ver"},{"t":"Forgotten","a":"Jan Hang-jun","e":"por_ver"},{"t":"Mr. Nobody","a":"Javi Van","e":"por_ver"},{"t":"Black Swan","a":"Darren Aronovsky","e":"por_ver"},{"t":"The departed","e":"por_ver"},{"t":"Raging bull","e":"por_ver"},{"t":"No other land Documental","e":"por_ver"},{"t":"Sinners","a":"Ryan Coogler","s":5,"e":"vista","d1":"2026-02-14","r":true},{"t":"Only love left alive","a":"Jim Jarsmuch","e":"por_ver"},{"t":"The lobster","e":"por_ver"},{"t":"Manticora","e":"por_ver"},{"t":"The duke of burgain","e":"por_ver"},{"t":"In the mood for love","e":"por_ver"},{"t":"Titane","e":"por_ver"},{"t":"Portrait of a lady on fire","a":"Céline Sciamma","s":5,"e":"vista","d1":"2026-06-05","r":true},{"t":"Moonholand drive","e":"por_ver"},{"t":"La mujer que cantaba / Incendies","e":"por_ver"},{"t":"The good the bad and the ugly","e":"por_ver"},{"t":"El sexto sentido","e":"por_ver"},{"t":"Numberg Documental","e":"por_ver"},{"t":"Ángeles caídos","a":"Wong Kar-wai","s":5,"e":"vista","d1":"2026-01-31","r":true},{"t":"Samurai de ojos azules","e":"por_ver"},{"t":"LA GUERRA DE VIETNAM","a":"Ken Burns y Lynn Novick","e":"por_ver"},{"t":"IRMA VEP 1996 o 2022","a":"Olivier Assayas, 1996","e":"por_ver"},{"t":"True detective","a":"Nic Pizzolatto","e":"por_ver"},{"t":"Euphoria","e":"por_ver"},{"t":"The rehearsal / los ensayos","a":"Nathan Fielder","e":"por_ver"},{"t":"The curse SERIE","a":"Nathan Fielder y Benny Safdie","e":"por_ver"},{"t":"Twin Peaks SERIE","a":"Mark Frost y David Lynch","e":"por_ver"},{"t":"The smashing machine","a":"Ben Safdie","s":5,"e":"vista","d1":"2026-03-14","r":true},{"t":"One Battle after another","a":"Paul Thomas Anderson","s":5,"e":"vista","d1":"2026-02-07","r":true},{"t":"A la deriva","a":"Feng liu yi dai","e":"por_ver"},{"t":"Black dog","a":"Gouzhen","e":"por_ver"},{"t":"Banda sonora para un golpe de estado","a":"Johan Grimonpez","e":"por_ver"},{"t":"Minari","e":"por_ver"},{"t":"Stalker","e":"por_ver"},{"t":"Perfect days","a":"Wim Wenders","s":5,"e":"vista","d1":"2026-03-08","r":true},{"t":"Bluemoon","a":"Richard Linklater","e":"por_ver"},{"t":"El silencio de los inocentes","a":"Jonathan Demme","s":5,"e":"vista","d1":"2026-04-12","r":true},{"t":"Mishima","a":"Paul Schareder","e":"por_ver"},{"t":"No contry for old man","a":"Ethan Coen, Joel Coen","e":"por_ver"},{"t":"The Double Life of Veronique","a":"Krzysztoff Klesilowski","e":"por_ver"},{"t":"The Young Girls of Rochefort","a":"Jacques Demy","e":"por_ver"},{"t":"The Umbrellas of Cherbourg","a":"Jacques Demy","e":"por_ver"},{"t":"The Piano Teacher","a":"Michael Haneke","e":"por_ver"},{"t":"The Girl with the Needle","a":"Manus von Horn","e":"por_ver"},{"t":"The Mastermind","a":"Kelly Reichard","e":"por_ver"},{"t":"Magic Farm","a":"Amalia Ulman","e":"por_ver"},{"t":"Priscilla","a":"Sodia Coppola","e":"por_ver"},{"t":"Le Bonheur","a":"Agnes Varda","e":"por_ver"},{"t":"Sentimental Value","a":"Joachim Trier","s":4,"e":"vista","d1":"2026-02-27","r":true},{"t":"F1","a":"Joseph Kosinski","s":5,"e":"vista","d1":"2026-02-18","r":true},{"t":"Amores perros","a":"Alejandro González Iñárritu","s":5,"e":"vista","d1":"2026-04-11","r":true},{"t":"Amar te duele","e":"por_ver"},{"t":"La hermanastra fea","e":"por_ver"},{"t":"Atrápame si puedes","a":"Steven Spielberg","s":3,"e":"vista","d1":"2026-02-21","r":false},{"t":"Hereje","a":"Scott Beck, Bryan Woods","s":4,"e":"vista","d1":"2026-03-07","r":false},{"t":"La Única Opción","a":"Park Chan Wook","s":5,"e":"vista","d1":"2026-03-21","r":true},{"t":"Project Hail Mary","a":"Phil Lord, Christopher Miller","s":5,"e":"vista","d1":"2026-03-24","r":true},{"t":"Súper Mario Galaxy","a":"Michael Jelenic, Aaron Horvath","s":1,"e":"vista","r":false},{"t":"Pshyco","a":"ALFRED HITCHCOCK","e":"por_ver"},{"t":"Serem Samurai","a":"AKIRA KUROSAWA","e":"por_ver"},{"t":"2001: a space odyssey","a":"Stanley Kubrick","s":4,"e":"vista","d1":"2026-05-29","r":false},{"t":"CITIZEN KANE","a":"Orson Welles","e":"por_ver"},{"t":"Monstruo","a":"Hirokazu Kore-eda","e":"por_ver"},{"t":"El reino de los cielos 2005","a":"Ridley Scott","e":"por_ver"},{"t":"Revenge","a":"CORALIE FARGEAT","e":"por_ver"},{"t":"Magnolia","a":"Paul Thomas Anderson.","e":"por_ver"},{"t":"Ran","a":"AKIRA KUROSAWA","e":"por_ver"},{"t":"Monster Anime HBO","a":"Naoki Urasawa / Masayuki Kojima","e":"por_ver"},{"t":"Ghost in the Shell anime","e":"por_ver"},{"t":"Cure 1977","a":"Kiyoshi Kurosawa","e":"por_ver"},{"t":"Orgullo y Prejuicio","a":"Joe Wright","e":"por_ver"},{"t":"Cinema Paradiso","e":"por_ver"},{"t":"Bugonia","e":"por_ver"},{"t":"Hamnet","e":"por_ver"},{"t":"The secret Agent","a":"Kleber Mendonça Filho","s":4,"e":"vista","d1":"2026-04-18","r":true},{"t":"Paris Texas 1984","a":"Wim Wenders","e":"por_ver"},{"t":"Nightcrawler 2014","a":"Dan Gilroy","e":"por_ver"},{"t":"Lost in translation 2003","a":"Sofia Coppola","e":"por_ver"},{"t":"Lost Highway 1997","a":"David Lynch","e":"por_ver"},{"t":"Oceans Eleven 2001","a":"Steven Soderbergh","e":"por_ver"},{"t":"After Hours 1985","a":"Martin Scorsese","e":"por_ver"},{"t":"Heat acción","a":"Michael Mann","e":"por_ver"},{"t":"The worst person in the world 2021","a":"Joachim Trier","e":"por_ver"},{"t":"The master","a":"Paul Thomas Anderson","e":"por_ver"},{"t":"Apocalypse Now","a":"Francis Ford Coppola","e":"por_ver"},{"t":"Mickey 17","a":"ong Joon-ho","s":4,"e":"vista","d1":"2026-04-18","r":false},{"t":"Seven","a":"David Fincher","s":5,"e":"vista","d1":"2026-04-19","r":true},{"t":"Matrix","a":"Lana Wachowski, Lilly Wachowski","s":4,"e":"vista","r":true},{"t":"El faro","a":"Robert Eggers","s":5,"e":"vista","r":true},{"t":"The Searchers Centauros del desierto","e":"por_ver"},{"t":"Liberty Balance","e":"por_ver"},{"t":"Ciudad de Dios","a":"Fernando Meirelles, Kátia Lund","s":5,"e":"vista","d1":"2026-05-30","r":true},{"t":"Mullholland","e":"por_ver"},{"t":"Ordet","e":"por_ver"},{"t":"Berdam persona","e":"por_ver"},{"t":"Vértigo","e":"por_ver"},{"t":"Dreams Trains","a":"Clint Bentley","s":4,"e":"vista","r":false},{"t":"Troya","a":"Wolfgang Petersen","s":5,"e":"vista","r":true},{"t":"Mystic River","e":"por_ver"},{"t":"La Odisea","a":"Christopher Nolan","s":5,"e":"vista","r":true},{"t":"Eyes Wide Shut","a":"Stanley Kubrick","s":5,"e":"vista","r":true}];
+const ACTUALIZADO = "2026-09-26";
+
+const PALETA = ["#6E7B5A","#A3563A","#4E6178","#A9803A","#6B4A5E","#3F5E55","#857868","#7A4B3A"];
+const MESES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const hash = s => [...s].reduce((h,c) => (h*31 + c.charCodeAt(0)) >>> 0, 7);
+const fecha = (d, año=true) => { if(!d) return ""; const [y,m,dd] = d.split("-").map(Number); return `${dd} de ${MESES[m-1]}${año ? " de "+y : ""}`; };
+PELIS.forEach((b,i) => b.id = i);
+
+function cover(b){
+  const img = b.p ? `<img src="https://image.tmdb.org/t/p/w342${b.p}" alt="" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()">` : "";
+  return `<div class="cover poster" style="--c:${PALETA[hash(b.t)%PALETA.length]}" aria-hidden="true"><b>${esc(b.t)}</b><i>${esc(b.a)}</i>${img}</div>`;
+}
+function stars(n){
+  if(!n) return "";
+  return `<span class="stars" aria-label="${n} de 5 estrellas">${"★".repeat(n)}<span class="off">${"★".repeat(5-n)}</span></span>`;
+}
+
+const vistas = PELIS.filter(b => b.e === "vista");
+const esteAño = String(new Date().getFullYear());
+const delAño = vistas.filter(b => (b.d1||"").startsWith(esteAño)).length;
+document.getElementById("lede").innerHTML =
+  `<b>${vistas.length} películas vistas</b>, ${delAño} de ellas registradas en ${esteAño}. Aquí anoto lo que veo y lo que me falta por ver.`;
+document.getElementById("updated").textContent = ACTUALIZADO ? "Al " + fecha(ACTUALIZADO) : "";
+
+const ultimas = vistas.filter(b => b.d1).sort((a,b) => b.d1.localeCompare(a.d1)).slice(0,3);
+document.getElementById("now").innerHTML = ultimas.map(b =>
+  `<button class="now-item" data-id="${b.id}">${cover(b)}<div><strong>${esc(b.t)}</strong><span>${esc(b.a)}</span><em>Vista el ${fecha(b.d1,false)}</em></div></button>`).join("");
+
+let filtro = "all", q = "";
+const norm = s => (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+
+function render(){
+  const nq = norm(q);
+  const match = b => !nq || norm(b.t + " " + (b.a||"")).includes(nq);
+  const pasa = b => match(b) && (filtro === "all" || (filtro === "five" && b.s === 5) || (filtro === "again" && b.r));
+  const grupos = {};
+  vistas.filter(pasa).forEach(b => { const k = b.d1 ? b.d1.slice(0,4) : "antes"; (grupos[k] ||= []).push(b); });
+  const orden = Object.keys(grupos).filter(k => k !== "antes").sort().reverse();
+  if (grupos.antes) orden.push("antes");
+  document.getElementById("years").innerHTML = orden.map(k => {
+    const lista = grupos[k].sort((a,b) => k === "antes" ? (b.s||0)-(a.s||0) || a.t.localeCompare(b.t) : b.d1.localeCompare(a.d1));
+    const titulo = k === "antes" ? "Sin fecha" : k;
+    const nota = `${lista.length} ${lista.length === 1 ? "película" : "películas"}`;
+    return `<section class="year"><div class="year-head"><h2 ${k==="antes"?'style="font-size:32px"':""}>${titulo}</h2><span>${nota}</span></div>
+      <div class="grid">${lista.map(b => `<button class="book" data-id="${b.id}">${cover(b)}<span class="title">${esc(b.t)}</span><span class="meta">${stars(b.s)}</span></button>`).join("")}</div></section>`;
+  }).join("");
+  document.getElementById("empty").hidden = orden.length > 0;
+
+  const el = document.getElementById("d-porver");
+  const lista = PELIS.filter(b => b.e === "por_ver" && match(b)).sort((a,b) => a.t.localeCompare(b.t));
+  el.querySelector("summary span").textContent = lista.length;
+  el.querySelector("ul").innerHTML = lista.map(b => `<li><div>${esc(b.t)}${b.a ? `<small>${esc(b.a)}</small>` : ""}</div></li>`).join("");
+  el.hidden = lista.length === 0;
+  if (nq && lista.length) el.open = true;
+}
+render();
+
+document.getElementById("q").addEventListener("input", e => { q = e.target.value; render(); });
+document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
+  filtro = c.dataset.f;
+  document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x === c)));
+  render();
+}));
+
+const sheet = document.getElementById("sheet");
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-id]"); if(!t) return;
+  const b = PELIS[+t.dataset.id];
+  const filas = (b.d1 ? `<dt>Vista</dt><dd>${fecha(b.d1)}</dd>` : "") +
+    (b.r === undefined ? "" : `<dt>¿La volvería a ver?</dt><dd>${b.r ? "Sí" : "No"}</dd>`);
+  sheet.innerHTML = `<div class="sheet">${cover(b)}<div><h3 id="sheet-title">${esc(b.t)}</h3><p>${esc(b.a || "")}</p>${b.s ? `<div>${stars(b.s)}</div>` : ""}</div>
+    ${b.sin ? `<p style="grid-column:1/-1;margin:0;color:var(--ink)">${esc(b.sin)}</p>` : ""}
+    ${filas ? `<dl>${filas}</dl>` : ""}
+    <div class="actions"><button class="btn btn-sec" id="close">Cerrar</button></div></div>`;
+  sheet.showModal();
+  sheet.querySelector("#close").onclick = () => sheet.close();
+});
+sheet.addEventListener("click", e => { if (e.target === sheet) sheet.close(); });
+</script>
+</body>
+</html>

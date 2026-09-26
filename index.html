@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>xam</title>
+<meta name="description" content="Links de xam: TikTok, Instagram, YouTube, Twitch, Spotify y contacto para marcas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#D8D3CC; --surface:#EEEAE4; --surface-2:#E4DFD8; --ink:#1E1B19; --muted:#6B625B;
+  --line:rgba(30,27,25,.14); --signal:#F2E15B; --signal-ink:#1E1B19;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#2F2925; --surface:#3D3530; --surface-2:#463D37; --ink:#F3EEE8; --muted:#B5AAA0;
+    --line:rgba(243,238,232,.14); --signal:#F2E15B; --signal-ink:#1E1B19;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#2F2925; --surface:#3D3530; --surface-2:#463D37; --ink:#F3EEE8; --muted:#B5AAA0;
+  --line:rgba(243,238,232,.14); --signal:#F2E15B; --signal-ink:#1E1B19;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"Bricolage Grotesque", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size:17px; line-height:1.45; -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.page{max-width:460px;margin:0 auto;padding:0 0 48px}
+
+/* Hero: la foto es el momento memorable */
+.hero{position:relative;overflow:hidden}
+.hero img{width:100%;aspect-ratio:700/765;object-fit:cover;transform:scale(1.25);transform-origin:50% 35%}
+.hero::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(to bottom, transparent 45%, var(--bg) 97%);
+}
+.name{
+  position:relative;z-index:1;margin:-0.62em 0 0;padding:0 20px;
+  font-size:clamp(104px,34vw,156px);font-weight:800;letter-spacing:-.065em;line-height:.8;
+  font-variation-settings:"opsz" 96;
+}
+.bio{margin:14px 20px 0;max-width:34ch;color:var(--muted);font-size:17px}
+
+/* Redes: fila de chips con texto, sin logos */
+.socials{display:flex;flex-wrap:wrap;gap:8px;margin:22px 20px 0;padding:0;list-style:none}
+.socials a{
+  display:inline-flex;align-items:baseline;gap:6px;padding:9px 14px;border-radius:999px;
+  border:1px solid var(--line);font-weight:600;font-size:15px;
+}
+.socials small{font-weight:400;color:var(--muted);font-size:13px}
+
+/* Marcas: la tarjeta con más peso */
+.brands{
+  margin:28px 12px 0;padding:20px;border-radius:22px;background:var(--signal);color:var(--signal-ink);
+}
+.brands h2{margin:0;font-size:24px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
+.brands p{margin:6px 0 16px;font-size:15px;opacity:.75}
+.brands .row{display:flex;gap:8px;flex-wrap:wrap}
+.btn{
+  font:inherit;font-size:15px;font-weight:600;border:0;cursor:pointer;
+  padding:11px 16px;border-radius:12px;display:inline-flex;align-items:center;gap:8px;
+}
+.btn-dark{background:var(--signal-ink);color:var(--signal)}
+.btn-ghost{background:transparent;color:var(--signal-ink);box-shadow:inset 0 0 0 1.5px var(--signal-ink)}
+
+/* Listas: dos mosaicos lado a lado */
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 12px 0}
+.tile{
+  background:var(--surface);border-radius:18px;padding:16px;min-height:150px;
+  display:flex;flex-direction:column;justify-content:space-between;
+}
+.tile .glyph{width:34px;height:34px}
+.tile strong{font-size:19px;line-height:1.15;letter-spacing:-.01em}
+.tile span{display:block;color:var(--muted);font-size:14px;margin-top:4px}
+
+/* Resto: filas simples */
+.rows{margin:10px 12px 0;background:var(--surface);border-radius:18px;overflow:hidden}
+.rows a{display:flex;align-items:center;gap:14px;padding:16px}
+.rows a + a{border-top:1px solid var(--line)}
+.rows .glyph{width:26px;height:26px;flex:none}
+.rows strong{font-weight:600}
+.rows span{display:block;color:var(--muted);font-size:14px}
+
+.glyph{stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.foot{margin:36px 20px 0;color:var(--muted);font-size:13px}
+
+a:focus-visible,button:focus-visible{outline:2.5px solid var(--ink);outline-offset:3px}
+.brands a:focus-visible,.brands button:focus-visible{outline-color:var(--signal-ink)}
+@media (hover:hover){
+  .tile:hover,.rows a:hover{background:var(--surface-2)}
+  .socials a:hover{background:var(--surface)}
+}
+.toast{
+  position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);
+  background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:14px;
+  opacity:0;pointer-events:none;transition:opacity .2s;
+}
+.toast.show{opacity:1}
+@media (prefers-reduced-motion: reduce){.toast{transition:none}}
+</style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <div class="hero"><img src="IMG_5601.png" alt="xam mirando a la cámara desde arriba, con piso de grava de fondo"></div>
+    <h1 class="name">xam</h1>
+    <p class="bio">Hago videos y podcast sobre entretenimiento, libros y cultura digital.</p>
+  </header>
+
+  <ul class="socials" id="socials" aria-label="Redes sociales"></ul>
+
+  <section class="brands" aria-labelledby="brands-title">
+    <h2 id="brands-title">¿Eres marca?</h2>
+    <p>Campañas y colaboraciones.</p>
+    <div class="row">
+      <a class="btn btn-dark" id="mailto" href="#">Escribir correo</a>
+      <button class="btn btn-ghost" id="copy" type="button">Copiar correo</button>
+    </div>
+  </section>
+
+  <div class="tiles" id="tiles"></div>
+  <nav class="rows" id="rows" aria-label="Más links"></nav>
+
+  <p class="foot">© xam</p>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* ================================================================
+   EDITA AQUÍ TUS LINKS
+   - url: pon el link real (los "#" son marcadores)
+   - desde / hasta (opcional, formato "2026-10-01"): el link solo
+     aparece entre esas fechas. Útil para campañas.
+   ================================================================ */
+const CONFIG = {
+  email: "xam@brolanagency.com",
+  socials: [
+    { label: "TikTok",    extra: "1.2M", url: "https://www.tiktok.com/@xam" },
+    { label: "Instagram", extra: "215K", url: "https://www.instagram.com/wvxam/" },
+    { label: "YouTube", extra: "47K", url: "https://www.youtube.com/@xaaaaaaaaaam" },
+    { label: "Mi Podcast", extra: "1K", url: "https://www.youtube.com/@ElDesgraciadopodcast" },
+    { label: "Twitch", extra: "25K", url: "https://www.twitch.tv/xaaaaaaaaaam" }
+  ],
+  tiles: [
+    { label: "Libros que estoy leyendo", sub: "Mi lista en Notion", icon: "book", url: "https://innate-clementine-b5b.notion.site/16b8a9a6704680139372e0795fdb6dfe?v=16b8a9a6704681648f52000c7977cfe1&source=copy_link" },
+    { label: "Películas que he visto",   sub: "Con reseña corta",   icon: "film", url: "https://innate-clementine-b5b.notion.site/Pel-culas-vistas-38c2b7782b694a458351534e96f56cc2?source=copy_link" },
+  ],
+  rows: [
+    { label: "Spotify", sub: "x4m", icon: "music", url: "#" },
+    { label: "Mi Twitch", sub: "Directos", icon: "live", url: "#" },
+    // Ejemplo de link programado:
+    // { label: "Reel con Marca X", sub: "Código XAM10", icon: "star", url: "#", desde: "2026-10-01", hasta: "2026-10-15" },
+  ],
+};
+
+const ICONS = {
+  book:'<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5A2.5 2.5 0 0 1 4 20.5"/>',
+  film:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/>',
+  music:'<circle cx="7" cy="17" r="3"/><circle cx="17" cy="15" r="3"/><path d="M10 17V5l10-2v12"/>',
+  live:'<circle cx="12" cy="12" r="2"/><path d="M8.5 8.5a5 5 0 0 0 0 7M15.5 8.5a5 5 0 0 1 0 7M5.6 5.6a9 9 0 0 0 0 12.8M18.4 5.6a9 9 0 0 1 0 12.8"/>',
+  star:'<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',
+};
+const svg = n => `<svg class="glyph" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n]||ICONS.star}</svg>`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function vigente(l){
+  const hoy = new Date().toISOString().slice(0,10);
+  if (l.desde && hoy < l.desde) return false;
+  if (l.hasta && hoy > l.hasta) return false;
+  return true;
+}
+const attrs = u => `href="${esc(u)}"${/^https?:/.test(u) ? ' target="_blank" rel="noopener"' : ''}`;
+
+document.getElementById('socials').innerHTML = CONFIG.socials.filter(vigente).map(s =>
+  `<li><a ${attrs(s.url)}>${esc(s.label)}${s.extra ? ` <small>${esc(s.extra)}</small>` : ''}</a></li>`).join('');
+
+document.getElementById('tiles').innerHTML = CONFIG.tiles.filter(vigente).map(t =>
+  `<a class="tile" ${attrs(t.url)}>${svg(t.icon)}<div><strong>${esc(t.label)}</strong><span>${esc(t.sub||'')}</span></div></a>`).join('');
+
+document.getElementById('rows').innerHTML = CONFIG.rows.filter(vigente).map(r =>
+  `<a ${attrs(r.url)}>${svg(r.icon)}<div><strong>${esc(r.label)}</strong>${r.sub ? `<span>${esc(r.sub)}</span>` : ''}</div></a>`).join('');
+
+document.getElementById('mailto').href = 'mailto:' + CONFIG.email + '?subject=' + encodeURIComponent('Colaboración con xam');
+
+const toast = document.getElementById('toast');
+function aviso(t){ toast.textContent = t; toast.classList.add('show'); clearTimeout(aviso.t); aviso.t = setTimeout(()=>toast.classList.remove('show'), 1800); }
+document.getElementById('copy').addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(CONFIG.email); aviso('Correo copiado'); }
+  catch { aviso(CONFIG.email); }
+});
+</script>
+</body>
+</html>
