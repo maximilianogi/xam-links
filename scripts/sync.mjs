@@ -185,18 +185,30 @@ async function portadaBuscalibre(url, isbn) {
   } catch (e) { console.log(`   · error con Buscalibre: ${e.message}`); return null; }
 }
 
+const GB_KEY = process.env.GOOGLE_BOOKS_KEY;
 async function portadaGoogle(b) {
   const consultas = [];
   if (b.i) consultas.push(`isbn:${b.i}`);
   consultas.push(`intitle:${b.t}${b.a ? ` inauthor:${b.a.split(/,| y | and /)[0]}` : ""}`);
   for (const q of consultas) {
     try {
-      const j = await (await fetch(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(q)}&maxResults=3`)).json();
+      const r = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(q)}&maxResults=5${GB_KEY ? `&key=${GB_KEY}` : ""}`);
+      if (!r.ok) { console.log(`   · Google Books respondió ${r.status}`); await esperar(1500); continue; }
+      const j = await r.json();
       const link = j.items?.map(x => x.volumeInfo?.imageLinks?.thumbnail).find(Boolean);
       if (link) return link.replace("http://", "https://").replace("&edge=curl", "");
-    } catch {}
+    } catch (e) { console.log(`   · error con Google Books: ${e.message}`); }
   }
   return null;
+}
+
+async function portadaOpenLibraryBusqueda(b) {
+  try {
+    const autor = b.a ? `&author=${encodeURIComponent(b.a.split(/,| y | and /)[0])}` : "";
+    const j = await (await fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(b.t)}${autor}&limit=5&fields=cover_i`, { headers: { "User-Agent": UA } })).json();
+    const id = j.docs?.find(d => d.cover_i)?.cover_i;
+    return id ? `https://covers.openlibrary.org/b/id/${id}-L.jpg` : null;
+  } catch { return null; }
 }
 
 async function portadas(libros) {
@@ -221,6 +233,7 @@ async function portadas(libros) {
       ["buscalibre", async () => b.u && portadaBuscalibre(b.u, b.i)],
       ["google", async () => portadaGoogle(b)],
       ["openlibrary", async () => b.i && `https://covers.openlibrary.org/b/isbn/${b.i}-L.jpg?default=false`],
+      ["openlibrary-busqueda", async () => portadaOpenLibraryBusqueda(b)],
     ];
     let hecho = false;
     for (const [src, obtener] of fuentes) {
@@ -257,6 +270,7 @@ function transformarPeliculas(paginas) {
     return {
       t, a: limpio(val(prop(P, "Director"))) || undefined, s, e: vista ? "vista" : "por_ver",
       d1: fin || ini, r: siNo(val(prop(P, "¿La volvería a ver?"))), k: alias[k] || k,
+      manual: idManualTMDB(limpio(val(prop(P, "TMDB")))),
     };
   }).filter(p => p.t);
   const vistas = new Set(pelis.filter(p => p.e === "vista").map(p => p.k));
@@ -276,6 +290,44 @@ async function tmdb(ruta) {
   return r.json();
 }
 
+function idManualTMDB(v) {
+  if (!v) return undefined;
+  const m = v.match(/(movie|tv)\/(\d+)/);
+  if (m) return { tipo: m[1], id: Number(m[2]) };
+  if (/^\d+$/.test(v)) return { tipo: "movie", id: Number(v) };
+  return undefined;
+}
+
+const VERSION_TMDB = 2; // subir este número obliga a volver a buscar todas las películas
+const nombreClave = s => sinAcentos((s || "").toLowerCase()).replace(/[^a-z]/g, "");
+
+async function buscarTMDB(p) {
+  const año = (p.t.match(/\b(19|20)\d{2}\b/) || [])[0];
+  const esSerie = /\bserie\b/i.test(p.t);
+  const q = p.t.split("/")[0].replace(/\b(19|20)\d{2}\b/g, "")
+    .replace(/\b(serie|documental|anime|hbo|acci[oó]n)\b/gi, "").replace(/\s+o\s*$/i, "").trim();
+  const tipo = esSerie ? "tv" : "movie";
+  const filtroAño = año ? (tipo === "movie" ? `&primary_release_year=${año}` : `&first_air_date_year=${año}`) : "";
+  let res = (await tmdb(`search/${tipo}?query=${encodeURIComponent(q)}&language=es-MX&include_adult=false${filtroAño}`)).results || [];
+  if (!res.length && año) res = (await tmdb(`search/${tipo}?query=${encodeURIComponent(q)}&language=es-MX&include_adult=false`)).results || [];
+  if (!res.length) return null;
+  const candidatos = res.slice(0, 6);
+
+  // Si hay director en Notion, elegir el resultado cuyo director coincida
+  const directores = (p.a || "").split(/,| y | and |&/).map(nombreClave).filter(d => d.length > 3);
+  if (directores.length && tipo === "movie") {
+    for (const c of candidatos) {
+      try {
+        const cr = await tmdb(`movie/${c.id}/credits`);
+        const dirs = (cr.crew || []).filter(x => x.job === "Director").map(x => nombreClave(x.name));
+        if (dirs.some(d => directores.some(x => d.includes(x) || x.includes(d)))) return { ...c, tipo };
+      } catch {}
+    }
+  }
+  // Si no, el más conocido (más votos) entre los primeros resultados
+  return { ...candidatos.sort((a, b) => (b.vote_count || 0) - (a.vote_count || 0))[0], tipo };
+}
+
 async function datosTMDB(pelis) {
   if (!TMDB_TOKEN) { console.log("Sin TMDB_TOKEN: se omiten pósters."); return; }
   const cacheFile = path.join(ROOT, "peliculas", "tmdb.json");
@@ -283,28 +335,24 @@ async function datosTMDB(pelis) {
   for (const p of pelis) {
     if (p.e !== "vista") continue;
     const c = cache[p.k];
-    if (c && !c.miss) { Object.assign(p, { p: c.p, sin: c.sin }); continue; }
-    if (c?.miss && !FORZAR && diasDesde(c.miss) < REINTENTAR_DIAS) continue;
+    const cacheValido = c && c.v === VERSION_TMDB && (!p.manual || c.id === p.manual.id);
+    if (cacheValido && !c.miss) { Object.assign(p, { p: c.p, sin: c.sin }); continue; }
+    if (cacheValido && c.miss && !FORZAR && diasDesde(c.miss) < REINTENTAR_DIAS) continue;
     try {
-      const año = (p.t.match(/\b(19|20)\d{2}\b/) || [])[0];
-      const esSerie = /\bserie\b/i.test(p.t);
-      const q = p.t.split("/")[0].replace(/\b(19|20)\d{2}\b/g, "")
-        .replace(/\b(serie|documental|anime|hbo|acci[oó]n)\b/gi, "").replace(/\s+o\s*$/i, "").trim();
-      const j = await tmdb(`search/multi?query=${encodeURIComponent(q)}&language=es-MX&include_adult=false`);
-      let res = (j.results || []).filter(x => x.media_type === "movie" || x.media_type === "tv");
-      if (esSerie) res.sort((a, b) => (b.media_type === "tv") - (a.media_type === "tv"));
-      if (año) res.sort((a, b) => ((b.release_date || b.first_air_date || "").startsWith(año)) - ((a.release_date || a.first_air_date || "").startsWith(año)));
-      const m = res[0];
-      if (!m) { cache[p.k] = { miss: HOY }; console.log(`Sin resultado TMDB: ${p.t}`); continue; }
-      let sin = m.overview;
-      if (!sin) sin = (await tmdb(`${m.media_type}/${m.id}?language=en-US`)).overview;
-      cache[p.k] = quitarVacios({ id: m.id, tipo: m.media_type, p: m.poster_path, sin });
-      Object.assign(p, { p: m.poster_path || undefined, sin: sin || undefined });
-      console.log(`TMDB: ${p.t} → ${m.title || m.name}`);
+      const m = p.manual ? { id: p.manual.id, tipo: p.manual.tipo } : await buscarTMDB(p);
+      if (!m) { cache[p.k] = { v: VERSION_TMDB, miss: HOY }; console.log(`Sin resultado TMDB: ${p.t}`); continue; }
+      const det = await tmdb(`${m.tipo}/${m.id}?language=es-MX`);
+      let sin = det.overview;
+      if (!sin) sin = (await tmdb(`${m.tipo}/${m.id}?language=en-US`)).overview;
+      cache[p.k] = quitarVacios({ v: VERSION_TMDB, id: m.id, tipo: m.tipo, p: det.poster_path, sin });
+      Object.assign(p, { p: det.poster_path || undefined, sin: sin || undefined });
+      console.log(`TMDB${p.manual ? " (manual)" : ""}: ${p.t} → ${det.title || det.name} (${(det.release_date || det.first_air_date || "").slice(0, 4)})`);
       await esperar(250);
     } catch (e) { console.log(`Error TMDB con ${p.t}: ${e.message}`); }
   }
   await escribirJSON(cacheFile, cache);
+  const faltan = pelis.filter(p => p.e === "vista" && !p.p).map(p => p.t);
+  console.log(`\nRESUMEN PÓSTERS: ${faltan.length} sin póster${faltan.length ? ": " + faltan.join(" | ") : ""}`);
 }
 
 /* ---------- Guardar solo si cambió ---------- */
@@ -323,4 +371,4 @@ await guardar("libros/libros.json", libros.map(({ k, manual, ...b }) => quitarVa
 
 const pelis = transformarPeliculas(await leerBase(BASES.peliculas));
 await datosTMDB(pelis);
-await guardar("peliculas/peliculas.json", pelis.map(({ k, ...p }) => quitarVacios(p)));
+await guardar("peliculas/peliculas.json", pelis.map(({ k, manual, ...p }) => quitarVacios(p)));

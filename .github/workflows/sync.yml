@@ -35,6 +35,7 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+          GOOGLE_BOOKS_KEY: ${{ secrets.GOOGLE_BOOKS_KEY }}
           FORZAR: ${{ inputs.forzar && '1' || '' }}
 
       - name: Guardar cambios en el repo
