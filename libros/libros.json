@@ -110,6 +110,8 @@
   {
    "t": "Más allá del bien y del mal",
    "a": "Friedrich Nietzche",
+   "u": "https://www.buscalibre.com.mx/libro-mas-alla-del-bien-y-del-mal-preludio-de-una-filosofia-del-futuro/9788420671741/p/6989706?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788420671741",
    "e": "librero"
   },
   {
@@ -234,6 +236,8 @@
   {
    "t": "Corruptible",
    "a": "Brian Klass",
+   "u": "https://www.buscalibre.com.mx/libro-corruptible-who-gets-power-and-how-it-changes-us/9781982154103/p/54413567?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9781982154103",
    "e": "por_conseguir"
   },
   {
@@ -267,6 +271,8 @@
   {
    "t": "Ulises",
    "a": "James Joyce",
+   "u": "https://www.buscalibre.com.mx/libro-ulises/9789688670002/p/4190948?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9789688670002",
    "e": "por_conseguir"
   },
   {
@@ -504,6 +510,9 @@
   },
   {
    "t": "Mindfulness",
+   "a": "Harvard Business Review Merino Gomez Begona",
+   "u": "https://www.buscalibre.com.mx/libro-mindfulness-serie-inteligencia-emocional-hbr/9788494606649/p/49692801?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788494606649",
    "e": "librero"
   },
   {
@@ -554,6 +563,8 @@
   {
    "t": "A radical history of the world",
    "a": "Neil Faulkner",
+   "u": "https://www.buscalibre.com.mx/libro-a-radical-history-of-the-world/9780745338040/p/50645574?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9780745338040",
    "e": "por_conseguir"
   },
   {
@@ -574,6 +585,8 @@
   {
    "t": "Rayuela",
    "a": "Juilio Cortazar",
+   "u": "https://www.buscalibre.com.mx/libro-rayuela-edicion-conmemorativa-de-la-rae-y-la-asale/9788420437484/p/51433777?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788420437484",
    "e": "librero"
   },
   {
@@ -946,12 +959,14 @@
   {
    "t": "Dune",
    "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
+   "u": "https://www.buscalibre.com.mx/libro-dune/9786073194648/p/52904284?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073194648",
    "s": 5,
    "e": "leido",
    "d0": "2024-03-05",
    "d1": "2024-03-20",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9786073194648.jpg"
   },
   {
    "t": "La brevedad de la vida",
@@ -1072,7 +1087,8 @@
   {
    "t": "Dune Herejes de Dune",
    "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
+   "u": "https://www.buscalibre.com.mx/libro-herejes-de-dune/9786073828444/p/54879657?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073828444",
    "s": 5,
    "e": "leido",
    "d0": "2024-04-27",
@@ -1087,7 +1103,8 @@
   {
    "t": "Dios Emperador de Dune",
    "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
+   "u": "https://www.buscalibre.com.mx/libro-dios-emperador-de-dune/9786073822695/p/54391853?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073822695",
    "s": 5,
    "e": "leido",
    "d0": "2024-04-13",
@@ -1114,7 +1131,8 @@
   {
    "t": "La biblioteca de la media noche",
    "a": "Matt Haig",
-   "u": "https://amzn.to/3Ph2067",
+   "u": "https://www.buscalibre.com.mx/libro-la-biblioteca-de-la-medianoche/9786075507712/p/53281704?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786075507712",
    "s": 4,
    "e": "leido",
    "d0": "2024-02-03",
@@ -1194,17 +1212,20 @@
   {
    "t": "Green lights",
    "a": "Matthew McConaughey",
-   "u": "https://amzn.to/3ZW9ErB",
+   "u": "https://www.buscalibre.com.mx/libro-greenlights-o-el-arte-de-correr-cuesta-abajo-spanish-edition-soft-cover/9786070797750/p/54629119?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786070797750",
    "s": 4,
    "e": "leido",
    "d0": "2024-08-18",
    "d1": "2024-09-25",
-   "r": false
+   "r": false,
+   "c": "/libros/portadas/9786070797750.jpg"
   },
   {
    "t": "El acto de crear: una Manera de Ser",
    "a": "Rick Rubin",
-   "u": "https://amzn.to/3PhmawG",
+   "u": "https://www.buscalibre.com.mx/libro-el-acto-de-crear-the-creative-act-a-way-of-being/9786073909006/p/55963105?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073909006",
    "s": 2,
    "e": "leido",
    "d0": "2024-03-20",
@@ -1225,7 +1246,8 @@
   {
    "t": "Como ganar amigos e influir en las personas",
    "a": "Dale Carnegie",
-   "u": "https://amzn.to/4gyNcvH",
+   "u": "https://www.buscalibre.com.mx/libro-como-ganar-amigos-e-influir-sobre-las-personas/9786124463273/p/53392333?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786124463273",
    "s": 5,
    "e": "leido",
    "r": true
@@ -1340,7 +1362,8 @@
   {
    "t": "El mesías de Dune",
    "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
+   "u": "https://www.buscalibre.com.mx/libro-el-mesias-de-dune-dune-messiah/9786073197267/p/53065358?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073197267",
    "s": 5,
    "e": "leido",
    "d0": "2024-03-23",
@@ -1355,7 +1378,8 @@
   {
    "t": "Dune Casa Capitular",
    "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
+   "u": "https://www.buscalibre.com.mx/libro-casa-capitular-las-cronicas-de-dune-6/9786073839570/p/55753789?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073839570",
    "s": 5,
    "e": "leido",
    "d0": "2024-05-12",
@@ -1458,7 +1482,8 @@
   {
    "t": "Hijos de Dune",
    "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
+   "u": "https://www.buscalibre.com.mx/libro-hijos-de-dune/9786073197311/p/53570073?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073197311",
    "s": 5,
    "e": "leido",
    "d0": "2024-03-31",
