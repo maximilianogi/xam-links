@@ -185,7 +185,7 @@ const dias = (a,b) => Math.round((new Date(b) - new Date(a)) / 864e5) + 1;
 LIBROS.forEach((b,i) => b.id = i);
 
 function cover(b){
-  const img = b.c ? `<img src="${esc(b.c)}" alt="" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()">` : "";
+  const img = b.c ? `<img src="${esc(b.c)}" alt="" loading="lazy" referrerpolicy="no-referrer" onload="this.classList.add('ok')" onerror="this.remove()">` : "";
   return `<div class="cover" style="--c:${PALETA[hash(b.t)%PALETA.length]}" aria-hidden="true"><b>${esc(b.t)}</b><i>${esc(b.a)}</i>${img}</div>`;
 }
 function stars(n){

@@ -5,6 +5,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -218,19 +219,22 @@ async function portadas(libros) {
   const cache = await leerJSON(cacheFile, {});
   const existentes = new Set(await fs.readdir(dir));
 
+  const huella = u => createHash("md5").update(u).digest("hex").slice(0, 8);
   for (const b of libros) {
     if (b.e !== "leido" && b.e !== "leyendo") continue;
     const id = b.i || slug(`${b.t} ${b.a}`);
     const c = cache[id];
-    const vigente = c?.f && existentes.has(c.f) && (c.src === "manual") === Boolean(b.manual) && (!b.manual || c.url === b.manual);
-    if (vigente) { b.c = `/libros/portadas/${c.f}`; continue; }
+    const archivoOk = c?.f && existentes.has(c.f);
+    const vigenteManual = b.manual && c?.src === "manual" && c.url === b.manual && (c.ext || archivoOk);
+    const vigenteAuto = !b.manual && c?.src && c.src !== "manual" && archivoOk;
+    if (vigenteManual || vigenteAuto) { b.c = c.ext || `/libros/portadas/${c.f}`; continue; }
     if (c?.miss && !b.manual && !FORZAR && diasDesde(c.miss) < REINTENTAR_DIAS) continue;
     console.log(`Buscando portada: ${b.t}`);
 
-    const destino = path.join(dir, id);
+    // Buscalibre bloquea (403) las consultas desde los servidores de GitHub,
+    // así que ya no se consulta su página automáticamente.
     const fuentes = [
       ["manual", async () => b.manual],
-      ["buscalibre", async () => b.u && portadaBuscalibre(b.u, b.i)],
       ["google", async () => portadaGoogle(b)],
       ["openlibrary", async () => b.i && `https://covers.openlibrary.org/b/isbn/${b.i}-L.jpg?default=false`],
       ["openlibrary-busqueda", async () => portadaOpenLibraryBusqueda(b)],
@@ -239,12 +243,21 @@ async function portadas(libros) {
     for (const [src, obtener] of fuentes) {
       const url = await obtener();
       if (!url) continue;
-      const f = await descargar(url, destino, src === "buscalibre" ? b.u : undefined);
+      const f = await descargar(url, path.join(dir, `${id}-${huella(url)}`));
       await esperar(400);
       if (f) {
+        if (c?.f && c.f !== f) await fs.rm(path.join(dir, c.f), { force: true });
         cache[id] = { f, src, ...(src === "manual" ? { url } : {}) };
         b.c = `/libros/portadas/${f}`;
         console.log(`Portada (${src}): ${b.t}`);
+        hecho = true; break;
+      }
+      if (src === "manual") {
+        // No se pudo descargar (el sitio bloquea a GitHub): la página la cargará directo desde el enlace.
+        if (c?.f) await fs.rm(path.join(dir, c.f), { force: true });
+        cache[id] = { src, url, ext: url };
+        b.c = url;
+        console.log(`Portada (manual, enlazada): ${b.t}`);
         hecho = true; break;
       }
     }
