@@ -40,8 +40,9 @@
   "src": "openlibrary-busqueda"
  },
  "9788416440047": {
-  "f": "9788416440047.jpg",
-  "src": "openlibrary"
+  "src": "manual",
+  "url": "https://images.cdn1.buscalibre.com/fit-in/660x660/ca/ce/caceac5bbb0c794b921e63ce552193d0.jpg",
+  "ext": "https://images.cdn1.buscalibre.com/fit-in/660x660/ca/ce/caceac5bbb0c794b921e63ce552193d0.jpg"
  },
  "9786070742255": {
   "src": "manual",
@@ -54,15 +55,18 @@
   "ext": "https://images.cdn1.buscalibre.com/fit-in/660x660/cc/84/cc84256ad2517f7413f9f3e24088f3ce.jpg"
  },
  "9786073116336": {
-  "miss": "2026-09-26"
+  "src": "manual",
+  "url": "https://images.cdn2.buscalibre.com/fit-in/660x660/a7/b5/a7b51050e9a336d6b7f3171db66894ee.jpg",
+  "ext": "https://images.cdn2.buscalibre.com/fit-in/660x660/a7/b5/a7b51050e9a336d6b7f3171db66894ee.jpg"
  },
  "9786073817219": {
   "f": "9786073817219.jpg",
   "src": "openlibrary-busqueda"
  },
  "9788417007744": {
-  "f": "9788417007744.jpg",
-  "src": "openlibrary"
+  "src": "manual",
+  "url": "https://images.cdn2.buscalibre.com/fit-in/660x660/5d/e0/5de0ba51a87faa3ad35fb311fbd2b64c.jpg",
+  "ext": "https://images.cdn2.buscalibre.com/fit-in/660x660/5d/e0/5de0ba51a87faa3ad35fb311fbd2b64c.jpg"
  },
  "9786073854009": {
   "src": "manual",
@@ -73,7 +77,9 @@
   "miss": "2026-09-26"
  },
  "9788419521026": {
-  "miss": "2026-09-26"
+  "src": "manual",
+  "url": "https://images.cdn2.buscalibre.com/fit-in/660x660/75/d2/75d22c565edc8532421e97c2322c714a.jpg",
+  "ext": "https://images.cdn2.buscalibre.com/fit-in/660x660/75/d2/75d22c565edc8532421e97c2322c714a.jpg"
  },
  "9788417968977": {
   "src": "manual",

@@ -46,7 +46,7 @@
    "d0": "2026-09-06",
    "r": true,
    "re": true,
-   "c": "/libros/portadas/9786073194648.jpg"
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/bb/1f/bb1f2daa9d7fdb7bc9caf1006b329ca5.jpg"
   },
   {
    "t": "La Iliada",
@@ -259,8 +259,8 @@
   {
    "t": "El Cuento de la Criada",
    "a": "Margaret Atwood",
-   "u": "https://www.buscalibre.com.mx/libro-el-cuento-de-la-criada/9786073193078/p/52782747?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073193078",
+   "u": "https://www.buscalibre.com.mx/libro-el-cuento-de-la-criada/9786073859745/p/64279367?afiliado=987b2a6de1fbecc3eab",
+   "i": "9786073859745",
    "e": "por_conseguir"
   },
   {
@@ -686,7 +686,7 @@
    "d0": "2026-01-08",
    "d1": "2026-01-13",
    "r": true,
-   "c": "/libros/portadas/9788416440047.jpg"
+   "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/ca/ce/caceac5bbb0c794b921e63ce552193d0.jpg"
   },
   {
    "t": "La Fontana de Oro",
@@ -842,7 +842,8 @@
    "e": "leido",
    "d0": "2025-02-20",
    "d1": "2025-03-14",
-   "r": true
+   "r": true,
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/a7/b5/a7b51050e9a336d6b7f3171db66894ee.jpg"
   },
   {
    "t": "Subir a Respirar",
@@ -888,7 +889,7 @@
    "d0": "2026-01-14",
    "d1": "2026-01-24",
    "r": true,
-   "c": "/libros/portadas/9788417007744.jpg"
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/5d/e0/5de0ba51a87faa3ad35fb311fbd2b64c.jpg"
   },
   {
    "t": "El lugar",
@@ -898,6 +899,8 @@
   {
    "t": "SAPIENS",
    "a": "Yuval Noah Harari",
+   "u": "https://www.buscalibre.com.mx/libro-sapiens/9786073809597/p/53943432?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073809597",
    "e": "por_conseguir"
   },
   {
@@ -938,7 +941,8 @@
    "e": "leido",
    "d0": "2024-07-12",
    "d1": "2024-07-30",
-   "r": false
+   "r": false,
+   "c": "https://images.cdn2.buscalibre.com/fit-in/660x660/75/d2/75d22c565edc8532421e97c2322c714a.jpg"
   },
   {
    "t": "Maldicion de Hill House",
