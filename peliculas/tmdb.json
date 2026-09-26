@@ -1,17 +1,20 @@
 {
  "eyeswideshut": {
+  "v": 2,
   "id": 345,
   "tipo": "movie",
   "p": "/i0QjPQq3uWD7IpYbZiyUNiPiWX2.jpg",
   "sin": "William Harford es un respetable médico neoyorquino cuya vida parece ir muy bien: está casado con una preciosa mujer, tiene una hija y tiene un trabajo que le gusta. Pero, al día siguiente de asistir a una fiesta, su esposa Alice le habla de unas fantasías eróticas y de cómo estuvo a punto de romper su matrimonio por un desconocido. Abrumado por esta confesión, acaba entrando en un local, donde un antiguo compañero le habla de una congregación secreta dedicada al hedonismo y al placer sin límites. A partir de entonces un mundo dominado por el sexo y el erotismo se abre ante él."
  },
  "laodisea": {
+  "v": 2,
   "id": 1368337,
   "tipo": "movie",
   "p": "/mKPGRRyXIwN8JOLhAbWnxV1gNrS.jpg",
   "sin": "Odiseo, el legendario rey de Ítaca, emprende un largo y peligroso viaje de regreso a casa tras la guerra de Troya. A lo largo de su travesía, se ve obligado a enfrentarse a los caprichos de los dioses, a monstruos mitológicos y a pruebas que ponen a prueba su astucia y su humanidad hasta el límite."
  },
  "troya": {
+  "v": 2,
   "id": 652,
   "tipo": "movie",
   "p": "/mBiDQT28DnuYaJSL4nDD43ORE6p.jpg",
@@ -21,153 +24,182 @@
   "miss": "2026-09-26"
  },
  "ciudaddedios": {
+  "v": 2,
   "id": 598,
   "tipo": "movie",
   "p": "/zYjngc6yGUO1IEuAwk0yAhg8CKh.jpg",
   "sin": "Buscapé, de 11 años, vive en la famosa favela \"Ciudad de Dios\" y sueña con ser fotógrafo. Mientras Dadinho, de su edad, quiere ser un criminal. Sus vidas se cruzan entre los años 60 y a los 80, cuando el narcotráfico y la violencia dictaban las leyes."
  },
  "elfaro": {
+  "v": 2,
   "id": 503919,
   "tipo": "movie",
   "p": "/atwJGO4Ks8k9aUcGN968YFvnwbB.jpg",
   "sin": "Ambientada a finales del siglo XIX, cuenta la historia de dos fareros que trabajan juntos en una misteriosa isla perdida de Nueva Inglaterra."
  },
  "matrix": {
+  "v": 2,
   "id": 603,
   "tipo": "movie",
   "p": "/8rT9kG2EYkZpJmYCuTJNnPDEube.jpg",
   "sin": "Un hacker informático aprende de misteriosos rebeldes la verdadera naturaleza de su realidad y su papel en la guerra contra sus controladores."
  },
  "seven": {
-  "id": 1288341,
+  "v": 2,
+  "id": 168259,
   "tipo": "movie",
-  "p": "/1VypkhG0LlvIzt26K4nYDEJr1qq.jpg",
-  "sin": "Kris Hendricks, una francotiradora de élite retirada, intenta dejar atrás su violento pasado y llevar una vida tranquila junto a su hija adolescente en un aislado rancho del interior de Australia. Sin embargo, la paz se destruye cuando un despiadado señor de la guerra de su pasado regresa buscando venganza. Obligada a luchar una última vez, Kris se ve forzada a reunir a los miembros supervivientes de su antiguo escuadrón de la muerte en una batalla brutal y desesperada por proteger a su familia."
+  "p": "/jP0DU7uNkpnelNvH1LI3MCHEFgz.jpg",
+  "sin": "Ha pasado un año desde que el equipo de Dominic Torreto y Brian pudiera regresar finalmente a Estados Unidos, tras ser indultados. Desean adaptarse a una vida en la legalidad, pero el entorno ya no es el mismo. Dom intenta acercarse a Letty, y Brian lucha para acostumbrarse a la vida en una urbanización con Mia y su hijo. Ninguno de ellos imagina que un frío asesino británico, entrenado para realizar operaciones secretas, se cruzará en sus vidas para convertirse en su mayor enemigo."
  },
  "mickey17": {
+  "v": 2,
   "id": 696506,
   "tipo": "movie",
   "p": "/iOKu6Hf5atv3DuXBS0jBF3OYYdu.jpg",
   "sin": "Mickey Barnes se encuentra en la extraordinaria circunstancia de trabajar para un empleador que exige el compromiso máximo con el trabajo… morir, para ganarse la vida."
  },
  "thesecretagent": {
-  "id": 67067,
-  "tipo": "tv",
-  "p": "/dK5ETX5o0WyCvLXJ1jK6ECDNOQH.jpg",
-  "sin": "London, 1886. Unbeknownst to his loyal wife Winnie, Verloc, a Soho store owner, works as a secret agent for a powerful foreign government."
+  "v": 2,
+  "id": 47199,
+  "tipo": "movie",
+  "p": "/6gAZHBG5jQgzRMagkwdwZCQYxFp.jpg",
+  "sin": "In 1880s London, pornographic bookseller Verloc is a double agent for the Russian government, providing information to Chief Inspector Heat about a lazy anarchist organization. In order for the anarchists to be arrested, an act of terrorism must occur. So Verloc decides to set up bombs – which leads to tragedy – not only for himself but also for his family, including wife Winnie and brother-in-law, Stevie."
  },
  "2001aspaceodyssey": {
+  "v": 2,
   "id": 516753,
   "tipo": "movie",
   "p": "/plFlimWCNq2oGEeAwwFJzNgOAJH.jpg",
   "sin": "What if other life was out there? Join us as we try to answer that most-asked question.l With millions of stars the possibility is more than that, it is a very high probability! Follow Pioneer 10 as is flies by our largest planet, the massive giant Jupiter, and learn the message Pioneer 10 carries as it leaves our solar system.. just in case!"
  },
  "supermariogalaxy": {
+  "v": 2,
   "id": 1226863,
   "tipo": "movie",
   "p": "/4Js0gYWxuvTN6b8iAaSF1cSQzBs.jpg",
   "sin": "Mario y Luigi se enfrentan una nueva amenaza: Bowser Jr., quién está decidido liberar a su padre del cautiverio y restaurar el legado familiar. Junto con nuevos y viejos compañeros, los hermanos viajan a través de las estrellas para detener la cruzada del joven heredero."
  },
  "projecthailmary": {
+  "v": 2,
   "id": 687163,
   "tipo": "movie",
   "p": "/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
   "sin": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol."
  },
  "launicaopcion": {
+  "v": 2,
   "id": 639988,
   "tipo": "movie",
   "p": "/wqQPjI8RpXL9q9INsGr0UbQhkzA.jpg",
   "sin": "Después de estar desempleado durante varios años, un hombre idea un plan único para conseguir un nuevo trabajo: eliminar a su competencia."
  },
  "hereje": {
+  "v": 2,
   "id": 1138194,
   "tipo": "movie",
   "p": "/rpo3DJFMOSAz27gDwxJ5LIwIFni.jpg",
   "sin": "Dos jóvenes misioneras se ven obligadas a demostrar su fe cuando llaman a la puerta equivocada y son recibidas por el diabólico Sr. Reed (Hugh Grant). Los tres se verán envueltos en un brutal juego del gato y el ratón durante una larga noche de tormenta."
  },
  "atrapamesipuedes": {
+  "v": 2,
   "id": 640,
   "tipo": "movie",
   "p": "/wcWi3xIEzIjDERTZyWoqryQGURA.jpg",
   "sin": "Basada en una historia real. En los años sesenta, Frank W. Abagnale era un joven y escurridizo delincuente que adoptaba diversas identidades (médico, abogado o copiloto de líneas aéreas). Carl Hanratty, un agente del FBI, tenía la misión de seguir su pista y capturarlo para llevarlo ante la justicia, pero Frank siempre iba un paso por delante de él."
  },
  "amoresperros": {
+  "v": 2,
   "id": 55,
   "tipo": "movie",
   "p": "/uoObXx53SjSLLtAavMSIe02zizs.jpg",
   "sin": "El terrible accidente automovilístico enlanza la vida de tres personas de clases sociales distintas con algo en común con el amor, la perdida y los perros."
  },
  "f1": {
+  "v": 2,
   "id": 911430,
   "tipo": "movie",
   "p": "/yKIG63pXN89EfbTA7yKpwxAU1rf.jpg",
   "sin": "El piloto legendario Sonny Hayes es convencido de salir de su retiro para liderar a un equipo de la Fórmula 1 en dificultades y ser mentor de un joven piloto talentoso, mientras se busca una última oportunidad de gloria."
  },
  "sentimentalvalue": {
-  "id": 1105422,
+  "v": 2,
+  "id": 1124566,
   "tipo": "movie",
-  "p": "/9PpGfbepwpX7BiHoyyjZgC7bEp9.jpg",
-  "sin": "A group of coworkers buy a piano at a yard sale for a friend in need."
+  "p": "/s4a3hpTmws0mNLEn0BNBRiX5q3g.jpg",
+  "sin": "Tras la muerte de su madre, las hermanas Nora y Agnes se reencuentran con su distanciado padre, Gustav Borg, un veterano director de cine de renombre, que le ofrece a su hija Nora, actriz de teatro, un papel en su próxima película. Nora lo rechaza y pronto descubre que le ha dado ese papel a una joven y entusiasta estrella de Hollywood. De repente, las dos hermanas deben sortear su complicada relación con su padre y lidiar con una actriz estadounidense que se encuentra en medio de su compleja dinámica familiar."
  },
  "elsilenciodelosinocentes": {
+  "v": 2,
   "id": 274,
   "tipo": "movie",
   "p": "/jrzX7TCmoD5gedFeqb1iB9sBaSn.jpg",
   "sin": "Clarice Starling, del FBI, se aventura a una prisión de máxima seguridad para analizar el cerebro enfermo de Hannibal Lecter, un psiquiatra convertido en caníbal."
  },
  "perfectdays": {
+  "v": 2,
   "id": 976893,
   "tipo": "movie",
   "p": "/efnvsuEdkdwiWR7WyQ2QgcGt8mM.jpg",
   "sin": "Hirayama está contento con su vida como limpiador de baños en Tokio. Fuera de su rutina estructurada, le encanta la música en cintas de casete, los libros y tomar fotografías de árboles. A través de encuentros inesperados, reflexiona sobre cómo encontrar la belleza en el mundo."
  },
  "onebattleafteranother": {
+  "v": 2,
   "id": 1054867,
   "tipo": "movie",
   "p": "/kgVBwI8V4jjYTEbfyugEr6sDa7v.jpg",
   "sin": "Cuando su malvado némesis resurge después de 16 años, una banda de ex revolucionarios se reúne para rescatar a la hija de uno de los suyos."
  },
  "thesmashingmachine": {
+  "v": 2,
   "id": 760329,
   "tipo": "movie",
   "p": "/3NzQbBgaHsOp7HiHdiIKF0A5YOw.jpg",
   "sin": "La historia del campeón de artes marciales mixtas y de la UFC, Mark Kerr."
  },
  "angelescaidos": {
+  "v": 2,
   "id": 11220,
   "tipo": "movie",
   "p": "/6oICwEhUWDH0MJyjvMB8crm3V7g.jpg",
   "sin": "En esta narrativa bifurcada del crimen, un sicario desilusionado intenta escapar de su estilo de vida violento en contra de los deseos de su pareja, que está enamorada de él, y un excéntrico mudo se encuentra repetidamente, y luego se enamora de una mujer deprimida que busca a la prostituta que supuestamente robó los afectos de su exnovio."
  },
  "portraitofaladyonfire": {
-  "id": 1083573,
+  "v": 2,
+  "id": 531428,
   "tipo": "movie",
-  "p": "/hZgmfd7XZBlX1HPGW2d8VReFtJX.jpg",
-  "sin": "Part parody, part tribute, this lesbian period drama set in modern-day Brighton tells the story of a lady whose life is turned upside down when she meets a charismatic artist with a dubious French accent."
+  "p": "/muAsDE6qAqdKB2VJsIzo1uVSSuM.jpg",
+  "sin": "Francia, 1770. Marianne, una pintora, recibe un encargo de una condesa que consiste en realizar el retrato de bodas de su hija Héloïse, una joven que acaba de dejar el convento y que tiene serias dudas respecto a su próximo matrimonio. Marianne tiene que retratarla sin su conocimiento, por lo que se dedica a investigarla a diario."
  },
  "sinners": {
+  "v": 2,
   "id": 1233413,
   "tipo": "movie",
   "p": "/jIVa5m9s7bKYdI0KH8wFw1qLxHl.jpg",
   "sin": "Intentando dejar atrás sus vidas problemáticas, los hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor los espera para darles la bienvenida."
  },
  "oldboy": {
-  "id": 87516,
+  "v": 2,
+  "id": 670,
   "tipo": "movie",
-  "p": "/axKVINgFA2m2novHy5xP9DPgo2u.jpg",
-  "sin": "Luego de estar preso durante años, repentinamente liberan a Joe Doucett. Ahora, su única misión es atrapar y castigar a sus captores."
+  "p": "/kHZPjZi6BVimy4p3EW3Nkpxu1Y0.jpg",
+  "sin": "Min-sik Choi es un hombre de negocios coreano que un día es secuestrado y confinado durante años en una celda en la que sólo hay una televisión. Y, sin embargo, ignora por qué razón está allí..."
  },
  "babel": {
+  "v": 2,
   "id": 1164,
   "tipo": "movie",
   "p": "/os6R4WX50SoOclBt0U9XjdyReaR.jpg",
   "sin": "La tragedia golpea a un matrimonio que está de vacaciones en el desierto marroquí, lo que da inicio a una historia entrelazada que involucra a cuatro familias diferentes."
  },
  "martysupreme": {
+  "v": 2,
   "id": 1317288,
   "tipo": "movie",
   "p": "/guRmwb1r337m2tKBH9KcE3vOpGE.jpg",
   "sin": "Ambientada en el vibrante mundo del tenis de mesa de los años 50, Marty Supreme sigue a Marty Mauser (Timothée Chalamet), un joven soñador decidido a ganarse el respeto en un deporte que nadie toma en serio. Inspirada en el espíritu del legendario jugador de ping-pong, la película narra el descenso de Marty hacia la obsesión, las apuestas y la redención, mientras arriesga todo para transformar su improbable pasión en grandeza y como cambio algo en el al final luego de conocer a su hija."
+ },
+ "trainsdreams": {
+  "v": 2,
+  "miss": "2026-09-26"
  }
 }

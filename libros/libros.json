@@ -85,7 +85,8 @@
    "e": "leido",
    "d0": "2026-06-27",
    "d1": "2026-07-25",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9786075942186.jpg"
   },
   {
    "t": "Apuntes del Subsuelo",
@@ -319,19 +320,20 @@
    "e": "leido",
    "d0": "2026-04-15",
    "d1": "2026-05-31",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9788411489416.jpg"
   },
   {
    "t": "Nuestra señora de París",
    "a": "Victor Hugo",
-   "u": "https://www.buscalibre.com.mx/libro-nuestra-senora-de-paris/9788412045017/p/54117214?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788412045017",
+   "u": "https://www.buscalibre.com.mx/libro-nuestra-senora-de-paris/9788437605548/p/1774564?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788437605548",
    "s": 5,
    "e": "leido",
    "d0": "2026-02-16",
    "d1": "2026-04-14",
    "r": true,
-   "c": "/libros/portadas/9788412045017.jpg"
+   "c": "/libros/portadas/9788437605548.jpg"
   },
   {
    "t": "Las aventuras de Pinocho",
@@ -524,7 +526,8 @@
    "e": "leido",
    "d0": "2026-03-11",
    "d1": "2026-06-09",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9786073816120.jpg"
   },
   {
    "t": "El manantial",
@@ -797,7 +800,8 @@
    "e": "leido",
    "d0": "2026-01-24",
    "d1": "2026-02-13",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9786070742255.jpg"
   },
   {
    "t": "La gratitudes",
@@ -845,7 +849,8 @@
    "e": "leido",
    "d0": "2025-08-28",
    "d1": "2025-09-11",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9786073817219.jpg"
   },
   {
    "t": "Nacidos de la bruma (Mistborn)",
@@ -1009,7 +1014,8 @@
    "i": "9789706666796",
    "s": 3,
    "e": "leido",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9789706666796.jpg"
   },
   {
    "t": "Este dolor no es mio",
@@ -1052,7 +1058,8 @@
    "i": "9786073150620",
    "s": 3,
    "e": "leido",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9786073150620.jpg"
   },
   {
    "t": "Las batallas en el desierto",
@@ -1061,7 +1068,8 @@
    "i": "9786073912549",
    "s": 3,
    "e": "leido",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9786073912549.jpg"
   },
   {
    "t": "Rebelion de la granja",
@@ -1082,7 +1090,8 @@
    "i": "9786073184786",
    "s": 2,
    "e": "leido",
-   "r": false
+   "r": false,
+   "c": "/libros/portadas/9786073184786.jpg"
   },
   {
    "t": "Dune Herejes de Dune",
@@ -1120,7 +1129,8 @@
    "e": "leido",
    "d0": "2026-08-03",
    "d1": "2026-09-10",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9788420688466.jpg"
   },
   {
    "t": "Como acercarse al ajedrez",
@@ -1165,7 +1175,8 @@
    "i": "9786071432438",
    "s": 4,
    "e": "leido",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9786071432438.jpg"
   },
   {
    "t": "El drama del niño dotado",
@@ -1241,7 +1252,8 @@
    "e": "leido",
    "d0": "2024-01-16",
    "d1": "2024-01-27",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9786073179980.jpg"
   },
   {
    "t": "Como ganar amigos e influir en las personas",
@@ -1288,7 +1300,8 @@
    "t": "los atomos",
    "s": 2,
    "e": "leido",
-   "r": false
+   "r": false,
+   "c": "/libros/portadas/los-atomos.jpg"
   },
   {
    "t": "roba como un artista",
@@ -1299,7 +1312,8 @@
    "e": "leido",
    "d0": "2025-02-12",
    "d1": "2025-02-19",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9786071120854.jpg"
   },
   {
    "t": "Como hacer que te pasen cosas buenas",
@@ -1310,7 +1324,8 @@
    "e": "leido",
    "d0": "2024-01-07",
    "d1": "2024-01-15",
-   "r": false
+   "r": false,
+   "c": "/libros/portadas/9786073903356.jpg"
   },
   {
    "t": "Autobiografía de un yogui",
@@ -1324,7 +1339,8 @@
    "i": "9786079513962",
    "s": 2,
    "e": "leido",
-   "r": false
+   "r": false,
+   "c": "/libros/portadas/9786079513962.jpg"
   },
   {
    "t": "Como piensan los ricos",
@@ -1420,7 +1436,8 @@
    "i": "9786124326066",
    "s": 1,
    "e": "leido",
-   "r": false
+   "r": false,
+   "c": "/libros/portadas/9786124326066.jpg"
   },
   {
    "t": "El retrato de Dorian Grey",
@@ -1429,7 +1446,8 @@
    "i": "9788483595879",
    "s": 5,
    "e": "leido",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9788483595879.jpg"
   },
   {
    "t": "Sin novedad en el frente",
@@ -1477,7 +1495,8 @@
    "e": "leido",
    "d0": "2024-06-25",
    "d1": "2024-11-16",
-   "r": false
+   "r": false,
+   "c": "/libros/portadas/9786075693200.jpg"
   },
   {
    "t": "Hijos de Dune",
@@ -1511,7 +1530,8 @@
    "i": "9788435010610",
    "s": 5,
    "e": "leido",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9788435010610.jpg"
   },
   {
    "t": "El poder del ahora",
@@ -1522,7 +1542,8 @@
    "e": "leido",
    "d0": "2024-10-01",
    "d1": "2024-10-09",
-   "r": false
+   "r": false,
+   "c": "/libros/portadas/9786073837521.jpg"
   },
   {
    "t": "El enigma de la habitación 622",
@@ -1533,7 +1554,8 @@
    "e": "leido",
    "d0": "2025-01-25",
    "d1": "2025-02-12",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9789585118300.jpg"
   },
   {
    "t": "El diario de Anne Frank",
@@ -1549,7 +1571,8 @@
    "e": "leido",
    "d0": "2025-07-01",
    "d1": "2025-07-31",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9789585118010.jpg"
   },
   {
    "t": "The Second World War",
