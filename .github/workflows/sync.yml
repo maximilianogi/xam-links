@@ -23,6 +23,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # siempre la versión más reciente, también al usar "Re-run"
 
       - uses: actions/setup-node@v4
         with:
@@ -44,5 +46,6 @@ jobs:
             echo "No hubo cambios."
           else
             git commit -m "Sincronización con Notion"
+            git pull --rebase origin main
             git push
           fi
