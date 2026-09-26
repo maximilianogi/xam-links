@@ -43,7 +43,8 @@
   "src": "openlibrary-busqueda"
  },
  "9786073806749": {
-  "miss": "2026-09-26"
+  "f": "9786073806749.jpg",
+  "src": "openlibrary-busqueda"
  },
  "9786073116336": {
   "miss": "2026-09-26"
@@ -290,5 +291,17 @@
  "9788437605548": {
   "f": "9788437605548.jpg",
   "src": "openlibrary"
+ },
+ "9786078538003": {
+  "f": "9786078538003.jpg",
+  "src": "openlibrary-busqueda"
+ },
+ "9788499899855": {
+  "f": "9788499899855.jpg",
+  "src": "openlibrary"
+ },
+ "9786076411018": {
+  "f": "9786076411018.jpg",
+  "src": "openlibrary-busqueda"
  }
 }

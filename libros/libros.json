@@ -821,13 +821,16 @@
    "e": "librero"
   },
   {
-   "t": "Fahrenheit 541",
+   "t": "Fahrenheit 451",
    "a": "Bradbury",
    "u": "https://www.buscalibre.com.mx/libro-fahrenheit-451/9786073806749/p/53603890?afiliado=987b2a6de1fbecc3eab6",
    "i": "9786073806749",
    "s": 5,
    "e": "leido",
-   "r": true
+   "d0": "2025-09-12",
+   "d1": "2025-10-11",
+   "r": true,
+   "c": "/libros/portadas/9786073806749.jpg"
   },
   {
    "t": "1984",
@@ -1171,12 +1174,12 @@
   {
    "t": "Lobo Estepario",
    "a": "Herman Hesse",
-   "u": "https://www.buscalibre.com.mx/libro-lobo-estepario-10-gran-lit/9786071432438/p/55946599?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786071432438",
+   "u": "https://www.buscalibre.com.mx/libro-lobo-estepario/9786078538003/p/48662458?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786078538003",
    "s": 4,
    "e": "leido",
    "r": true,
-   "c": "/libros/portadas/9786071432438.jpg"
+   "c": "/libros/portadas/9786078538003.jpg"
   },
   {
    "t": "El drama del niño dotado",
@@ -1419,6 +1422,8 @@
    "i": "9786073148122",
    "s": 5,
    "e": "leido",
+   "d0": "2025-04-05",
+   "d1": "2025-06-08",
    "r": true,
    "c": "/libros/portadas/9786073148122.jpg"
   },
@@ -1457,13 +1462,14 @@
   {
    "t": "Sidharta",
    "a": "Herman Hesse",
-   "u": "https://www.buscalibre.com.mx/libro-siddhartha/9789688670071/p/4190955?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9789688670071",
+   "u": "https://www.buscalibre.com.mx/libro-siddhartha/9788499899855/p/7110928?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788499899855",
    "s": 5,
    "e": "leido",
    "d0": "2024-03-13",
    "d1": "2024-03-13",
-   "r": true
+   "r": true,
+   "c": "/libros/portadas/9788499899855.jpg"
   },
   {
    "t": "Un mundo feliz",
@@ -1472,6 +1478,8 @@
    "i": "9789588773612",
    "s": 5,
    "e": "leido",
+   "d0": "2025-10-12",
+   "d1": "2025-11-22",
    "r": true,
    "c": "/libros/portadas/9789588773612.jpg"
   },
@@ -1526,12 +1534,12 @@
   {
    "t": "Demian",
    "a": "Herman Hesse",
-   "u": "https://www.buscalibre.com.mx/libro-demian-y-bajo-las-ruedas/9788435010610/p/4576486?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788435010610",
+   "u": "https://www.buscalibre.com.mx/libro-demian/9786076411018/p/66639742?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786076411018",
    "s": 5,
    "e": "leido",
    "r": true,
-   "c": "/libros/portadas/9788435010610.jpg"
+   "c": "/libros/portadas/9786076411018.jpg"
   },
   {
    "t": "El poder del ahora",
