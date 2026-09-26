@@ -1,0 +1,635 @@
+{
+ "actualizado": "2026-09-26",
+ "items": [
+  {
+   "t": "Babel",
+   "a": "Alejandro González Iñárritu",
+   "s": 5,
+   "e": "vista",
+   "r": true
+  },
+  {
+   "t": "Marty Supreme",
+   "a": "Josh Safdie",
+   "s": 5,
+   "e": "vista",
+   "r": true
+  },
+  {
+   "t": "Fractured",
+   "e": "por_ver"
+  },
+  {
+   "t": "The invisible guest",
+   "e": "por_ver"
+  },
+  {
+   "t": "The butterfly effect",
+   "e": "por_ver"
+  },
+  {
+   "t": "Oldboy",
+   "a": "Park Chan-wook",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-02-28",
+   "r": true
+  },
+  {
+   "t": "Memories of murder",
+   "a": "Bong Joon-ho",
+   "e": "por_ver"
+  },
+  {
+   "t": "Predestination",
+   "a": "Michael Spierig, Peter Spierig",
+   "e": "por_ver"
+  },
+  {
+   "t": "Source Code",
+   "a": "Duncan Jones",
+   "e": "por_ver"
+  },
+  {
+   "t": "Mother",
+   "a": "Darren Aronofsky",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Game",
+   "a": "David Fincher",
+   "e": "por_ver"
+  },
+  {
+   "t": "Memento",
+   "a": "Christopher Nolan",
+   "e": "por_ver"
+  },
+  {
+   "t": "Tenet",
+   "a": "Christopher Nolan",
+   "e": "por_ver"
+  },
+  {
+   "t": "The skin i live in",
+   "a": "Pedro Almodóvar",
+   "e": "por_ver"
+  },
+  {
+   "t": "Moon",
+   "a": "Duncan Jones",
+   "e": "por_ver"
+  },
+  {
+   "t": "Forgotten",
+   "a": "Jan Hang-jun",
+   "e": "por_ver"
+  },
+  {
+   "t": "Mr. Nobody",
+   "a": "Javi Van",
+   "e": "por_ver"
+  },
+  {
+   "t": "Black Swan",
+   "a": "Darren Aronovsky",
+   "e": "por_ver"
+  },
+  {
+   "t": "The departed",
+   "e": "por_ver"
+  },
+  {
+   "t": "Raging bull",
+   "e": "por_ver"
+  },
+  {
+   "t": "No other land Documental",
+   "e": "por_ver"
+  },
+  {
+   "t": "Sinners",
+   "a": "Ryan Coogler",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-02-14",
+   "r": true
+  },
+  {
+   "t": "Only love left alive",
+   "a": "Jim Jarsmuch",
+   "e": "por_ver"
+  },
+  {
+   "t": "The lobster",
+   "e": "por_ver"
+  },
+  {
+   "t": "Manticora",
+   "e": "por_ver"
+  },
+  {
+   "t": "The duke of burgain",
+   "e": "por_ver"
+  },
+  {
+   "t": "In the mood for love",
+   "e": "por_ver"
+  },
+  {
+   "t": "Titane",
+   "e": "por_ver"
+  },
+  {
+   "t": "Portrait of a lady on fire",
+   "a": "Céline Sciamma",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-06-05",
+   "r": true
+  },
+  {
+   "t": "Moonholand drive",
+   "e": "por_ver"
+  },
+  {
+   "t": "La mujer que cantaba / Incendies",
+   "e": "por_ver"
+  },
+  {
+   "t": "The good the bad and the ugly",
+   "e": "por_ver"
+  },
+  {
+   "t": "El sexto sentido",
+   "e": "por_ver"
+  },
+  {
+   "t": "Numberg Documental",
+   "e": "por_ver"
+  },
+  {
+   "t": "Ángeles caídos",
+   "a": "Wong Kar-wai",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-01-31",
+   "r": true
+  },
+  {
+   "t": "Samurai de ojos azules",
+   "e": "por_ver"
+  },
+  {
+   "t": "LA GUERRA DE VIETNAM",
+   "a": "Ken Burns y Lynn Novick",
+   "e": "por_ver"
+  },
+  {
+   "t": "IRMA VEP 1996 o 2022",
+   "a": "Olivier Assayas, 1996",
+   "e": "por_ver"
+  },
+  {
+   "t": "True detective",
+   "a": "Nic Pizzolatto",
+   "e": "por_ver"
+  },
+  {
+   "t": "Euphoria",
+   "e": "por_ver"
+  },
+  {
+   "t": "The rehearsal / los ensayos",
+   "a": "Nathan Fielder",
+   "e": "por_ver"
+  },
+  {
+   "t": "The curse SERIE",
+   "a": "Nathan Fielder y Benny Safdie",
+   "e": "por_ver"
+  },
+  {
+   "t": "Twin Peaks SERIE",
+   "a": "Mark Frost y David Lynch",
+   "e": "por_ver"
+  },
+  {
+   "t": "The smashing machine",
+   "a": "Ben Safdie",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-03-14",
+   "r": true
+  },
+  {
+   "t": "One Battle after another",
+   "a": "Paul Thomas Anderson",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-02-07",
+   "r": true
+  },
+  {
+   "t": "A la deriva",
+   "a": "Feng liu yi dai",
+   "e": "por_ver"
+  },
+  {
+   "t": "Black dog",
+   "a": "Gouzhen",
+   "e": "por_ver"
+  },
+  {
+   "t": "Banda sonora para un golpe de estado",
+   "a": "Johan Grimonpez",
+   "e": "por_ver"
+  },
+  {
+   "t": "Minari",
+   "e": "por_ver"
+  },
+  {
+   "t": "Stalker",
+   "e": "por_ver"
+  },
+  {
+   "t": "Perfect days",
+   "a": "Wim Wenders",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-03-08",
+   "r": true
+  },
+  {
+   "t": "Bluemoon",
+   "a": "Richard Linklater",
+   "e": "por_ver"
+  },
+  {
+   "t": "El silencio de los inocentes",
+   "a": "Jonathan Demme",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-04-12",
+   "r": true
+  },
+  {
+   "t": "Mishima",
+   "a": "Paul Schareder",
+   "e": "por_ver"
+  },
+  {
+   "t": "No contry for old man",
+   "a": "Ethan Coen, Joel Coen",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Double Life of Veronique",
+   "a": "Krzysztoff Klesilowski",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Young Girls of Rochefort",
+   "a": "Jacques Demy",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Umbrellas of Cherbourg",
+   "a": "Jacques Demy",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Piano Teacher",
+   "a": "Michael Haneke",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Girl with the Needle",
+   "a": "Manus von Horn",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Mastermind",
+   "a": "Kelly Reichard",
+   "e": "por_ver"
+  },
+  {
+   "t": "Magic Farm",
+   "a": "Amalia Ulman",
+   "e": "por_ver"
+  },
+  {
+   "t": "Priscilla",
+   "a": "Sodia Coppola",
+   "e": "por_ver"
+  },
+  {
+   "t": "Le Bonheur",
+   "a": "Agnes Varda",
+   "e": "por_ver"
+  },
+  {
+   "t": "Sentimental Value",
+   "a": "Joachim Trier",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-02-27",
+   "r": true
+  },
+  {
+   "t": "F1",
+   "a": "Joseph Kosinski",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-02-18",
+   "r": true
+  },
+  {
+   "t": "Amores perros",
+   "a": "Alejandro González Iñárritu",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-04-11",
+   "r": true
+  },
+  {
+   "t": "Amar te duele",
+   "e": "por_ver"
+  },
+  {
+   "t": "La hermanastra fea",
+   "e": "por_ver"
+  },
+  {
+   "t": "Atrápame si puedes",
+   "a": "Steven Spielberg",
+   "s": 3,
+   "e": "vista",
+   "d1": "2026-02-21",
+   "r": false
+  },
+  {
+   "t": "Hereje",
+   "a": "Scott Beck, Bryan Woods",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-03-07",
+   "r": false
+  },
+  {
+   "t": "La Única Opción",
+   "a": "Park Chan Wook",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-03-21",
+   "r": true
+  },
+  {
+   "t": "Project Hail Mary",
+   "a": "Phil Lord, Christopher Miller",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-03-24",
+   "r": true
+  },
+  {
+   "t": "Súper Mario Galaxy",
+   "a": "Michael Jelenic, Aaron Horvath",
+   "s": 1,
+   "e": "vista",
+   "r": false
+  },
+  {
+   "t": "Pshyco",
+   "a": "ALFRED HITCHCOCK",
+   "e": "por_ver"
+  },
+  {
+   "t": "Serem Samurai",
+   "a": "AKIRA KUROSAWA",
+   "e": "por_ver"
+  },
+  {
+   "t": "2001: a space odyssey",
+   "a": "Stanley Kubrick",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-05-29",
+   "r": false
+  },
+  {
+   "t": "CITIZEN KANE",
+   "a": "Orson Welles",
+   "e": "por_ver"
+  },
+  {
+   "t": "Monstruo",
+   "a": "Hirokazu Kore-eda",
+   "e": "por_ver"
+  },
+  {
+   "t": "El reino de los cielos 2005",
+   "a": "Ridley Scott",
+   "e": "por_ver"
+  },
+  {
+   "t": "Revenge",
+   "a": "CORALIE FARGEAT",
+   "e": "por_ver"
+  },
+  {
+   "t": "Magnolia",
+   "a": "Paul Thomas Anderson.",
+   "e": "por_ver"
+  },
+  {
+   "t": "Ran",
+   "a": "AKIRA KUROSAWA",
+   "e": "por_ver"
+  },
+  {
+   "t": "Monster Anime HBO",
+   "a": "Naoki Urasawa / Masayuki Kojima",
+   "e": "por_ver"
+  },
+  {
+   "t": "Ghost in the Shell anime",
+   "e": "por_ver"
+  },
+  {
+   "t": "Cure 1977",
+   "a": "Kiyoshi Kurosawa",
+   "e": "por_ver"
+  },
+  {
+   "t": "Orgullo y Prejuicio",
+   "a": "Joe Wright",
+   "e": "por_ver"
+  },
+  {
+   "t": "Cinema Paradiso",
+   "e": "por_ver"
+  },
+  {
+   "t": "Bugonia",
+   "e": "por_ver"
+  },
+  {
+   "t": "Hamnet",
+   "e": "por_ver"
+  },
+  {
+   "t": "The secret Agent",
+   "a": "Kleber Mendonça Filho",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-04-18",
+   "r": true
+  },
+  {
+   "t": "Paris Texas 1984",
+   "a": "Wim Wenders",
+   "e": "por_ver"
+  },
+  {
+   "t": "Nightcrawler 2014",
+   "a": "Dan Gilroy",
+   "e": "por_ver"
+  },
+  {
+   "t": "Lost in translation 2003",
+   "a": "Sofia Coppola",
+   "e": "por_ver"
+  },
+  {
+   "t": "Lost Highway 1997",
+   "a": "David Lynch",
+   "e": "por_ver"
+  },
+  {
+   "t": "Oceans Eleven 2001",
+   "a": "Steven Soderbergh",
+   "e": "por_ver"
+  },
+  {
+   "t": "After Hours 1985",
+   "a": "Martin Scorsese",
+   "e": "por_ver"
+  },
+  {
+   "t": "Heat acción",
+   "a": "Michael Mann",
+   "e": "por_ver"
+  },
+  {
+   "t": "The worst person in the world 2021",
+   "a": "Joachim Trier",
+   "e": "por_ver"
+  },
+  {
+   "t": "The master",
+   "a": "Paul Thomas Anderson",
+   "e": "por_ver"
+  },
+  {
+   "t": "Apocalypse Now",
+   "a": "Francis Ford Coppola",
+   "e": "por_ver"
+  },
+  {
+   "t": "Mickey 17",
+   "a": "ong Joon-ho",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-04-18",
+   "r": false
+  },
+  {
+   "t": "Seven",
+   "a": "David Fincher",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-04-19",
+   "r": true
+  },
+  {
+   "t": "Matrix",
+   "a": "Lana Wachowski, Lilly Wachowski",
+   "s": 4,
+   "e": "vista",
+   "r": true
+  },
+  {
+   "t": "El faro",
+   "a": "Robert Eggers",
+   "s": 5,
+   "e": "vista",
+   "r": true
+  },
+  {
+   "t": "The Searchers Centauros del desierto",
+   "e": "por_ver"
+  },
+  {
+   "t": "Liberty Balance",
+   "e": "por_ver"
+  },
+  {
+   "t": "Ciudad de Dios",
+   "a": "Fernando Meirelles, Kátia Lund",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-05-30",
+   "r": true
+  },
+  {
+   "t": "Mullholland",
+   "e": "por_ver"
+  },
+  {
+   "t": "Ordet",
+   "e": "por_ver"
+  },
+  {
+   "t": "Berdam persona",
+   "e": "por_ver"
+  },
+  {
+   "t": "Vértigo",
+   "e": "por_ver"
+  },
+  {
+   "t": "Dreams Trains",
+   "a": "Clint Bentley",
+   "s": 4,
+   "e": "vista",
+   "r": false
+  },
+  {
+   "t": "Troya",
+   "a": "Wolfgang Petersen",
+   "s": 5,
+   "e": "vista",
+   "r": true
+  },
+  {
+   "t": "Mystic River",
+   "e": "por_ver"
+  },
+  {
+   "t": "La Odisea",
+   "a": "Christopher Nolan",
+   "s": 5,
+   "e": "vista",
+   "r": true
+  },
+  {
+   "t": "Eyes Wide Shut",
+   "a": "Stanley Kubrick",
+   "s": 5,
+   "e": "vista",
+   "r": true
+  }
+ ]
+}
