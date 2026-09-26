@@ -2,602 +2,35 @@
  "actualizado": "2026-09-26",
  "items": [
   {
-   "t": "Babel",
-   "a": "Alejandro González Iñárritu",
-   "s": 5,
-   "e": "vista",
-   "r": true
-  },
-  {
-   "t": "Marty Supreme",
-   "a": "Josh Safdie",
-   "s": 5,
-   "e": "vista",
-   "r": true
-  },
-  {
-   "t": "Fractured",
-   "e": "por_ver"
-  },
-  {
-   "t": "The invisible guest",
-   "e": "por_ver"
-  },
-  {
-   "t": "The butterfly effect",
-   "e": "por_ver"
-  },
-  {
-   "t": "Oldboy",
-   "a": "Park Chan-wook",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-02-28",
-   "r": true
-  },
-  {
-   "t": "Memories of murder",
-   "a": "Bong Joon-ho",
-   "e": "por_ver"
-  },
-  {
-   "t": "Predestination",
-   "a": "Michael Spierig, Peter Spierig",
-   "e": "por_ver"
-  },
-  {
-   "t": "Source Code",
-   "a": "Duncan Jones",
-   "e": "por_ver"
-  },
-  {
-   "t": "Mother",
-   "a": "Darren Aronofsky",
-   "e": "por_ver"
-  },
-  {
-   "t": "The Game",
-   "a": "David Fincher",
-   "e": "por_ver"
-  },
-  {
-   "t": "Memento",
-   "a": "Christopher Nolan",
-   "e": "por_ver"
-  },
-  {
-   "t": "Tenet",
-   "a": "Christopher Nolan",
-   "e": "por_ver"
-  },
-  {
-   "t": "The skin i live in",
-   "a": "Pedro Almodóvar",
-   "e": "por_ver"
-  },
-  {
-   "t": "Moon",
-   "a": "Duncan Jones",
-   "e": "por_ver"
-  },
-  {
-   "t": "Forgotten",
-   "a": "Jan Hang-jun",
-   "e": "por_ver"
-  },
-  {
-   "t": "Mr. Nobody",
-   "a": "Javi Van",
-   "e": "por_ver"
-  },
-  {
-   "t": "Black Swan",
-   "a": "Darren Aronovsky",
-   "e": "por_ver"
-  },
-  {
-   "t": "The departed",
-   "e": "por_ver"
-  },
-  {
-   "t": "Raging bull",
-   "e": "por_ver"
-  },
-  {
-   "t": "No other land Documental",
-   "e": "por_ver"
-  },
-  {
-   "t": "Sinners",
-   "a": "Ryan Coogler",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-02-14",
-   "r": true
-  },
-  {
-   "t": "Only love left alive",
-   "a": "Jim Jarsmuch",
-   "e": "por_ver"
-  },
-  {
-   "t": "The lobster",
-   "e": "por_ver"
-  },
-  {
-   "t": "Manticora",
-   "e": "por_ver"
-  },
-  {
-   "t": "The duke of burgain",
-   "e": "por_ver"
-  },
-  {
-   "t": "In the mood for love",
-   "e": "por_ver"
-  },
-  {
-   "t": "Titane",
-   "e": "por_ver"
-  },
-  {
-   "t": "Portrait of a lady on fire",
-   "a": "Céline Sciamma",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-06-05",
-   "r": true
-  },
-  {
-   "t": "Moonholand drive",
-   "e": "por_ver"
-  },
-  {
-   "t": "La mujer que cantaba / Incendies",
-   "e": "por_ver"
-  },
-  {
-   "t": "The good the bad and the ugly",
-   "e": "por_ver"
-  },
-  {
-   "t": "El sexto sentido",
-   "e": "por_ver"
-  },
-  {
-   "t": "Numberg Documental",
-   "e": "por_ver"
-  },
-  {
-   "t": "Ángeles caídos",
-   "a": "Wong Kar-wai",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-01-31",
-   "r": true
-  },
-  {
-   "t": "Samurai de ojos azules",
-   "e": "por_ver"
-  },
-  {
-   "t": "LA GUERRA DE VIETNAM",
-   "a": "Ken Burns y Lynn Novick",
-   "e": "por_ver"
-  },
-  {
-   "t": "IRMA VEP 1996 o 2022",
-   "a": "Olivier Assayas, 1996",
-   "e": "por_ver"
-  },
-  {
-   "t": "True detective",
-   "a": "Nic Pizzolatto",
-   "e": "por_ver"
-  },
-  {
-   "t": "Euphoria",
-   "e": "por_ver"
-  },
-  {
-   "t": "The rehearsal / los ensayos",
-   "a": "Nathan Fielder",
-   "e": "por_ver"
-  },
-  {
-   "t": "The curse SERIE",
-   "a": "Nathan Fielder y Benny Safdie",
-   "e": "por_ver"
-  },
-  {
-   "t": "Twin Peaks SERIE",
-   "a": "Mark Frost y David Lynch",
-   "e": "por_ver"
-  },
-  {
-   "t": "The smashing machine",
-   "a": "Ben Safdie",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-03-14",
-   "r": true
-  },
-  {
-   "t": "One Battle after another",
-   "a": "Paul Thomas Anderson",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-02-07",
-   "r": true
-  },
-  {
-   "t": "A la deriva",
-   "a": "Feng liu yi dai",
-   "e": "por_ver"
-  },
-  {
-   "t": "Black dog",
-   "a": "Gouzhen",
-   "e": "por_ver"
-  },
-  {
-   "t": "Banda sonora para un golpe de estado",
-   "a": "Johan Grimonpez",
-   "e": "por_ver"
-  },
-  {
-   "t": "Minari",
-   "e": "por_ver"
-  },
-  {
-   "t": "Stalker",
-   "e": "por_ver"
-  },
-  {
-   "t": "Perfect days",
-   "a": "Wim Wenders",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-03-08",
-   "r": true
-  },
-  {
-   "t": "Bluemoon",
-   "a": "Richard Linklater",
-   "e": "por_ver"
-  },
-  {
-   "t": "El silencio de los inocentes",
-   "a": "Jonathan Demme",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-04-12",
-   "r": true
-  },
-  {
-   "t": "Mishima",
-   "a": "Paul Schareder",
-   "e": "por_ver"
-  },
-  {
-   "t": "No contry for old man",
-   "a": "Ethan Coen, Joel Coen",
-   "e": "por_ver"
-  },
-  {
-   "t": "The Double Life of Veronique",
-   "a": "Krzysztoff Klesilowski",
-   "e": "por_ver"
-  },
-  {
-   "t": "The Young Girls of Rochefort",
-   "a": "Jacques Demy",
-   "e": "por_ver"
-  },
-  {
-   "t": "The Umbrellas of Cherbourg",
-   "a": "Jacques Demy",
-   "e": "por_ver"
-  },
-  {
-   "t": "The Piano Teacher",
-   "a": "Michael Haneke",
-   "e": "por_ver"
-  },
-  {
-   "t": "The Girl with the Needle",
-   "a": "Manus von Horn",
-   "e": "por_ver"
-  },
-  {
-   "t": "The Mastermind",
-   "a": "Kelly Reichard",
-   "e": "por_ver"
-  },
-  {
-   "t": "Magic Farm",
-   "a": "Amalia Ulman",
-   "e": "por_ver"
-  },
-  {
-   "t": "Priscilla",
-   "a": "Sodia Coppola",
-   "e": "por_ver"
-  },
-  {
-   "t": "Le Bonheur",
-   "a": "Agnes Varda",
-   "e": "por_ver"
-  },
-  {
-   "t": "Sentimental Value",
-   "a": "Joachim Trier",
-   "s": 4,
-   "e": "vista",
-   "d1": "2026-02-27",
-   "r": true
-  },
-  {
-   "t": "F1",
-   "a": "Joseph Kosinski",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-02-18",
-   "r": true
-  },
-  {
-   "t": "Amores perros",
-   "a": "Alejandro González Iñárritu",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-04-11",
-   "r": true
-  },
-  {
-   "t": "Amar te duele",
-   "e": "por_ver"
-  },
-  {
-   "t": "La hermanastra fea",
-   "e": "por_ver"
-  },
-  {
-   "t": "Atrápame si puedes",
-   "a": "Steven Spielberg",
-   "s": 3,
-   "e": "vista",
-   "d1": "2026-02-21",
-   "r": false
-  },
-  {
-   "t": "Hereje",
-   "a": "Scott Beck, Bryan Woods",
-   "s": 4,
-   "e": "vista",
-   "d1": "2026-03-07",
-   "r": false
-  },
-  {
-   "t": "La Única Opción",
-   "a": "Park Chan Wook",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-03-21",
-   "r": true
-  },
-  {
-   "t": "Project Hail Mary",
-   "a": "Phil Lord, Christopher Miller",
-   "s": 5,
-   "e": "vista",
-   "d1": "2026-03-24",
-   "r": true
-  },
-  {
-   "t": "Súper Mario Galaxy",
-   "a": "Michael Jelenic, Aaron Horvath",
-   "s": 1,
-   "e": "vista",
-   "r": false
-  },
-  {
-   "t": "Pshyco",
-   "a": "ALFRED HITCHCOCK",
-   "e": "por_ver"
-  },
-  {
-   "t": "Serem Samurai",
-   "a": "AKIRA KUROSAWA",
-   "e": "por_ver"
-  },
-  {
-   "t": "2001: a space odyssey",
+   "t": "Eyes Wide Shut",
    "a": "Stanley Kubrick",
-   "s": 4,
-   "e": "vista",
-   "d1": "2026-05-29",
-   "r": false
-  },
-  {
-   "t": "CITIZEN KANE",
-   "a": "Orson Welles",
-   "e": "por_ver"
-  },
-  {
-   "t": "Monstruo",
-   "a": "Hirokazu Kore-eda",
-   "e": "por_ver"
-  },
-  {
-   "t": "El reino de los cielos 2005",
-   "a": "Ridley Scott",
-   "e": "por_ver"
-  },
-  {
-   "t": "Revenge",
-   "a": "CORALIE FARGEAT",
-   "e": "por_ver"
-  },
-  {
-   "t": "Magnolia",
-   "a": "Paul Thomas Anderson.",
-   "e": "por_ver"
-  },
-  {
-   "t": "Ran",
-   "a": "AKIRA KUROSAWA",
-   "e": "por_ver"
-  },
-  {
-   "t": "Monster Anime HBO",
-   "a": "Naoki Urasawa / Masayuki Kojima",
-   "e": "por_ver"
-  },
-  {
-   "t": "Ghost in the Shell anime",
-   "e": "por_ver"
-  },
-  {
-   "t": "Cure 1977",
-   "a": "Kiyoshi Kurosawa",
-   "e": "por_ver"
-  },
-  {
-   "t": "Orgullo y Prejuicio",
-   "a": "Joe Wright",
-   "e": "por_ver"
-  },
-  {
-   "t": "Cinema Paradiso",
-   "e": "por_ver"
-  },
-  {
-   "t": "Bugonia",
-   "e": "por_ver"
-  },
-  {
-   "t": "Hamnet",
-   "e": "por_ver"
-  },
-  {
-   "t": "The secret Agent",
-   "a": "Kleber Mendonça Filho",
-   "s": 4,
-   "e": "vista",
-   "d1": "2026-04-18",
-   "r": true
-  },
-  {
-   "t": "Paris Texas 1984",
-   "a": "Wim Wenders",
-   "e": "por_ver"
-  },
-  {
-   "t": "Nightcrawler 2014",
-   "a": "Dan Gilroy",
-   "e": "por_ver"
-  },
-  {
-   "t": "Lost in translation 2003",
-   "a": "Sofia Coppola",
-   "e": "por_ver"
-  },
-  {
-   "t": "Lost Highway 1997",
-   "a": "David Lynch",
-   "e": "por_ver"
-  },
-  {
-   "t": "Oceans Eleven 2001",
-   "a": "Steven Soderbergh",
-   "e": "por_ver"
-  },
-  {
-   "t": "After Hours 1985",
-   "a": "Martin Scorsese",
-   "e": "por_ver"
-  },
-  {
-   "t": "Heat acción",
-   "a": "Michael Mann",
-   "e": "por_ver"
-  },
-  {
-   "t": "The worst person in the world 2021",
-   "a": "Joachim Trier",
-   "e": "por_ver"
-  },
-  {
-   "t": "The master",
-   "a": "Paul Thomas Anderson",
-   "e": "por_ver"
-  },
-  {
-   "t": "Apocalypse Now",
-   "a": "Francis Ford Coppola",
-   "e": "por_ver"
-  },
-  {
-   "t": "Mickey 17",
-   "a": "ong Joon-ho",
-   "s": 4,
-   "e": "vista",
-   "d1": "2026-04-18",
-   "r": false
-  },
-  {
-   "t": "Seven",
-   "a": "David Fincher",
    "s": 5,
    "e": "vista",
-   "d1": "2026-04-19",
-   "r": true
+   "r": true,
+   "p": "/i0QjPQq3uWD7IpYbZiyUNiPiWX2.jpg",
+   "sin": "William Harford es un respetable médico neoyorquino cuya vida parece ir muy bien: está casado con una preciosa mujer, tiene una hija y tiene un trabajo que le gusta. Pero, al día siguiente de asistir a una fiesta, su esposa Alice le habla de unas fantasías eróticas y de cómo estuvo a punto de romper su matrimonio por un desconocido. Abrumado por esta confesión, acaba entrando en un local, donde un antiguo compañero le habla de una congregación secreta dedicada al hedonismo y al placer sin límites. A partir de entonces un mundo dominado por el sexo y el erotismo se abre ante él."
   },
   {
-   "t": "Matrix",
-   "a": "Lana Wachowski, Lilly Wachowski",
-   "s": 4,
-   "e": "vista",
-   "r": true
-  },
-  {
-   "t": "El faro",
-   "a": "Robert Eggers",
+   "t": "La Odisea",
+   "a": "Christopher Nolan",
    "s": 5,
    "e": "vista",
-   "r": true
+   "r": true,
+   "p": "/mKPGRRyXIwN8JOLhAbWnxV1gNrS.jpg",
+   "sin": "Odiseo, el legendario rey de Ítaca, emprende un largo y peligroso viaje de regreso a casa tras la guerra de Troya. A lo largo de su travesía, se ve obligado a enfrentarse a los caprichos de los dioses, a monstruos mitológicos y a pruebas que ponen a prueba su astucia y su humanidad hasta el límite."
   },
   {
-   "t": "The Searchers Centauros del desierto",
+   "t": "Mystic River",
    "e": "por_ver"
   },
   {
-   "t": "Liberty Balance",
-   "e": "por_ver"
-  },
-  {
-   "t": "Ciudad de Dios",
-   "a": "Fernando Meirelles, Kátia Lund",
+   "t": "Troya",
+   "a": "Wolfgang Petersen",
    "s": 5,
    "e": "vista",
-   "d1": "2026-05-30",
-   "r": true
-  },
-  {
-   "t": "Mullholland",
-   "e": "por_ver"
-  },
-  {
-   "t": "Ordet",
-   "e": "por_ver"
-  },
-  {
-   "t": "Berdam persona",
-   "e": "por_ver"
-  },
-  {
-   "t": "Vértigo",
-   "e": "por_ver"
+   "r": true,
+   "p": "/mBiDQT28DnuYaJSL4nDD43ORE6p.jpg",
+   "sin": "Paris, hijo de Príamo y príncipe de Troya, rapta a Helena, esposa de Menelao, el rey de Esparta, lo que desencadena la Guerra de Troya, en la que se enfrentan griegos y troyanos. El ejército griego asedió la ciudad de Troya durante más de diez años. Aquiles era el gran héroe de los griegos, mientras Héctor, el hijo mayor de Príamo, el rey de Troya, representaba la única esperanza de salvación para la ciudad."
   },
   {
    "t": "Dreams Trains",
@@ -607,29 +40,652 @@
    "r": false
   },
   {
-   "t": "Troya",
-   "a": "Wolfgang Petersen",
-   "s": 5,
-   "e": "vista",
-   "r": true
-  },
-  {
-   "t": "Mystic River",
+   "t": "Vértigo",
    "e": "por_ver"
   },
   {
-   "t": "La Odisea",
-   "a": "Christopher Nolan",
-   "s": 5,
-   "e": "vista",
-   "r": true
+   "t": "Berdam persona",
+   "e": "por_ver"
   },
   {
-   "t": "Eyes Wide Shut",
-   "a": "Stanley Kubrick",
+   "t": "Ordet",
+   "e": "por_ver"
+  },
+  {
+   "t": "Mullholland",
+   "e": "por_ver"
+  },
+  {
+   "t": "Ciudad de Dios",
+   "a": "Fernando Meirelles, Kátia Lund",
    "s": 5,
    "e": "vista",
-   "r": true
+   "d1": "2026-05-30",
+   "r": true,
+   "p": "/zYjngc6yGUO1IEuAwk0yAhg8CKh.jpg",
+   "sin": "Buscapé, de 11 años, vive en la famosa favela \"Ciudad de Dios\" y sueña con ser fotógrafo. Mientras Dadinho, de su edad, quiere ser un criminal. Sus vidas se cruzan entre los años 60 y a los 80, cuando el narcotráfico y la violencia dictaban las leyes."
+  },
+  {
+   "t": "Liberty Balance",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Searchers Centauros del desierto",
+   "e": "por_ver"
+  },
+  {
+   "t": "El faro",
+   "a": "Robert Eggers",
+   "s": 5,
+   "e": "vista",
+   "r": true,
+   "p": "/atwJGO4Ks8k9aUcGN968YFvnwbB.jpg",
+   "sin": "Ambientada a finales del siglo XIX, cuenta la historia de dos fareros que trabajan juntos en una misteriosa isla perdida de Nueva Inglaterra."
+  },
+  {
+   "t": "Matrix",
+   "a": "Lana Wachowski, Lilly Wachowski",
+   "s": 4,
+   "e": "vista",
+   "r": true,
+   "p": "/8rT9kG2EYkZpJmYCuTJNnPDEube.jpg",
+   "sin": "Un hacker informático aprende de misteriosos rebeldes la verdadera naturaleza de su realidad y su papel en la guerra contra sus controladores."
+  },
+  {
+   "t": "Seven",
+   "a": "David Fincher",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-04-19",
+   "r": true,
+   "p": "/1VypkhG0LlvIzt26K4nYDEJr1qq.jpg",
+   "sin": "Kris Hendricks, una francotiradora de élite retirada, intenta dejar atrás su violento pasado y llevar una vida tranquila junto a su hija adolescente en un aislado rancho del interior de Australia. Sin embargo, la paz se destruye cuando un despiadado señor de la guerra de su pasado regresa buscando venganza. Obligada a luchar una última vez, Kris se ve forzada a reunir a los miembros supervivientes de su antiguo escuadrón de la muerte en una batalla brutal y desesperada por proteger a su familia."
+  },
+  {
+   "t": "Mickey 17",
+   "a": "ong Joon-ho",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-04-18",
+   "r": false,
+   "p": "/iOKu6Hf5atv3DuXBS0jBF3OYYdu.jpg",
+   "sin": "Mickey Barnes se encuentra en la extraordinaria circunstancia de trabajar para un empleador que exige el compromiso máximo con el trabajo… morir, para ganarse la vida."
+  },
+  {
+   "t": "Apocalypse Now",
+   "a": "Francis Ford Coppola",
+   "e": "por_ver"
+  },
+  {
+   "t": "The master",
+   "a": "Paul Thomas Anderson",
+   "e": "por_ver"
+  },
+  {
+   "t": "The worst person in the world 2021",
+   "a": "Joachim Trier",
+   "e": "por_ver"
+  },
+  {
+   "t": "Heat acción",
+   "a": "Michael Mann",
+   "e": "por_ver"
+  },
+  {
+   "t": "After Hours 1985",
+   "a": "Martin Scorsese",
+   "e": "por_ver"
+  },
+  {
+   "t": "Oceans Eleven 2001",
+   "a": "Steven Soderbergh",
+   "e": "por_ver"
+  },
+  {
+   "t": "Lost Highway 1997",
+   "a": "David Lynch",
+   "e": "por_ver"
+  },
+  {
+   "t": "Lost in translation 2003",
+   "a": "Sofia Coppola",
+   "e": "por_ver"
+  },
+  {
+   "t": "Nightcrawler 2014",
+   "a": "Dan Gilroy",
+   "e": "por_ver"
+  },
+  {
+   "t": "Paris Texas 1984",
+   "a": "Wim Wenders",
+   "e": "por_ver"
+  },
+  {
+   "t": "The secret Agent",
+   "a": "Kleber Mendonça Filho",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-04-18",
+   "r": true,
+   "p": "/dK5ETX5o0WyCvLXJ1jK6ECDNOQH.jpg",
+   "sin": "London, 1886. Unbeknownst to his loyal wife Winnie, Verloc, a Soho store owner, works as a secret agent for a powerful foreign government."
+  },
+  {
+   "t": "Hamnet",
+   "e": "por_ver"
+  },
+  {
+   "t": "Bugonia",
+   "e": "por_ver"
+  },
+  {
+   "t": "Cinema Paradiso",
+   "e": "por_ver"
+  },
+  {
+   "t": "Orgullo y Prejuicio",
+   "a": "Joe Wright",
+   "e": "por_ver"
+  },
+  {
+   "t": "Cure 1977",
+   "a": "Kiyoshi Kurosawa",
+   "e": "por_ver"
+  },
+  {
+   "t": "Ghost in the Shell anime",
+   "e": "por_ver"
+  },
+  {
+   "t": "Monster Anime HBO",
+   "a": "Naoki Urasawa / Masayuki Kojima",
+   "e": "por_ver"
+  },
+  {
+   "t": "Ran",
+   "a": "AKIRA KUROSAWA",
+   "e": "por_ver"
+  },
+  {
+   "t": "Magnolia",
+   "a": "Paul Thomas Anderson.",
+   "e": "por_ver"
+  },
+  {
+   "t": "Revenge",
+   "a": "CORALIE FARGEAT",
+   "e": "por_ver"
+  },
+  {
+   "t": "El reino de los cielos 2005",
+   "a": "Ridley Scott",
+   "e": "por_ver"
+  },
+  {
+   "t": "Monstruo",
+   "a": "Hirokazu Kore-eda",
+   "e": "por_ver"
+  },
+  {
+   "t": "CITIZEN KANE",
+   "a": "Orson Welles",
+   "e": "por_ver"
+  },
+  {
+   "t": "2001: a space odyssey",
+   "a": "Stanley Kubrick",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-05-29",
+   "r": false,
+   "p": "/plFlimWCNq2oGEeAwwFJzNgOAJH.jpg",
+   "sin": "What if other life was out there? Join us as we try to answer that most-asked question.l With millions of stars the possibility is more than that, it is a very high probability! Follow Pioneer 10 as is flies by our largest planet, the massive giant Jupiter, and learn the message Pioneer 10 carries as it leaves our solar system.. just in case!"
+  },
+  {
+   "t": "Serem Samurai",
+   "a": "AKIRA KUROSAWA",
+   "e": "por_ver"
+  },
+  {
+   "t": "Pshyco",
+   "a": "ALFRED HITCHCOCK",
+   "e": "por_ver"
+  },
+  {
+   "t": "Súper Mario Galaxy",
+   "a": "Michael Jelenic, Aaron Horvath",
+   "s": 1,
+   "e": "vista",
+   "r": false,
+   "p": "/4Js0gYWxuvTN6b8iAaSF1cSQzBs.jpg",
+   "sin": "Mario y Luigi se enfrentan una nueva amenaza: Bowser Jr., quién está decidido liberar a su padre del cautiverio y restaurar el legado familiar. Junto con nuevos y viejos compañeros, los hermanos viajan a través de las estrellas para detener la cruzada del joven heredero."
+  },
+  {
+   "t": "Project Hail Mary",
+   "a": "Phil Lord, Christopher Miller",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-03-24",
+   "r": true,
+   "p": "/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg",
+   "sin": "El profesor de ciencias Ryland Grace despierta en una nave espacial a años luz de su hogar sin recordar quién es ni cómo llegó allí. A medida que recupera la memoria, comienza a descubrir su misión: resolver el enigma de la misteriosa sustancia que está causando la extinción del sol."
+  },
+  {
+   "t": "La Única Opción",
+   "a": "Park Chan Wook",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-03-21",
+   "r": true,
+   "p": "/wqQPjI8RpXL9q9INsGr0UbQhkzA.jpg",
+   "sin": "Después de estar desempleado durante varios años, un hombre idea un plan único para conseguir un nuevo trabajo: eliminar a su competencia."
+  },
+  {
+   "t": "Hereje",
+   "a": "Scott Beck, Bryan Woods",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-03-07",
+   "r": false,
+   "p": "/rpo3DJFMOSAz27gDwxJ5LIwIFni.jpg",
+   "sin": "Dos jóvenes misioneras se ven obligadas a demostrar su fe cuando llaman a la puerta equivocada y son recibidas por el diabólico Sr. Reed (Hugh Grant). Los tres se verán envueltos en un brutal juego del gato y el ratón durante una larga noche de tormenta."
+  },
+  {
+   "t": "Atrápame si puedes",
+   "a": "Steven Spielberg",
+   "s": 3,
+   "e": "vista",
+   "d1": "2026-02-21",
+   "r": false,
+   "p": "/wcWi3xIEzIjDERTZyWoqryQGURA.jpg",
+   "sin": "Basada en una historia real. En los años sesenta, Frank W. Abagnale era un joven y escurridizo delincuente que adoptaba diversas identidades (médico, abogado o copiloto de líneas aéreas). Carl Hanratty, un agente del FBI, tenía la misión de seguir su pista y capturarlo para llevarlo ante la justicia, pero Frank siempre iba un paso por delante de él."
+  },
+  {
+   "t": "La hermanastra fea",
+   "e": "por_ver"
+  },
+  {
+   "t": "Amar te duele",
+   "e": "por_ver"
+  },
+  {
+   "t": "Amores perros",
+   "a": "Alejandro González Iñárritu",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-04-11",
+   "r": true,
+   "p": "/uoObXx53SjSLLtAavMSIe02zizs.jpg",
+   "sin": "El terrible accidente automovilístico enlanza la vida de tres personas de clases sociales distintas con algo en común con el amor, la perdida y los perros."
+  },
+  {
+   "t": "F1",
+   "a": "Joseph Kosinski",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-02-18",
+   "r": true,
+   "p": "/yKIG63pXN89EfbTA7yKpwxAU1rf.jpg",
+   "sin": "El piloto legendario Sonny Hayes es convencido de salir de su retiro para liderar a un equipo de la Fórmula 1 en dificultades y ser mentor de un joven piloto talentoso, mientras se busca una última oportunidad de gloria."
+  },
+  {
+   "t": "Sentimental Value",
+   "a": "Joachim Trier",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-02-27",
+   "r": true,
+   "p": "/9PpGfbepwpX7BiHoyyjZgC7bEp9.jpg",
+   "sin": "A group of coworkers buy a piano at a yard sale for a friend in need."
+  },
+  {
+   "t": "Le Bonheur",
+   "a": "Agnes Varda",
+   "e": "por_ver"
+  },
+  {
+   "t": "Priscilla",
+   "a": "Sodia Coppola",
+   "e": "por_ver"
+  },
+  {
+   "t": "Magic Farm",
+   "a": "Amalia Ulman",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Mastermind",
+   "a": "Kelly Reichard",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Girl with the Needle",
+   "a": "Manus von Horn",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Piano Teacher",
+   "a": "Michael Haneke",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Umbrellas of Cherbourg",
+   "a": "Jacques Demy",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Young Girls of Rochefort",
+   "a": "Jacques Demy",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Double Life of Veronique",
+   "a": "Krzysztoff Klesilowski",
+   "e": "por_ver"
+  },
+  {
+   "t": "No contry for old man",
+   "a": "Ethan Coen, Joel Coen",
+   "e": "por_ver"
+  },
+  {
+   "t": "Mishima",
+   "a": "Paul Schareder",
+   "e": "por_ver"
+  },
+  {
+   "t": "El silencio de los inocentes",
+   "a": "Jonathan Demme",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-04-12",
+   "r": true,
+   "p": "/jrzX7TCmoD5gedFeqb1iB9sBaSn.jpg",
+   "sin": "Clarice Starling, del FBI, se aventura a una prisión de máxima seguridad para analizar el cerebro enfermo de Hannibal Lecter, un psiquiatra convertido en caníbal."
+  },
+  {
+   "t": "Bluemoon",
+   "a": "Richard Linklater",
+   "e": "por_ver"
+  },
+  {
+   "t": "Perfect days",
+   "a": "Wim Wenders",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-03-08",
+   "r": true,
+   "p": "/efnvsuEdkdwiWR7WyQ2QgcGt8mM.jpg",
+   "sin": "Hirayama está contento con su vida como limpiador de baños en Tokio. Fuera de su rutina estructurada, le encanta la música en cintas de casete, los libros y tomar fotografías de árboles. A través de encuentros inesperados, reflexiona sobre cómo encontrar la belleza en el mundo."
+  },
+  {
+   "t": "Stalker",
+   "e": "por_ver"
+  },
+  {
+   "t": "Minari",
+   "e": "por_ver"
+  },
+  {
+   "t": "Banda sonora para un golpe de estado",
+   "a": "Johan Grimonpez",
+   "e": "por_ver"
+  },
+  {
+   "t": "Black dog",
+   "a": "Gouzhen",
+   "e": "por_ver"
+  },
+  {
+   "t": "A la deriva",
+   "a": "Feng liu yi dai",
+   "e": "por_ver"
+  },
+  {
+   "t": "One Battle after another",
+   "a": "Paul Thomas Anderson",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-02-07",
+   "r": true,
+   "p": "/kgVBwI8V4jjYTEbfyugEr6sDa7v.jpg",
+   "sin": "Cuando su malvado némesis resurge después de 16 años, una banda de ex revolucionarios se reúne para rescatar a la hija de uno de los suyos."
+  },
+  {
+   "t": "The smashing machine",
+   "a": "Ben Safdie",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-03-14",
+   "r": true,
+   "p": "/3NzQbBgaHsOp7HiHdiIKF0A5YOw.jpg",
+   "sin": "La historia del campeón de artes marciales mixtas y de la UFC, Mark Kerr."
+  },
+  {
+   "t": "Twin Peaks SERIE",
+   "a": "Mark Frost y David Lynch",
+   "e": "por_ver"
+  },
+  {
+   "t": "The curse SERIE",
+   "a": "Nathan Fielder y Benny Safdie",
+   "e": "por_ver"
+  },
+  {
+   "t": "The rehearsal / los ensayos",
+   "a": "Nathan Fielder",
+   "e": "por_ver"
+  },
+  {
+   "t": "Euphoria",
+   "e": "por_ver"
+  },
+  {
+   "t": "True detective",
+   "a": "Nic Pizzolatto",
+   "e": "por_ver"
+  },
+  {
+   "t": "IRMA VEP 1996 o 2022",
+   "a": "Olivier Assayas, 1996",
+   "e": "por_ver"
+  },
+  {
+   "t": "LA GUERRA DE VIETNAM",
+   "a": "Ken Burns y Lynn Novick",
+   "e": "por_ver"
+  },
+  {
+   "t": "Samurai de ojos azules",
+   "e": "por_ver"
+  },
+  {
+   "t": "Ángeles caídos",
+   "a": "Wong Kar-wai",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-01-31",
+   "r": true,
+   "p": "/6oICwEhUWDH0MJyjvMB8crm3V7g.jpg",
+   "sin": "En esta narrativa bifurcada del crimen, un sicario desilusionado intenta escapar de su estilo de vida violento en contra de los deseos de su pareja, que está enamorada de él, y un excéntrico mudo se encuentra repetidamente, y luego se enamora de una mujer deprimida que busca a la prostituta que supuestamente robó los afectos de su exnovio."
+  },
+  {
+   "t": "Numberg Documental",
+   "e": "por_ver"
+  },
+  {
+   "t": "El sexto sentido",
+   "e": "por_ver"
+  },
+  {
+   "t": "The good the bad and the ugly",
+   "e": "por_ver"
+  },
+  {
+   "t": "La mujer que cantaba / Incendies",
+   "e": "por_ver"
+  },
+  {
+   "t": "Moonholand drive",
+   "e": "por_ver"
+  },
+  {
+   "t": "Portrait of a lady on fire",
+   "a": "Céline Sciamma",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-06-05",
+   "r": true,
+   "p": "/hZgmfd7XZBlX1HPGW2d8VReFtJX.jpg",
+   "sin": "Part parody, part tribute, this lesbian period drama set in modern-day Brighton tells the story of a lady whose life is turned upside down when she meets a charismatic artist with a dubious French accent."
+  },
+  {
+   "t": "Titane",
+   "e": "por_ver"
+  },
+  {
+   "t": "In the mood for love",
+   "e": "por_ver"
+  },
+  {
+   "t": "The duke of burgain",
+   "e": "por_ver"
+  },
+  {
+   "t": "Manticora",
+   "e": "por_ver"
+  },
+  {
+   "t": "The lobster",
+   "e": "por_ver"
+  },
+  {
+   "t": "Only love left alive",
+   "a": "Jim Jarsmuch",
+   "e": "por_ver"
+  },
+  {
+   "t": "Sinners",
+   "a": "Ryan Coogler",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-02-14",
+   "r": true,
+   "p": "/jIVa5m9s7bKYdI0KH8wFw1qLxHl.jpg",
+   "sin": "Intentando dejar atrás sus vidas problemáticas, los hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor los espera para darles la bienvenida."
+  },
+  {
+   "t": "No other land Documental",
+   "e": "por_ver"
+  },
+  {
+   "t": "Raging bull",
+   "e": "por_ver"
+  },
+  {
+   "t": "The departed",
+   "e": "por_ver"
+  },
+  {
+   "t": "Black Swan",
+   "a": "Darren Aronovsky",
+   "e": "por_ver"
+  },
+  {
+   "t": "Mr. Nobody",
+   "a": "Javi Van",
+   "e": "por_ver"
+  },
+  {
+   "t": "Forgotten",
+   "a": "Jan Hang-jun",
+   "e": "por_ver"
+  },
+  {
+   "t": "Moon",
+   "a": "Duncan Jones",
+   "e": "por_ver"
+  },
+  {
+   "t": "The skin i live in",
+   "a": "Pedro Almodóvar",
+   "e": "por_ver"
+  },
+  {
+   "t": "Tenet",
+   "a": "Christopher Nolan",
+   "e": "por_ver"
+  },
+  {
+   "t": "Memento",
+   "a": "Christopher Nolan",
+   "e": "por_ver"
+  },
+  {
+   "t": "The Game",
+   "a": "David Fincher",
+   "e": "por_ver"
+  },
+  {
+   "t": "Mother",
+   "a": "Darren Aronofsky",
+   "e": "por_ver"
+  },
+  {
+   "t": "Source Code",
+   "a": "Duncan Jones",
+   "e": "por_ver"
+  },
+  {
+   "t": "Predestination",
+   "a": "Michael Spierig, Peter Spierig",
+   "e": "por_ver"
+  },
+  {
+   "t": "Memories of murder",
+   "a": "Bong Joon-ho",
+   "e": "por_ver"
+  },
+  {
+   "t": "Oldboy",
+   "a": "Park Chan-wook",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-02-28",
+   "r": true,
+   "p": "/axKVINgFA2m2novHy5xP9DPgo2u.jpg",
+   "sin": "Luego de estar preso durante años, repentinamente liberan a Joe Doucett. Ahora, su única misión es atrapar y castigar a sus captores."
+  },
+  {
+   "t": "The butterfly effect",
+   "e": "por_ver"
+  },
+  {
+   "t": "The invisible guest",
+   "e": "por_ver"
+  },
+  {
+   "t": "Babel",
+   "a": "Alejandro González Iñárritu",
+   "s": 5,
+   "e": "vista",
+   "r": true,
+   "p": "/os6R4WX50SoOclBt0U9XjdyReaR.jpg",
+   "sin": "La tragedia golpea a un matrimonio que está de vacaciones en el desierto marroquí, lo que da inicio a una historia entrelazada que involucra a cuatro familias diferentes."
+  },
+  {
+   "t": "Marty Supreme",
+   "a": "Josh Safdie",
+   "s": 5,
+   "e": "vista",
+   "r": true,
+   "p": "/guRmwb1r337m2tKBH9KcE3vOpGE.jpg",
+   "sin": "Ambientada en el vibrante mundo del tenis de mesa de los años 50, Marty Supreme sigue a Marty Mauser (Timothée Chalamet), un joven soñador decidido a ganarse el respeto en un deporte que nadie toma en serio. Inspirada en el espíritu del legendario jugador de ping-pong, la película narra el descenso de Marty hacia la obsesión, las apuestas y la redención, mientras arriesga todo para transformar su improbable pasión en grandeza y como cambio algo en el al final luego de conocer a su hija."
+  },
+  {
+   "t": "Fractured",
+   "e": "por_ver"
   }
  ]
 }

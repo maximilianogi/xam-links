@@ -2,26 +2,1491 @@
  "actualizado": "2026-09-26",
  "items": [
   {
-   "t": "Elon Musk",
-   "a": "Walter Isaacsoon",
-   "u": "https://www.buscalibre.com.mx/libro-elon-musk/9786073836609/p/55578168?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073836609",
+   "t": "La Sumisa",
+   "a": "Fiodor M. Dostoievski",
+   "u": "https://www.buscalibre.com.mx/libro-la-sumisa/9788419075789/p/54394426?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788419075789",
+   "e": "librero"
+  },
+  {
+   "t": "Cuanta tierra necesita el hombre y otros cuentos",
+   "a": "Lev Tolstoy",
+   "u": "https://www.buscalibre.com.mx/libro-cuanta-tierra-necesita-el-hombre-y-otros-cuentos/9788420685915/p/41826772?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788420685915",
+   "e": "librero"
+  },
+  {
+   "t": "Fausto",
+   "a": "Johann Wolfgang von Goethe",
+   "u": "https://www.buscalibre.com.mx/libro-fausto/9788437606774/p/981380?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788437606774",
+   "e": "librero"
+  },
+  {
+   "t": "Odisea",
+   "a": "Homero",
+   "u": "https://www.buscalibre.com.mx/libro-odisea/9788437606408/p/1515207?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788437606408",
+   "e": "librero"
+  },
+  {
+   "t": "Kitchen",
+   "a": "Banana Yoshimoto",
+   "u": "https://www.buscalibre.com.mx/libro-kitchen/9788483837061/p/29170251?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788483837061",
+   "e": "librero"
+  },
+  {
+   "t": "Dune",
+   "a": "Frank Herbert",
+   "u": "https://www.buscalibre.com.mx/libro-dune/9786073194648/p/52904284?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073194648",
+   "s": 5,
+   "e": "leyendo",
+   "d0": "2026-09-06",
+   "r": true,
+   "re": true,
+   "c": "/libros/portadas/9786073194648.jpg"
+  },
+  {
+   "t": "La Iliada",
+   "a": "Homero",
+   "u": "https://www.buscalibre.com.mx/libro-iliada/9788437621975/p/1515320?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788437621975",
+   "e": "leyendo",
+   "d0": "2026-09-06",
+   "c": "/libros/portadas/9788437621975.jpg"
+  },
+  {
+   "t": "La sociedad del espectaculo",
+   "a": "Guy Debord",
+   "u": "https://www.buscalibre.com.mx/libro-la-sociedad-del-espectaculo/9789508891761/p/4663660?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9789508891761",
+   "e": "librero"
+  },
+  {
+   "t": "La muerte de Iván Ilich. Jadzhí Murat",
+   "a": "Lev Tolstoy",
+   "u": "https://www.buscalibre.com.mx/libro-la-muerte-de-ivan-ilich-hadyi-murad/9788420674339/p/4142168",
+   "i": "9788420674339",
+   "s": 5,
+   "e": "leido",
+   "d0": "2026-07-26",
+   "d1": "2026-08-02",
+   "r": true,
+   "c": "/libros/portadas/9788420674339.jpg"
+  },
+  {
+   "t": "El Principe",
+   "a": "Nicolás Maquiavelo",
+   "u": "https://www.buscalibre.com.mx/libro-el-principe/9786075942186/p/63716668?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786075942186",
+   "s": 5,
+   "e": "leido",
+   "d0": "2026-06-27",
+   "d1": "2026-07-25",
+   "r": true
+  },
+  {
+   "t": "Apuntes del Subsuelo",
+   "a": "Fiodor M. Dostoievski",
+   "u": "https://www.buscalibre.com.mx/libro-apuntes-del-subsuelo/9786076410936/p/66639714?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786076410936",
+   "s": 5,
+   "e": "leido",
+   "d0": "2026-06-01",
+   "d1": "2026-06-26",
+   "r": true
+  },
+  {
+   "t": "Crepúsculo de los Ídolos",
+   "a": "Friedrich Nietzsche",
+   "u": "https://www.buscalibre.com.mx/libro-crepusculo-de-los-idolos/9788420675411/p/30227635?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788420675411",
+   "e": "leyendo",
+   "d0": "2026-09-10",
+   "c": "/libros/portadas/9788420675411.jpg"
+  },
+  {
+   "t": "Más allá del bien y del mal",
+   "a": "Friedrich Nietzche",
+   "e": "librero"
+  },
+  {
+   "t": "El extranjero",
+   "a": "Albert Camus",
+   "u": "https://www.buscalibre.com.mx/libro-el-extranjero/9786073803847/p/53342665?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073803847",
+   "e": "librero"
+  },
+  {
+   "t": "DE RATONES Y HOMBRES",
+   "a": "JOHN STEINBECK",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Asi Hablo Zaratustra",
+   "a": "Friedrich Nietzsche",
+   "u": "https://www.buscalibre.com.mx/libro-asi-hablo-zaratustra/9788437625027/p/2725607?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788437625027",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Divina Comedia",
+   "a": "Dante Alighieri",
+   "u": "https://www.buscalibre.com.mx/libro-divina-comedia/9788437632186/p/39259227?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788437632186",
+   "e": "librero"
+  },
+  {
+   "t": "Los miserables",
+   "a": "Victor Hugo",
+   "u": "https://www.buscalibre.com.mx/libro-los-miserables/9788494662065/p/48772866?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788494662065",
+   "e": "librero"
+  },
+  {
+   "t": "Ortodoxia",
+   "a": "G. K. Chesterton",
+   "u": "https://www.buscalibre.com.mx/libro-ortodoxia/9788415689508/p/27397394?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788415689508",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El desaparecido",
+   "a": "Franz Kafka",
+   "u": "https://www.buscalibre.com.mx/libro-el-desaparecido/9788446055662/p/63643285?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788446055662",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Kim ji Young, Nacida en 1982",
+   "a": "Cho Nam-joo",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El Amor Después del Amor",
+   "a": "Laura Ferrero",
+   "u": "https://www.buscalibre.com.mx/libro-el-amor-despues-del-amor/9788410496743/p/63707444?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788410496743",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Jane Eyre",
+   "a": "Charlotte Bronte",
+   "u": "https://www.buscalibre.com.mx/libro-jane-eyre/9788437614496/p/982804?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788437614496",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Susan Sontag On Photography",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "The Limits of Free Will",
+   "a": "Paul Russell",
+   "u": "https://www.buscalibre.com.mx/libro-the-limits-of-free-will/9780190627607/p/49394865?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9780190627607",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Netochka Nezvanova",
+   "a": "Fiodor M. Dostoievski",
+   "u": "https://www.buscalibre.com.mx/libro-netochka-nezvanova-penguin-classics/9780140444551/p/1536987?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9780140444551",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Middlemarch",
+   "a": "George Eliot",
+   "u": "https://www.buscalibre.com.mx/libro-middlemarch/9788437627267/p/4122884?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788437627267",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Don Quijote de la Mancha",
+   "a": "Miguel De Cervantes Saavedra",
+   "u": "https://www.buscalibre.com.mx/libro-don-quijote-de-la-mancha/9788491050759/p/46530035?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788491050759",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El Mito de Sísifo",
+   "a": "Albert Camus",
+   "u": "https://www.buscalibre.com.mx/libro-el-mito-de-sisifo/9786073826334/p/54505518?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073826334",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Wuthering Heights",
+   "a": "Emily Brontë",
+   "u": "https://www.buscalibre.com.mx/libro-wuthering-heights/9780141439556/p/1652483?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9780141439556",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Anna Karenina",
+   "a": "Lev Tolstoy",
+   "u": "https://www.buscalibre.com.mx/libro-anna-karenina/9788413624037/p/53420852?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788413624037",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Corruptible",
+   "a": "Brian Klass",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Un hombre que amaba los perros",
+   "a": "L,eonardo Padura",
+   "u": "https://www.buscalibre.com.mx/libro-el-hombre-que-amaba-a-los-perros-edicion-15-aniversario/9786073919593/p/62972300?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073919593",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Al este del eden",
+   "a": "John Steinbeck",
+   "u": "https://www.buscalibre.com.mx/libro-al-este-del-eden/9786070787720/p/54241605?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786070787720",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El Cuento de la Criada",
+   "a": "Margaret Atwood",
+   "u": "https://www.buscalibre.com.mx/libro-el-cuento-de-la-criada/9786073193078/p/52782747?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073193078",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "La caida",
+   "a": "Albert Camus",
+   "u": "https://www.buscalibre.com.mx/libro-la-caida/9788466354769/p/53153819?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788466354769",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Ulises",
+   "a": "James Joyce",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Emma",
+   "a": "Jane Austen",
+   "u": "https://www.buscalibre.com.mx/libro-emma/9788437615608/p/3042451?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788437615608",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Crimen y Castigo",
+   "a": "Fiodor M. Dostoievski",
+   "u": "https://www.buscalibre.com.mx/libro-crimen-y-castigo/9786076410882/p/66639657?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786076410882",
+   "e": "librero"
+  },
+  {
+   "t": "Eugenio Oneguin",
+   "a": "Alexander Pushkin",
+   "u": "https://www.buscalibre.com.mx/libro-eugenio-oneguin/9788437618234/p/3042558?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788437618234",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "The Unabridged Journals of Sylvia Plath",
+   "a": "Sylvia Plath",
+   "u": "https://www.buscalibre.com.mx/libro-the-unabridged-journals-of-sylvia-plath/9780385720250/p/1603347?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9780385720250",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Los demonios",
+   "a": "Fiodor M. Dostoievski",
+   "u": "https://www.buscalibre.com.mx/libro-los-demonios/9788420664453/p/4901649?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788420664453",
+   "e": "librero"
+  },
+  {
+   "t": "El mundo de ayer",
+   "a": "Stefan Zweig",
+   "u": "https://www.buscalibre.com.mx/libro-el-mundo-de-ayer/9788411489416/p/63433078?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788411489416",
+   "s": 5,
+   "e": "leido",
+   "d0": "2026-04-15",
+   "d1": "2026-05-31",
+   "r": true
+  },
+  {
+   "t": "Nuestra señora de París",
+   "a": "Victor Hugo",
+   "u": "https://www.buscalibre.com.mx/libro-nuestra-senora-de-paris/9788412045017/p/54117214?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788412045017",
+   "s": 5,
+   "e": "leido",
+   "d0": "2026-02-16",
+   "d1": "2026-04-14",
+   "r": true,
+   "c": "/libros/portadas/9788412045017.jpg"
+  },
+  {
+   "t": "Las aventuras de Pinocho",
+   "a": "Carlo Collodi",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El hombre de la situación",
+   "a": "Manuel Payno",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Al faro",
+   "a": "Virginia Woolf",
+   "u": "https://www.buscalibre.com.mx/libro-al-faro/9788420609300/p/14871735?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788420609300",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Popol Vuh",
+   "a": "Anonimo",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El idiota",
+   "a": "Fiodor M. Dostoievski",
+   "u": "https://www.buscalibre.com.mx/libro-el-idiota/9788420609072/p/14871725?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788420609072",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Mujercitas",
+   "a": "Louisa May Alcott",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Robinson Crusoe",
+   "a": "Daniel Defoe",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "En nuestro tiempo",
+   "a": "Ernest Hemingway",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El rey Lear",
+   "a": "William Shakespeare",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Un verano con Homero",
+   "a": "Sylvain Tesson",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Romeo y Julieta",
+   "a": "William Shakespeare",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "La muerte en Venecia",
+   "a": "Thomas Mann",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Los Maia",
+   "a": "José Maria Eca de Queirós",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Tentación",
+   "a": "János Székely",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El hombre invisible",
+   "a": "H.G. Wells",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Algo ha pasado",
+   "a": "Joseph Heller",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Julio César",
+   "a": "William Shakespeare",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Bouvard y Pécuchet",
+   "a": "Gustave Flaubert",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Mecanismos internos",
+   "a": "J.M. Coetzee",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Oscar Wilde: Cuentos completos",
+   "a": "Oscar Wilde",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El dinero",
+   "a": "Émile Zola",
+   "u": "https://www.buscalibre.com.mx/libro-el-dinero/9788491054979/p/54456608?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788491054979",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Opresión y resistencia",
+   "a": "George Orwell",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Libro de la vida",
+   "a": "Santa Teresa de Jesús",
+   "u": "https://www.buscalibre.com.mx/libro-libro-de-la-vida/9786073835114/p/55582061?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073835114",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Los documentos de Aspern",
+   "a": "Henry James",
+   "u": "https://www.buscalibre.com.mx/libro-los-documentos-de-aspern/9786073836098/p/55590624?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073836098",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "La guerra de los mundos",
+   "a": "H.G. Wells",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Ensayo sobre la ceguera",
+   "a": "José Saramago",
+   "u": "https://www.buscalibre.com.mx/libro-ensayo-sobre-la-ceguera/9789588940212/p/47011956?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9789588940212",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Insolación",
+   "a": "Emilia Pardo Bazán",
+   "u": "https://www.buscalibre.com.mx/libro-insolacion/9786073843270/p/56140945?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073843270",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Medea",
+   "a": "Eurípides",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Narrativa completa",
+   "a": "Dorothy Parker",
+   "u": "https://www.buscalibre.com.mx/libro-narrativa-completa/9788497933469/p/1068205?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788497933469",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Don Juan",
+   "a": "Lord Byron",
+   "u": "https://www.buscalibre.com.mx/libro-don-juan/9788491056225/p/55779515?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788491056225",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "La enemiga",
+   "a": "Irène Némirovsky",
+   "u": "https://www.buscalibre.com.mx/libro-enemiga-la/9786073858519/p/64238539?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073858519",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Mindfulness",
+   "e": "librero"
+  },
+  {
+   "t": "La muerte feliz",
+   "a": "Albert Camus",
+   "u": "https://www.buscalibre.com.mx/libro-la-muerte-feliz/9786073816120/p/54225298?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073816120",
+   "s": 3,
+   "e": "leido",
+   "d0": "2026-03-11",
+   "d1": "2026-06-09",
+   "r": true
+  },
+  {
+   "t": "El manantial",
+   "a": "Ayn Rand",
+   "e": "librero"
+  },
+  {
+   "t": "El extraño caso del Dr. Jekyll y Mr Hyde",
+   "a": "Robert L. Stevenson",
+   "u": "https://www.buscalibre.com.mx/libro-el-extrano-caso-del-dr-jekyll-y-mr-hyde/9788418145735/p/54384275?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788418145735",
+   "e": "librero"
+  },
+  {
+   "t": "Hamlet",
+   "a": "W. Shakespeare",
+   "u": "https://www.buscalibre.com.mx/libro-hamlet/9788491050438/p/46529592?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788491050438",
+   "e": "librero"
+  },
+  {
+   "t": "Un viaje para los mejores",
+   "a": "J. F. Gomez",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El verano en que mi madre tuvo los ojos verdes",
+   "a": "Tatiana Tibuleac",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Aquiles",
+   "a": "Madeline Miller",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "A radical history of the world",
+   "a": "Neil Faulkner",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Never let me go",
+   "a": "Kazuo Ishiguro",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Tender is the Flesh",
+   "a": "Agustina Bazterrica",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "La invención de Morel",
+   "a": "Adolfo Bioy Casares",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Rayuela",
+   "a": "Juilio Cortazar",
+   "e": "librero"
+  },
+  {
+   "t": "Cronica de una muerte anunciada",
+   "a": "Gabriel Garcia Marquez",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El Aleph",
+   "a": "Jorge Luis Borges",
+   "u": "https://www.buscalibre.com.mx/libro-aleph-el/9786073104913/p/4232132?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073104913",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El amor en tiempos de colera",
+   "a": "Gabriel Garcia Marquez",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "La sombra del viento",
+   "a": "Carlos Ruiz Zafon",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Indigno de ser humano",
+   "a": "Osamu Dazai",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Choosing me",
+   "a": "Kelly Weekers",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "The Courage to be Disliked",
+   "a": "Ichiro Kishimi and Fumitake Koga",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Los naufragios del corazón",
+   "a": "Benoite Groult",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Un viaje llamado vida",
+   "a": "Banana Yoshimoto",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Vamos a comprar un poeta",
+   "a": "Afonso Cruz",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El alquimista",
+   "a": "Paulo Coelho",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Franskenstein",
+   "a": "Mary Shelley",
+   "u": "https://www.buscalibre.com.mx/libro-frankenstein/9788434235441/p/3037155?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788434235441",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El Jugador",
+   "a": "Fiodor M. Dostoievski",
+   "u": "https://www.buscalibre.com.mx/libro-el-jugador/9786076410929/p/66639706?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786076410929",
+   "e": "librero"
+  },
+  {
+   "t": "El conde de montecristo",
+   "a": "Alejandro Dumas",
+   "u": "https://www.buscalibre.com.mx/libro-el-conde-de-montecristo-the-count-of-montecristo/9788491052425/p/47627469?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788491052425",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Guerra y Paz",
+   "a": "Lev Tolstoy",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Noches Blancas",
+   "a": "Fiodor M. Dostoievski",
+   "u": "https://www.buscalibre.com.mx/libro-noches-blancas/9788416440047/p/46671311?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788416440047",
+   "s": 5,
+   "e": "leido",
+   "d0": "2026-01-08",
+   "d1": "2026-01-13",
+   "r": true,
+   "c": "/libros/portadas/9788416440047.jpg"
+  },
+  {
+   "t": "La Fontana de Oro",
+   "a": "Perez Galdos",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "The Trial / El Proceso",
+   "a": "Franz Kafka",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El capital",
+   "a": "Karl Marx",
+   "u": "https://www.buscalibre.com.mx/libro-capital-volume-i-a-critique-of-political-economy-v-1/9780140445688/p/1542257?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9780140445688",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "No tengo boca y debo gritar",
+   "a": "Harlan Ellison",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Meridiano de Sangre",
+   "a": "Corman McCarthy",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "The Social Sex",
+   "a": "Marilyn Yalom",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "La bruja",
+   "a": "Jules Michelet",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "When God Was a Woman",
+   "a": "Merlin Stone",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Los hermanos Karamazov",
+   "a": "Fiodor M. Dostoievski",
+   "u": "https://www.buscalibre.com.mx/libro-los-hermanos-karamazov/9788420650807/p/4142137?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788420650807",
+   "e": "librero"
+  },
+  {
+   "t": "La perra",
+   "a": "Pilar Quintana",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "La historia de mis dientes",
+   "a": "Valeria Luiselli",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Del color de la noche",
+   "a": "Nell Leyshon",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Autobiografia de Irene",
+   "a": "Silvina Ocampo",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El llano en llamas",
+   "a": "Juan Rulfo",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Dinastías",
+   "a": "Ramón Alberto Garza",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "I Who Have Kwnon Men",
+   "a": "Jaqueline Harpman",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "East of Eden",
+   "a": "John Steinbeck",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Hisotory of the Rain",
+   "a": "Niall Williams",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "On Earth We’re Briefly Gorgeous",
+   "a": "Ocean Vuong",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "The deep sky",
+   "a": "Yume Kitasei",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "La metamorfosis",
+   "a": "Franz Kafka",
+   "u": "https://www.buscalibre.com.mx/libro-la-metamorfosis/9786070742255/p/48658183?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786070742255",
+   "s": 5,
+   "e": "leido",
+   "d0": "2026-01-24",
+   "d1": "2026-02-13",
+   "r": true
+  },
+  {
+   "t": "La gratitudes",
+   "a": "Delphine De Vigan",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Comeras flores",
+   "a": "Lucía Solla Sobral",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Moby Dick",
+   "a": "Herman Melville",
+   "u": "https://www.buscalibre.com.mx/libro-moby-dick/9789588925424/p/46796897?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9789588925424",
+   "e": "librero"
+  },
+  {
+   "t": "Fahrenheit 541",
+   "a": "Bradbury",
+   "u": "https://www.buscalibre.com.mx/libro-fahrenheit-451/9786073806749/p/53603890?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073806749",
+   "s": 5,
+   "e": "leido",
+   "r": true
+  },
+  {
+   "t": "1984",
+   "a": "George Owell",
+   "u": "https://www.buscalibre.com.mx/libro-1984/9786073116336/p/28897087?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073116336",
+   "s": 5,
+   "e": "leido",
+   "d0": "2025-02-20",
+   "d1": "2025-03-14",
+   "r": true
+  },
+  {
+   "t": "Subir a Respirar",
+   "a": "George Orwell",
+   "u": "https://www.buscalibre.com.mx/libro-subir-a-respirar/9786073817219/p/54299772?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073817219",
    "s": 4,
    "e": "leido",
-   "d0": "2024-02-19",
-   "d1": "2024-02-26",
+   "d0": "2025-08-28",
+   "d1": "2025-09-11",
+   "r": true
+  },
+  {
+   "t": "Nacidos de la bruma (Mistborn)",
+   "a": "Brandon Sanderson",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "En Agosto nos vemos",
+   "a": "Gabriel García Márquez",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Maus",
+   "a": "Art Spiegelman",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El pasajero",
+   "a": "Ulrich Alexander Boschwitz",
+   "u": "https://www.buscalibre.com.mx/libro-el-pasajero/9788417517120/p/51446372?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788417517120",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Claus y Lucas",
+   "a": "Agota Kristof",
+   "u": "https://www.buscalibre.com.mx/libro-claus-y-lucas/9788417007744/p/51394305?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788417007744",
+   "s": 5,
+   "e": "leido",
+   "d0": "2026-01-14",
+   "d1": "2026-01-24",
+   "r": true,
+   "c": "/libros/portadas/9788417007744.jpg"
+  },
+  {
+   "t": "El lugar",
+   "a": "Annie Ernaux",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "SAPIENS",
+   "a": "Yuval Noah Harari",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Collected Poems",
+   "a": "Silvia Plath",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El almanaque",
+   "a": "Naval Ravikant",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El niño con la pijama de rayas",
+   "a": "John Boyne",
+   "u": "https://www.buscalibre.com.mx/libro-nino-con-el-pijama-de-rayas-el/9786073854009/p/63516061?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073854009",
+   "s": 4,
+   "e": "leido",
+   "d0": "2025-08-01",
+   "d1": "2025-08-11",
    "r": false
   },
   {
-   "t": "Al final mueren los dos",
-   "a": "Adam Silvera",
-   "u": "https://www.buscalibre.com.mx/libro-al-final-mueren-los-dos/9786077481232/p/50082693?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786077481232",
+   "t": "Aprende a jugar ajedrez",
+   "a": "Miguel Illescas",
+   "s": 2,
+   "e": "leido",
+   "r": false
+  },
+  {
+   "t": "El desafío de Miho",
+   "a": "Hika Harada",
+   "u": "https://www.buscalibre.com.mx/libro-el-desafio-de-miho/9788419521026/p/54399040?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788419521026",
    "s": 4,
    "e": "leido",
-   "d0": "2024-08-05",
-   "d1": "2024-08-16",
+   "d0": "2024-07-12",
+   "d1": "2024-07-30",
    "r": false
+  },
+  {
+   "t": "Maldicion de Hill House",
+   "a": "Shirley Jackson",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Todo está jodido",
+   "a": "Mark Manson",
+   "u": "https://www.buscalibre.com.mx/libro-todo-esta-jodido/9788417968977/p/52129616?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788417968977",
+   "s": 3,
+   "e": "leido",
+   "d0": "2025-03-14",
+   "d1": "2025-04-16",
+   "r": false
+  },
+  {
+   "t": "La magia de pensar en grande",
+   "a": "David J. Schwarts",
+   "u": "https://www.buscalibre.com.mx/libro-la-magia-de-pensar-en-grande/9781607380696/p/4853594?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9781607380696",
+   "s": 2,
+   "e": "leido",
+   "r": false,
+   "c": "/libros/portadas/9781607380696.jpg"
+  },
+  {
+   "t": "Dune",
+   "a": "Frank Herbert",
+   "u": "https://amzn.to/3VURlBR",
+   "s": 5,
+   "e": "leido",
+   "d0": "2024-03-05",
+   "d1": "2024-03-20",
+   "r": true
+  },
+  {
+   "t": "La brevedad de la vida",
+   "a": "Seneca",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "El hombre en busca de sentido",
+   "a": "Viktor Frankl",
+   "u": "https://www.buscalibre.com.mx/libro-el-hombre-en-busca-de-sentido/9788425432026/p/47056974?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788425432026",
+   "s": 3,
+   "e": "leido",
+   "d0": "2024-10-20",
+   "d1": "2024-11-07",
+   "r": true,
+   "c": "/libros/portadas/9788425432026.jpg"
+  },
+  {
+   "t": "La cabaña",
+   "a": "Wm. Paul Young",
+   "u": "https://www.buscalibre.com.mx/libro-la-cabana/9786070733123/p/47338459?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786070733123",
+   "s": 1,
+   "e": "leido",
+   "d0": "2025-08-11",
+   "d1": "2025-08-27",
+   "r": false,
+   "c": "/libros/portadas/9786070733123.jpg"
+  },
+  {
+   "t": "A Sangre fria",
+   "a": "Truman Capote",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Relatos",
+   "a": "Hermann Hesse",
+   "u": "https://www.buscalibre.com.mx/libro-relatos/9789706666796/p/45501931?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9789706666796",
+   "s": 3,
+   "e": "leido",
+   "r": true
+  },
+  {
+   "t": "Este dolor no es mio",
+   "a": "Mark Wolynn",
+   "u": "https://www.buscalibre.com.mx/libro-este-dolor-no-es-mio/9788484456810/p/49026748?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788484456810",
+   "s": 2,
+   "e": "leido",
+   "d0": "2024-12-31",
+   "d1": "2025-01-25",
+   "r": false,
+   "c": "/libros/portadas/9788484456810.jpg"
+  },
+  {
+   "t": "Habitos Atomicos",
+   "a": "James Clear",
+   "u": "https://www.buscalibre.com.mx/libro-habitos-atomicos/9786077476719/p/51505115?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786077476719",
+   "s": 5,
+   "e": "leido",
+   "r": true,
+   "c": "/libros/portadas/9786077476719.jpg"
+  },
+  {
+   "t": "Hail Mary",
+   "a": "Andy Weir",
+   "u": "https://www.buscalibre.com.mx/libro-proyecto-hail-mary/9786073802536/p/53342672?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073802536",
+   "s": 5,
+   "e": "leido",
+   "d0": "2024-11-15",
+   "d1": "2024-12-02",
+   "r": true,
+   "c": "/libros/portadas/9786073802536.jpg"
+  },
+  {
+   "t": "Historias de cronopios y de famas",
+   "a": "Julio Cortazar",
+   "u": "https://www.buscalibre.com.mx/libro-historias-de-cronopios-y-de-famas/9786073150620/p/47713164?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073150620",
+   "s": 3,
+   "e": "leido",
+   "r": true
+  },
+  {
+   "t": "Las batallas en el desierto",
+   "a": "Jose Emilio Pacheco",
+   "u": "https://www.buscalibre.com.mx/libro-las-batallas-en-el-desierto/9786073912549/p/61995704?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073912549",
+   "s": 3,
+   "e": "leido",
+   "r": true
+  },
+  {
+   "t": "Rebelion de la granja",
+   "a": "George Owell",
+   "u": "https://www.buscalibre.com.mx/libro-rebelion-en-la-granja/9786073115773/p/28897081?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073115773",
+   "s": 5,
+   "e": "leido",
+   "d0": "2024-01-01",
+   "d1": "2024-01-06",
+   "r": true,
+   "c": "/libros/portadas/9786073115773.jpg"
+  },
+  {
+   "t": "Pequeño cerdo capitalista",
+   "a": "Sofia Macias",
+   "u": "https://www.buscalibre.com.mx/libro-pequeno-cerdo-capitalista/9786073184786/p/51985821?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073184786",
+   "s": 2,
+   "e": "leido",
+   "r": false
+  },
+  {
+   "t": "Dune Herejes de Dune",
+   "a": "Frank Herbert",
+   "u": "https://amzn.to/3VURlBR",
+   "s": 5,
+   "e": "leido",
+   "d0": "2024-04-27",
+   "d1": "2024-05-12",
+   "r": true
+  },
+  {
+   "t": "La vida está en otra parte",
+   "a": "Milan Kundera",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Dios Emperador de Dune",
+   "a": "Frank Herbert",
+   "u": "https://amzn.to/3VURlBR",
+   "s": 5,
+   "e": "leido",
+   "d0": "2024-04-13",
+   "d1": "2024-04-27",
+   "r": true
+  },
+  {
+   "t": "Meditaciones",
+   "a": "Marco Aurelio",
+   "u": "https://www.buscalibre.com.mx/libro-meditaciones/9788420688466/p/43179638?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788420688466",
+   "s": 5,
+   "e": "leido",
+   "d0": "2026-08-03",
+   "d1": "2026-09-10",
+   "r": true
+  },
+  {
+   "t": "Como acercarse al ajedrez",
+   "s": 2,
+   "e": "leido",
+   "r": false
+  },
+  {
+   "t": "La biblioteca de la media noche",
+   "a": "Matt Haig",
+   "u": "https://amzn.to/3Ph2067",
+   "s": 4,
+   "e": "leido",
+   "d0": "2024-02-03",
+   "d1": "2024-02-07",
+   "r": false
+  },
+  {
+   "t": "Cadáver exquisito",
+   "a": "Agustina Bazterrica",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Titanes",
+   "a": "Tim Ferris",
+   "u": "https://www.buscalibre.com.mx/libro-titanes/9786075691312/p/53610498?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786075691312",
+   "s": 5,
+   "e": "leido",
+   "r": true
+  },
+  {
+   "t": "Esperando A Godot",
+   "a": "Samuel Beckett",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Lobo Estepario",
+   "a": "Herman Hesse",
+   "u": "https://www.buscalibre.com.mx/libro-lobo-estepario-10-gran-lit/9786071432438/p/55946599?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786071432438",
+   "s": 4,
+   "e": "leido",
+   "r": true
+  },
+  {
+   "t": "El drama del niño dotado",
+   "a": "Alice Miller",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Lo que nunca cambia en un mundo cambiante",
+   "a": "Morgan Housel",
+   "u": "https://www.buscalibre.com.mx/libro-lo-que-nunca-cambia-en-un-mundo-cambiante/9789564084992/p/55903466?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9789564084992",
+   "s": 2,
+   "e": "leido",
+   "d0": "2025-06-09",
+   "d1": "2025-06-22",
+   "r": false
+  },
+  {
+   "t": "Orgullo y prejuicio",
+   "a": "Jane Austen",
+   "u": "https://www.buscalibre.com.mx/libro-orgullo-y-prejuicio-pride-and-prejudice/9788491050018/p/46529481?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788491050018",
+   "e": "librero"
+  },
+  {
+   "t": "Historias de terror Stranger Things",
+   "a": "Matthew J. Gilbert",
+   "s": 3,
+   "e": "leido",
+   "r": false
+  },
+  {
+   "t": "El monje que vendío su ferrari",
+   "a": "Robin S. Sharma",
+   "u": "https://www.buscalibre.com.mx/libro-el-monje-que-vendio-su-ferrari/9786073108072/p/4678457?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073108072",
+   "s": 5,
+   "e": "leido",
+   "d0": "2024-11-07",
+   "d1": "2024-11-16",
+   "r": true,
+   "c": "/libros/portadas/9786073108072.jpg"
+  },
+  {
+   "t": "Green lights",
+   "a": "Matthew McConaughey",
+   "u": "https://amzn.to/3ZW9ErB",
+   "s": 4,
+   "e": "leido",
+   "d0": "2024-08-18",
+   "d1": "2024-09-25",
+   "r": false
+  },
+  {
+   "t": "El acto de crear: una Manera de Ser",
+   "a": "Rick Rubin",
+   "u": "https://amzn.to/3PhmawG",
+   "s": 2,
+   "e": "leido",
+   "d0": "2024-03-20",
+   "d1": "2024-03-21",
+   "r": false
+  },
+  {
+   "t": "Falso",
+   "a": "Robert T. Kiyosaki",
+   "u": "https://www.buscalibre.com.mx/libro-falso/9786073179980/p/51930475?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073179980",
+   "s": 5,
+   "e": "leido",
+   "d0": "2024-01-16",
+   "d1": "2024-01-27",
+   "r": true
+  },
+  {
+   "t": "Como ganar amigos e influir en las personas",
+   "a": "Dale Carnegie",
+   "u": "https://amzn.to/4gyNcvH",
+   "s": 5,
+   "e": "leido",
+   "r": true
+  },
+  {
+   "t": "Nacidos para ser héroes",
+   "a": "Christopher McDougall",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "La campana de cristal",
+   "a": "Silvia Plath",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "La Fatal Arrogancia",
+   "a": "Hayek, Friedrich A. von",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Asesinato en el Orient Express",
+   "a": "Hercules Poirot",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Almendra",
+   "a": "Won-pyung Sohn",
+   "u": "https://www.buscalibre.com.mx/libro-almendra/9786075573076/p/53175368?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786075573076",
+   "s": 4,
+   "e": "leido",
+   "d0": "2024-07-31",
+   "d1": "2024-08-07",
+   "r": false,
+   "c": "/libros/portadas/9786075573076.jpg"
+  },
+  {
+   "t": "los atomos",
+   "s": 2,
+   "e": "leido",
+   "r": false
+  },
+  {
+   "t": "roba como un artista",
+   "a": "Austin Kleon",
+   "u": "https://www.buscalibre.com.mx/libro-roba-como-un-artista/9786071120854/p/14841787?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786071120854",
+   "s": 5,
+   "e": "leido",
+   "d0": "2025-02-12",
+   "d1": "2025-02-19",
+   "r": true
+  },
+  {
+   "t": "Como hacer que te pasen cosas buenas",
+   "a": "Marian Rojas Estape",
+   "u": "https://www.buscalibre.com.mx/libro-como-hacer-que-te-pasen-cosas-buenas/9786073903356/p/55148728?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073903356",
+   "s": 3,
+   "e": "leido",
+   "d0": "2024-01-07",
+   "d1": "2024-01-15",
+   "r": false
+  },
+  {
+   "t": "Autobiografía de un yogui",
+   "a": "Paramahansa Yogananda",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Pide y se te dará",
+   "a": "Esther y Jerry Hicks",
+   "u": "https://www.buscalibre.com.mx/libro-pide-y-se-te-dara-aprende-a-manifestar-tus-deseo/9786079513962/p/4530021?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786079513962",
+   "s": 2,
+   "e": "leido",
+   "r": false
+  },
+  {
+   "t": "Como piensan los ricos",
+   "a": "Morgan Housel",
+   "u": "https://www.buscalibre.com.mx/libro-la-psicologia-del-dinero-como-piensan-los-ricos/9789504985303/p/55841551?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9789504985303",
+   "s": 3,
+   "e": "leido",
+   "d0": "2024-02-16",
+   "d1": "2024-02-18",
+   "r": true
+  },
+  {
+   "t": "Make Time",
+   "a": "Jake Knapp y John Zaratsky",
+   "u": "https://www.buscalibre.com.mx/libro-make-time/9788417963040/p/52119091?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788417963040",
+   "s": 4,
+   "e": "leido",
+   "d0": "2024-02-27",
+   "d1": "2024-03-04",
+   "r": true,
+   "c": "/libros/portadas/9788417963040.jpg"
+  },
+  {
+   "t": "El caballero de la armadura oxidada",
+   "a": "Robert Fishe",
+   "u": "https://www.buscalibre.com.mx/libro-gran-desafio-del-caballero-de-la-armadura-oxidada-el/9788491119890/p/54586218?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788491119890",
+   "s": 4,
+   "e": "leido",
+   "d1": "2024-02-15",
+   "r": true
+  },
+  {
+   "t": "El mesías de Dune",
+   "a": "Frank Herbert",
+   "u": "https://amzn.to/3VURlBR",
+   "s": 5,
+   "e": "leido",
+   "d0": "2024-03-23",
+   "d1": "2024-03-31",
+   "r": true
+  },
+  {
+   "t": "Just Kids",
+   "a": "Patti Smith",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Dune Casa Capitular",
+   "a": "Frank Herbert",
+   "u": "https://amzn.to/3VURlBR",
+   "s": 5,
+   "e": "leido",
+   "d0": "2024-05-12",
+   "d1": "2024-06-24",
+   "r": true
+  },
+  {
+   "t": "El señor de las moscas",
+   "a": "William Goldin",
+   "u": "https://www.buscalibre.com.mx/libro-lord-of-the-flies-penguin-classics-deluxe-edition/9780143129400/p/47947300?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9780143129400",
+   "s": 5,
+   "e": "leido",
+   "r": true,
+   "c": "/libros/portadas/9780143129400.jpg"
+  },
+  {
+   "t": "Tan poca vida",
+   "a": "Hanya Yanagihara",
+   "u": "https://www.buscalibre.com.mx/libro-tan-poca-vida/9786073148122/p/47548323?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073148122",
+   "s": 5,
+   "e": "leido",
+   "r": true,
+   "c": "/libros/portadas/9786073148122.jpg"
+  },
+  {
+   "t": "La sociedad del cansancio",
+   "a": "Byungchulhan",
+   "u": "https://www.buscalibre.com.mx/libro-la-sociedad-del-cansancio/9788425451447/p/56104403",
+   "i": "9788425451447",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Deja de ser tu",
+   "a": "Joe Dispenza",
+   "u": "https://www.buscalibre.com.mx/libro-deja-de-ser-tu/9786124326066/p/54669822?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786124326066",
+   "s": 1,
+   "e": "leido",
+   "r": false
+  },
+  {
+   "t": "El retrato de Dorian Grey",
+   "a": "Oscar Wilde",
+   "u": "https://www.buscalibre.com.mx/libro-el-retrato-de-dorian-gray/9788483595879/p/55909610?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788483595879",
+   "s": 5,
+   "e": "leido",
+   "r": true
+  },
+  {
+   "t": "Sin novedad en el frente",
+   "a": "Erich Maria Remarque",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Sidharta",
+   "a": "Herman Hesse",
+   "u": "https://www.buscalibre.com.mx/libro-siddhartha/9789688670071/p/4190955?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9789688670071",
+   "s": 5,
+   "e": "leido",
+   "d0": "2024-03-13",
+   "d1": "2024-03-13",
+   "r": true
+  },
+  {
+   "t": "Un mundo feliz",
+   "a": "Aldous Huxley",
+   "u": "https://www.buscalibre.com.mx/libro-un-mundo-feliz/9789588773612/p/28318877?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9789588773612",
+   "s": 5,
+   "e": "leido",
+   "r": true,
+   "c": "/libros/portadas/9789588773612.jpg"
+  },
+  {
+   "t": "Como hacerse inolvidable",
+   "a": "Dale Carnegie",
+   "u": "https://www.buscalibre.com.mx/libro-como-hacerse-inolvidable/9786073168816/p/50356070?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073168816",
+   "s": 2,
+   "e": "leido",
+   "d0": "2024-02-08",
+   "d1": "2024-02-14",
+   "r": false
+  },
+  {
+   "t": "Los 7 habitos de la gente altamente efectiva",
+   "a": "Stephen R. Covey",
+   "u": "https://www.buscalibre.com.mx/libro-los-7-habitos-de-la-gente-altamente-efectiva/9786075693200/p/54527932?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786075693200",
+   "s": 1,
+   "e": "leido",
+   "d0": "2024-06-25",
+   "d1": "2024-11-16",
+   "r": false
+  },
+  {
+   "t": "Hijos de Dune",
+   "a": "Frank Herbert",
+   "u": "https://amzn.to/3VURlBR",
+   "s": 5,
+   "e": "leido",
+   "d0": "2024-03-31",
+   "d1": "2024-04-12",
+   "r": true
+  },
+  {
+   "t": "El sutil arte de que te importe un carajo",
+   "a": "Mark Manson",
+   "u": "https://www.buscalibre.com.mx/libro-el-sutil-arte-de-que-te-importe-un-carajo/9781404117150/p/53944875?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9781404117150",
+   "s": 4,
+   "e": "leido",
+   "r": false
+  },
+  {
+   "t": "No me puedes lastimar",
+   "a": "David Doggins",
+   "e": "por_conseguir"
+  },
+  {
+   "t": "Demian",
+   "a": "Herman Hesse",
+   "u": "https://www.buscalibre.com.mx/libro-demian-y-bajo-las-ruedas/9788435010610/p/4576486?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9788435010610",
+   "s": 5,
+   "e": "leido",
+   "r": true
   },
   {
    "t": "El poder del ahora",
@@ -88,1471 +1553,27 @@
    "r": false
   },
   {
-   "t": "Un mundo feliz",
-   "a": "Aldous Huxley",
-   "u": "https://www.buscalibre.com.mx/libro-un-mundo-feliz/9789588773612/p/28318877?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9789588773612",
-   "s": 5,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "Como hacerse inolvidable",
-   "a": "Dale Carnegie",
-   "u": "https://www.buscalibre.com.mx/libro-como-hacerse-inolvidable/9786073168816/p/50356070?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073168816",
-   "s": 2,
-   "e": "leido",
-   "d0": "2024-02-08",
-   "d1": "2024-02-14",
-   "r": false
-  },
-  {
-   "t": "Los 7 habitos de la gente altamente efectiva",
-   "a": "Stephen R. Covey",
-   "u": "https://www.buscalibre.com.mx/libro-los-7-habitos-de-la-gente-altamente-efectiva/9786075693200/p/54527932?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786075693200",
-   "s": 1,
-   "e": "leido",
-   "d0": "2024-06-25",
-   "d1": "2024-11-16",
-   "r": false
-  },
-  {
-   "t": "Hijos de Dune",
-   "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
-   "s": 5,
-   "e": "leido",
-   "d0": "2024-03-31",
-   "d1": "2024-04-12",
-   "r": true
-  },
-  {
-   "t": "El sutil arte de que te importe un carajo",
-   "a": "Mark Manson",
-   "u": "https://www.buscalibre.com.mx/libro-el-sutil-arte-de-que-te-importe-un-carajo/9781404117150/p/53944875?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9781404117150",
+   "t": "Elon Musk",
+   "a": "Walter Isaacsoon",
+   "u": "https://www.buscalibre.com.mx/libro-elon-musk/9786073836609/p/55578168?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786073836609",
    "s": 4,
    "e": "leido",
+   "d0": "2024-02-19",
+   "d1": "2024-02-26",
    "r": false
   },
   {
-   "t": "No me puedes lastimar",
-   "a": "David Doggins",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Demian",
-   "a": "Herman Hesse",
-   "u": "https://www.buscalibre.com.mx/libro-demian-y-bajo-las-ruedas/9788435010610/p/4576486?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788435010610",
-   "s": 5,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "La sociedad del cansancio",
-   "a": "Byungchulhan",
-   "u": "https://www.buscalibre.com.mx/libro-la-sociedad-del-cansancio/9788425451447/p/56104403",
-   "i": "9788425451447",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Deja de ser tu",
-   "a": "Joe Dispenza",
-   "u": "https://www.buscalibre.com.mx/libro-deja-de-ser-tu/9786124326066/p/54669822?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786124326066",
-   "s": 1,
-   "e": "leido",
-   "r": false
-  },
-  {
-   "t": "El retrato de Dorian Grey",
-   "a": "Oscar Wilde",
-   "u": "https://www.buscalibre.com.mx/libro-el-retrato-de-dorian-gray/9788483595879/p/55909610?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788483595879",
-   "s": 5,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "Sin novedad en el frente",
-   "a": "Erich Maria Remarque",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Sidharta",
-   "a": "Herman Hesse",
-   "u": "https://www.buscalibre.com.mx/libro-siddhartha/9789688670071/p/4190955?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9789688670071",
-   "s": 5,
-   "e": "leido",
-   "d0": "2024-03-13",
-   "d1": "2024-03-13",
-   "r": true
-  },
-  {
-   "t": "El caballero de la armadura oxidada",
-   "a": "Robert Fishe",
-   "u": "https://www.buscalibre.com.mx/libro-gran-desafio-del-caballero-de-la-armadura-oxidada-el/9788491119890/p/54586218?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788491119890",
+   "t": "Al final mueren los dos",
+   "a": "Adam Silvera",
+   "u": "https://www.buscalibre.com.mx/libro-al-final-mueren-los-dos/9786077481232/p/50082693?afiliado=987b2a6de1fbecc3eab6",
+   "i": "9786077481232",
    "s": 4,
    "e": "leido",
-   "d1": "2024-02-15",
-   "r": true
-  },
-  {
-   "t": "El mesías de Dune",
-   "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
-   "s": 5,
-   "e": "leido",
-   "d0": "2024-03-23",
-   "d1": "2024-03-31",
-   "r": true
-  },
-  {
-   "t": "Just Kids",
-   "a": "Patti Smith",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Dune Casa Capitular",
-   "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
-   "s": 5,
-   "e": "leido",
-   "d0": "2024-05-12",
-   "d1": "2024-06-24",
-   "r": true
-  },
-  {
-   "t": "El señor de las moscas",
-   "a": "William Goldin",
-   "u": "https://www.buscalibre.com.mx/libro-lord-of-the-flies-penguin-classics-deluxe-edition/9780143129400/p/47947300?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9780143129400",
-   "s": 5,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "Tan poca vida",
-   "a": "Hanya Yanagihara",
-   "u": "https://www.buscalibre.com.mx/libro-tan-poca-vida/9786073148122/p/47548323?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073148122",
-   "s": 5,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "los atomos",
-   "s": 2,
-   "e": "leido",
-   "r": false
-  },
-  {
-   "t": "roba como un artista",
-   "a": "Austin Kleon",
-   "u": "https://www.buscalibre.com.mx/libro-roba-como-un-artista/9786071120854/p/14841787?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786071120854",
-   "s": 5,
-   "e": "leido",
-   "d0": "2025-02-12",
-   "d1": "2025-02-19",
-   "r": true
-  },
-  {
-   "t": "Como hacer que te pasen cosas buenas",
-   "a": "Marian Rojas Estape",
-   "u": "https://www.buscalibre.com.mx/libro-como-hacer-que-te-pasen-cosas-buenas/9786073903356/p/55148728?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073903356",
-   "s": 3,
-   "e": "leido",
-   "d0": "2024-01-07",
-   "d1": "2024-01-15",
-   "r": false
-  },
-  {
-   "t": "Autobiografía de un yogui",
-   "a": "Paramahansa Yogananda",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Pide y se te dará",
-   "a": "Esther y Jerry Hicks",
-   "u": "https://www.buscalibre.com.mx/libro-pide-y-se-te-dara-aprende-a-manifestar-tus-deseo/9786079513962/p/4530021?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786079513962",
-   "s": 2,
-   "e": "leido",
-   "r": false
-  },
-  {
-   "t": "Como piensan los ricos",
-   "a": "Morgan Housel",
-   "u": "https://www.buscalibre.com.mx/libro-la-psicologia-del-dinero-como-piensan-los-ricos/9789504985303/p/55841551?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9789504985303",
-   "s": 3,
-   "e": "leido",
-   "d0": "2024-02-16",
-   "d1": "2024-02-18",
-   "r": true
-  },
-  {
-   "t": "Make Time",
-   "a": "Jake Knapp y John Zaratsky",
-   "u": "https://www.buscalibre.com.mx/libro-make-time/9788417963040/p/52119091?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788417963040",
-   "s": 4,
-   "e": "leido",
-   "d0": "2024-02-27",
-   "d1": "2024-03-04",
-   "r": true
-  },
-  {
-   "t": "Falso",
-   "a": "Robert T. Kiyosaki",
-   "u": "https://www.buscalibre.com.mx/libro-falso/9786073179980/p/51930475?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073179980",
-   "s": 5,
-   "e": "leido",
-   "d0": "2024-01-16",
-   "d1": "2024-01-27",
-   "r": true
-  },
-  {
-   "t": "Como ganar amigos e influir en las personas",
-   "a": "Dale Carnegie",
-   "u": "https://amzn.to/4gyNcvH",
-   "s": 5,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "Nacidos para ser héroes",
-   "a": "Christopher McDougall",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La campana de cristal",
-   "a": "Silvia Plath",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La Fatal Arrogancia",
-   "a": "Hayek, Friedrich A. von",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Asesinato en el Orient Express",
-   "a": "Hercules Poirot",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Almendra",
-   "a": "Won-pyung Sohn",
-   "u": "https://www.buscalibre.com.mx/libro-almendra/9786075573076/p/53175368?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786075573076",
-   "s": 4,
-   "e": "leido",
-   "d0": "2024-07-31",
-   "d1": "2024-08-07",
-   "r": false
-  },
-  {
-   "t": "El monje que vendío su ferrari",
-   "a": "Robin S. Sharma",
-   "u": "https://www.buscalibre.com.mx/libro-el-monje-que-vendio-su-ferrari/9786073108072/p/4678457?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073108072",
-   "s": 5,
-   "e": "leido",
-   "d0": "2024-11-07",
-   "d1": "2024-11-16",
-   "r": true
-  },
-  {
-   "t": "Green lights",
-   "a": "Matthew McConaughey",
-   "u": "https://amzn.to/3ZW9ErB",
-   "s": 4,
-   "e": "leido",
-   "d0": "2024-08-18",
-   "d1": "2024-09-25",
-   "r": false
-  },
-  {
-   "t": "1984",
-   "a": "George Owell",
-   "u": "https://www.buscalibre.com.mx/libro-1984/9786073116336/p/28897087?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073116336",
-   "s": 5,
-   "e": "leido",
-   "d0": "2025-02-20",
-   "d1": "2025-03-14",
-   "r": true
-  },
-  {
-   "t": "El acto de crear: una Manera de Ser",
-   "a": "Rick Rubin",
-   "u": "https://amzn.to/3PhmawG",
-   "s": 2,
-   "e": "leido",
-   "d0": "2024-03-20",
-   "d1": "2024-03-21",
-   "r": false
-  },
-  {
-   "t": "Lobo Estepario",
-   "a": "Herman Hesse",
-   "u": "https://www.buscalibre.com.mx/libro-lobo-estepario-10-gran-lit/9786071432438/p/55946599?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786071432438",
-   "s": 4,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "El drama del niño dotado",
-   "a": "Alice Miller",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Lo que nunca cambia en un mundo cambiante",
-   "a": "Morgan Housel",
-   "u": "https://www.buscalibre.com.mx/libro-lo-que-nunca-cambia-en-un-mundo-cambiante/9789564084992/p/55903466?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9789564084992",
-   "s": 2,
-   "e": "leido",
-   "d0": "2025-06-09",
-   "d1": "2025-06-22",
-   "r": false
-  },
-  {
-   "t": "Orgullo y prejuicio",
-   "a": "Jane Austen",
-   "u": "https://www.buscalibre.com.mx/libro-orgullo-y-prejuicio-pride-and-prejudice/9788491050018/p/46529481?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788491050018",
-   "e": "librero"
-  },
-  {
-   "t": "Historias de terror Stranger Things",
-   "a": "Matthew J. Gilbert",
-   "s": 3,
-   "e": "leido",
-   "r": false
-  },
-  {
-   "t": "Como acercarse al ajedrez",
-   "s": 2,
-   "e": "leido",
-   "r": false
-  },
-  {
-   "t": "La biblioteca de la media noche",
-   "a": "Matt Haig",
-   "u": "https://amzn.to/3Ph2067",
-   "s": 4,
-   "e": "leido",
-   "d0": "2024-02-03",
-   "d1": "2024-02-07",
-   "r": false
-  },
-  {
-   "t": "Cadáver exquisito",
-   "a": "Agustina Bazterrica",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Titanes",
-   "a": "Tim Ferris",
-   "u": "https://www.buscalibre.com.mx/libro-titanes/9786075691312/p/53610498?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786075691312",
-   "s": 5,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "Esperando A Godot",
-   "a": "Samuel Beckett",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Dune Herejes de Dune",
-   "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
-   "s": 5,
-   "e": "leido",
-   "d0": "2024-04-27",
-   "d1": "2024-05-12",
-   "r": true
-  },
-  {
-   "t": "La vida está en otra parte",
-   "a": "Milan Kundera",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Dios Emperador de Dune",
-   "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
-   "s": 5,
-   "e": "leido",
-   "d0": "2024-04-13",
-   "d1": "2024-04-27",
-   "r": true
-  },
-  {
-   "t": "Meditaciones",
-   "a": "Marco Aurelio",
-   "u": "https://www.buscalibre.com.mx/libro-meditaciones/9788420688466/p/43179638?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788420688466",
-   "s": 5,
-   "e": "leido",
-   "d0": "2026-08-03",
-   "d1": "2026-09-10",
-   "r": true
-  },
-  {
-   "t": "Este dolor no es mio",
-   "a": "Mark Wolynn",
-   "u": "https://www.buscalibre.com.mx/libro-este-dolor-no-es-mio/9788484456810/p/49026748?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788484456810",
-   "s": 2,
-   "e": "leido",
-   "d0": "2024-12-31",
-   "d1": "2025-01-25",
-   "r": false
-  },
-  {
-   "t": "Habitos Atomicos",
-   "a": "James Clear",
-   "u": "https://www.buscalibre.com.mx/libro-habitos-atomicos/9786077476719/p/51505115?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786077476719",
-   "s": 5,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "Hail Mary",
-   "a": "Andy Weir",
-   "u": "https://www.buscalibre.com.mx/libro-proyecto-hail-mary/9786073802536/p/53342672?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073802536",
-   "s": 5,
-   "e": "leido",
-   "d0": "2024-11-15",
-   "d1": "2024-12-02",
-   "r": true
-  },
-  {
-   "t": "Historias de cronopios y de famas",
-   "a": "Julio Cortazar",
-   "u": "https://www.buscalibre.com.mx/libro-historias-de-cronopios-y-de-famas/9786073150620/p/47713164?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073150620",
-   "s": 3,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "Las batallas en el desierto",
-   "a": "Jose Emilio Pacheco",
-   "u": "https://www.buscalibre.com.mx/libro-las-batallas-en-el-desierto/9786073912549/p/61995704?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073912549",
-   "s": 3,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "Rebelion de la granja",
-   "a": "George Owell",
-   "u": "https://www.buscalibre.com.mx/libro-rebelion-en-la-granja/9786073115773/p/28897081?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073115773",
-   "s": 5,
-   "e": "leido",
-   "d0": "2024-01-01",
-   "d1": "2024-01-06",
-   "r": true
-  },
-  {
-   "t": "Pequeño cerdo capitalista",
-   "a": "Sofia Macias",
-   "u": "https://www.buscalibre.com.mx/libro-pequeno-cerdo-capitalista/9786073184786/p/51985821?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073184786",
-   "s": 2,
-   "e": "leido",
-   "r": false
-  },
-  {
-   "t": "A Sangre fria",
-   "a": "Truman Capote",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Relatos",
-   "a": "Hermann Hesse",
-   "u": "https://www.buscalibre.com.mx/libro-relatos/9789706666796/p/45501931?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9789706666796",
-   "s": 3,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "La magia de pensar en grande",
-   "a": "David J. Schwarts",
-   "u": "https://www.buscalibre.com.mx/libro-la-magia-de-pensar-en-grande/9781607380696/p/4853594?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9781607380696",
-   "s": 2,
-   "e": "leido",
-   "r": false
-  },
-  {
-   "t": "Dune",
-   "a": "Frank Herbert",
-   "u": "https://amzn.to/3VURlBR",
-   "s": 5,
-   "e": "leido",
-   "d0": "2024-03-05",
-   "d1": "2024-03-20",
-   "r": true
-  },
-  {
-   "t": "La brevedad de la vida",
-   "a": "Seneca",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El hombre en busca de sentido",
-   "a": "Viktor Frankl",
-   "u": "https://www.buscalibre.com.mx/libro-el-hombre-en-busca-de-sentido/9788425432026/p/47056974?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788425432026",
-   "s": 3,
-   "e": "leido",
-   "d0": "2024-10-20",
-   "d1": "2024-11-07",
-   "r": true
-  },
-  {
-   "t": "La cabaña",
-   "a": "Wm. Paul Young",
-   "u": "https://www.buscalibre.com.mx/libro-la-cabana/9786070733123/p/47338459?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786070733123",
-   "s": 1,
-   "e": "leido",
-   "d0": "2025-08-11",
-   "d1": "2025-08-27",
-   "r": false
-  },
-  {
-   "t": "El almanaque",
-   "a": "Naval Ravikant",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El niño con la pijama de rayas",
-   "a": "John Boyne",
-   "u": "https://www.buscalibre.com.mx/libro-nino-con-el-pijama-de-rayas-el/9786073854009/p/63516061?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073854009",
-   "s": 4,
-   "e": "leido",
-   "d0": "2025-08-01",
-   "d1": "2025-08-11",
-   "r": false
-  },
-  {
-   "t": "Aprende a jugar ajedrez",
-   "a": "Miguel Illescas",
-   "s": 2,
-   "e": "leido",
-   "r": false
-  },
-  {
-   "t": "El desafío de Miho",
-   "a": "Hika Harada",
-   "u": "https://www.buscalibre.com.mx/libro-el-desafio-de-miho/9788419521026/p/54399040?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788419521026",
-   "s": 4,
-   "e": "leido",
-   "d0": "2024-07-12",
-   "d1": "2024-07-30",
-   "r": false
-  },
-  {
-   "t": "Maldicion de Hill House",
-   "a": "Shirley Jackson",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Todo está jodido",
-   "a": "Mark Manson",
-   "u": "https://www.buscalibre.com.mx/libro-todo-esta-jodido/9788417968977/p/52129616?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788417968977",
-   "s": 3,
-   "e": "leido",
-   "d0": "2025-03-14",
-   "d1": "2025-04-16",
-   "r": false
-  },
-  {
-   "t": "Collected Poems",
-   "a": "Silvia Plath",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "SAPIENS",
-   "a": "Yuval Noah Harari",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El lugar",
-   "a": "Annie Ernaux",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Claus y Lucas",
-   "a": "Agota Kristof",
-   "u": "https://www.buscalibre.com.mx/libro-claus-y-lucas/9788417007744/p/51394305?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788417007744",
-   "s": 5,
-   "e": "leido",
-   "d0": "2026-01-14",
-   "d1": "2026-01-24",
-   "r": true
-  },
-  {
-   "t": "El pasajero",
-   "a": "Ulrich Alexander Boschwitz",
-   "u": "https://www.buscalibre.com.mx/libro-el-pasajero/9788417517120/p/51446372?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788417517120",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Maus",
-   "a": "Art Spiegelman",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "En Agosto nos vemos",
-   "a": "Gabriel García Márquez",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Nacidos de la bruma (Mistborn)",
-   "a": "Brandon Sanderson",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Subir a Respirar",
-   "a": "George Orwell",
-   "u": "https://www.buscalibre.com.mx/libro-subir-a-respirar/9786073817219/p/54299772?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073817219",
-   "s": 4,
-   "e": "leido",
-   "d0": "2025-08-28",
-   "d1": "2025-09-11",
-   "r": true
-  },
-  {
-   "t": "Fahrenheit 541",
-   "a": "Bradbury",
-   "u": "https://www.buscalibre.com.mx/libro-fahrenheit-451/9786073806749/p/53603890?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073806749",
-   "s": 5,
-   "e": "leido",
-   "r": true
-  },
-  {
-   "t": "Moby Dick",
-   "a": "Herman Melville",
-   "u": "https://www.buscalibre.com.mx/libro-moby-dick/9789588925424/p/46796897?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9789588925424",
-   "e": "librero"
-  },
-  {
-   "t": "Comeras flores",
-   "a": "Lucía Solla Sobral",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La gratitudes",
-   "a": "Delphine De Vigan",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La metamorfosis",
-   "a": "Franz Kafka",
-   "u": "https://www.buscalibre.com.mx/libro-la-metamorfosis/9786070742255/p/48658183?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786070742255",
-   "s": 5,
-   "e": "leido",
-   "d0": "2026-01-24",
-   "d1": "2026-02-13",
-   "r": true
-  },
-  {
-   "t": "The deep sky",
-   "a": "Yume Kitasei",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "On Earth We’re Briefly Gorgeous",
-   "a": "Ocean Vuong",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Hisotory of the Rain",
-   "a": "Niall Williams",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "East of Eden",
-   "a": "John Steinbeck",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "I Who Have Kwnon Men",
-   "a": "Jaqueline Harpman",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Dinastías",
-   "a": "Ramón Alberto Garza",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El llano en llamas",
-   "a": "Juan Rulfo",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Autobiografia de Irene",
-   "a": "Silvina Ocampo",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Del color de la noche",
-   "a": "Nell Leyshon",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La historia de mis dientes",
-   "a": "Valeria Luiselli",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La perra",
-   "a": "Pilar Quintana",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Los hermanos Karamazov",
-   "a": "Fiodor M. Dostoievski",
-   "u": "https://www.buscalibre.com.mx/libro-los-hermanos-karamazov/9788420650807/p/4142137?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788420650807",
-   "e": "librero"
-  },
-  {
-   "t": "When God Was a Woman",
-   "a": "Merlin Stone",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La bruja",
-   "a": "Jules Michelet",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "The Social Sex",
-   "a": "Marilyn Yalom",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Meridiano de Sangre",
-   "a": "Corman McCarthy",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "No tengo boca y debo gritar",
-   "a": "Harlan Ellison",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El capital",
-   "a": "Karl Marx",
-   "u": "https://www.buscalibre.com.mx/libro-capital-volume-i-a-critique-of-political-economy-v-1/9780140445688/p/1542257?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9780140445688",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El desaparecido",
-   "a": "Franz Kafka",
-   "u": "https://www.buscalibre.com.mx/libro-el-desaparecido/9788446055662/p/63643285?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788446055662",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Ortodoxia",
-   "a": "G. K. Chesterton",
-   "u": "https://www.buscalibre.com.mx/libro-ortodoxia/9788415689508/p/27397394?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788415689508",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "The Trial / El Proceso",
-   "a": "Franz Kafka",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La Fontana de Oro",
-   "a": "Perez Galdos",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Noches Blancas",
-   "a": "Fiodor M. Dostoievski",
-   "u": "https://www.buscalibre.com.mx/libro-noches-blancas/9788416440047/p/46671311?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788416440047",
-   "s": 5,
-   "e": "leido",
-   "d0": "2026-01-08",
-   "d1": "2026-01-13",
-   "r": true
-  },
-  {
-   "t": "Guerra y Paz",
-   "a": "Lev Tolstoy",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El conde de montecristo",
-   "a": "Alejandro Dumas",
-   "u": "https://www.buscalibre.com.mx/libro-el-conde-de-montecristo-the-count-of-montecristo/9788491052425/p/47627469?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788491052425",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El Jugador",
-   "a": "Fiodor M. Dostoievski",
-   "u": "https://www.buscalibre.com.mx/libro-el-jugador/9786076410929/p/66639706?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786076410929",
-   "e": "librero"
-  },
-  {
-   "t": "Franskenstein",
-   "a": "Mary Shelley",
-   "u": "https://www.buscalibre.com.mx/libro-frankenstein/9788434235441/p/3037155?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788434235441",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El alquimista",
-   "a": "Paulo Coelho",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Vamos a comprar un poeta",
-   "a": "Afonso Cruz",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Un viaje llamado vida",
-   "a": "Banana Yoshimoto",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Los naufragios del corazón",
-   "a": "Benoite Groult",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El amor despues del amor",
-   "a": "Laura Ferrero",
-   "u": "https://www.buscalibre.com.mx/libro-el-amor-despues-del-amor/9788410496743/p/63707444?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788410496743",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "The Courage to be Disliked",
-   "a": "Ichiro Kishimi and Fumitake Koga",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Choosing me",
-   "a": "Kelly Weekers",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Kim Ji-young, nacida en 1982",
-   "a": "Cho Nam-joo",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Indigno de ser humano",
-   "a": "Osamu Dazai",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La sombra del viento",
-   "a": "Carlos Ruiz Zafon",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El amor en tiempos de colera",
-   "a": "Gabriel Garcia Marquez",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El Aleph",
-   "a": "Jorge Luis Borges",
-   "u": "https://www.buscalibre.com.mx/libro-aleph-el/9786073104913/p/4232132?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073104913",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Cronica de una muerte anunciada",
-   "a": "Gabriel Garcia Marquez",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El hombre invisible",
-   "a": "H. G. Wells",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Rayuela",
-   "a": "Juilio Cortazar",
-   "e": "librero"
-  },
-  {
-   "t": "La invención de Morel",
-   "a": "Adolfo Bioy Casares",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Tender is the Flesh",
-   "a": "Agustina Bazterrica",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Never let me go",
-   "a": "Kazuo Ishiguro",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "A radical history of the world",
-   "a": "Neil Faulkner",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Aquiles",
-   "a": "Madeline Miller",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El verano en que mi madre tuvo los ojos verdes",
-   "a": "Tatiana Tibuleac",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Un viaje para los mejores",
-   "a": "J. F. Gomez",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Hamlet",
-   "a": "W. Shakespeare",
-   "u": "https://www.buscalibre.com.mx/libro-hamlet/9788491050438/p/46529592?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788491050438",
-   "e": "librero"
-  },
-  {
-   "t": "El extraño caso del Dr. Jekyll y Mr Hyde",
-   "a": "Robert L. Stevenson",
-   "u": "https://www.buscalibre.com.mx/libro-el-extrano-caso-del-dr-jekyll-y-mr-hyde/9788418145735/p/54384275?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788418145735",
-   "e": "librero"
-  },
-  {
-   "t": "El manantial",
-   "a": "Ayn Rand",
-   "e": "librero"
-  },
-  {
-   "t": "La muerte feliz",
-   "a": "Albert Camus",
-   "u": "https://www.buscalibre.com.mx/libro-la-muerte-feliz/9786073816120/p/54225298?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073816120",
-   "s": 3,
-   "e": "leido",
-   "d0": "2026-03-11",
-   "d1": "2026-06-09",
-   "r": true
-  },
-  {
-   "t": "Mindfulness",
-   "e": "librero"
-  },
-  {
-   "t": "La enemiga",
-   "a": "Irène Némirovsky",
-   "u": "https://www.buscalibre.com.mx/libro-enemiga-la/9786073858519/p/64238539?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073858519",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Don Juan",
-   "a": "Lord Byron",
-   "u": "https://www.buscalibre.com.mx/libro-don-juan/9788491056225/p/55779515?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788491056225",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Narrativa completa",
-   "a": "Dorothy Parker",
-   "u": "https://www.buscalibre.com.mx/libro-narrativa-completa/9788497933469/p/1068205?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788497933469",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Medea",
-   "a": "Eurípides",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Insolación",
-   "a": "Emilia Pardo Bazán",
-   "u": "https://www.buscalibre.com.mx/libro-insolacion/9786073843270/p/56140945?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073843270",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Ensayo sobre la ceguera",
-   "a": "José Saramago",
-   "u": "https://www.buscalibre.com.mx/libro-ensayo-sobre-la-ceguera/9789588940212/p/47011956?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9789588940212",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La guerra de los mundos",
-   "a": "H.G. Wells",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Los documentos de Aspern",
-   "a": "Henry James",
-   "u": "https://www.buscalibre.com.mx/libro-los-documentos-de-aspern/9786073836098/p/55590624?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073836098",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Libro de la vida",
-   "a": "Santa Teresa de Jesús",
-   "u": "https://www.buscalibre.com.mx/libro-libro-de-la-vida/9786073835114/p/55582061?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073835114",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Opresión y resistencia",
-   "a": "George Orwell",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El dinero",
-   "a": "Émile Zola",
-   "u": "https://www.buscalibre.com.mx/libro-el-dinero/9788491054979/p/54456608?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788491054979",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Oscar Wilde: Cuentos completos",
-   "a": "Oscar Wilde",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Mecanismos internos",
-   "a": "J.M. Coetzee",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Bouvard y Pécuchet",
-   "a": "Gustave Flaubert",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Julio César",
-   "a": "William Shakespeare",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Algo ha pasado",
-   "a": "Joseph Heller",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Tentación",
-   "a": "János Székely",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Los Maia",
-   "a": "José Maria Eca de Queirós",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La muerte en Venecia",
-   "a": "Thomas Mann",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Romeo y Julieta",
-   "a": "William Shakespeare",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Un verano con Homero",
-   "a": "Sylvain Tesson",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "En nuestro tiempo",
-   "a": "Ernest Hemingway",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El rey Lear",
-   "a": "William Shakespeare",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Robinson Crusoe",
-   "a": "Daniel Defoe",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Mujercitas",
-   "a": "Louisa May Alcott",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El idiota",
-   "a": "Fiodor M. Dostoievski",
-   "u": "https://www.buscalibre.com.mx/libro-el-idiota/9788420609072/p/14871725?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788420609072",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Popol Vuh",
-   "a": "Anonimo",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Al faro",
-   "a": "Virginia Woolf",
-   "u": "https://www.buscalibre.com.mx/libro-al-faro/9788420609300/p/14871735?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788420609300",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El hombre de la situación",
-   "a": "Manuel Payno",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Las aventuras de Pinocho",
-   "a": "Carlo Collodi",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Nuestra señora de París",
-   "a": "Victor Hugo",
-   "u": "https://www.buscalibre.com.mx/libro-nuestra-senora-de-paris/9788412045017/p/54117214?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788412045017",
-   "s": 5,
-   "e": "leido",
-   "d0": "2026-02-16",
-   "d1": "2026-04-14",
-   "r": true
-  },
-  {
-   "t": "El mundo de ayer",
-   "a": "Stefan Zweig",
-   "u": "https://www.buscalibre.com.mx/libro-el-mundo-de-ayer/9788411489416/p/63433078?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788411489416",
-   "s": 5,
-   "e": "leido",
-   "d0": "2026-04-15",
-   "d1": "2026-05-31",
-   "r": true
-  },
-  {
-   "t": "Los demonios",
-   "a": "Fiodor M. Dostoievski",
-   "u": "https://www.buscalibre.com.mx/libro-los-demonios/9788420664453/p/4901649?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788420664453",
-   "e": "librero"
-  },
-  {
-   "t": "The Unabridged Journals of Sylvia Plath",
-   "a": "Sylvia Plath",
-   "u": "https://www.buscalibre.com.mx/libro-the-unabridged-journals-of-sylvia-plath/9780385720250/p/1603347?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9780385720250",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Eugenio Oneguin",
-   "a": "Alexander Pushkin",
-   "u": "https://www.buscalibre.com.mx/libro-eugenio-oneguin/9788437618234/p/3042558?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788437618234",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Crimen y Castigo",
-   "a": "Fiodor M. Dostoievski",
-   "u": "https://www.buscalibre.com.mx/libro-crimen-y-castigo/9786076410882/p/66639657?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786076410882",
-   "e": "librero"
-  },
-  {
-   "t": "Emma",
-   "a": "Jane Austen",
-   "u": "https://www.buscalibre.com.mx/libro-emma/9788437615608/p/3042451?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788437615608",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Ulises",
-   "a": "James Joyce",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "La caida",
-   "a": "Albert Camus",
-   "u": "https://www.buscalibre.com.mx/libro-la-caida/9788466354769/p/53153819?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788466354769",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El Cuento de la Criada",
-   "a": "Margaret Atwood",
-   "u": "https://www.buscalibre.com.mx/libro-el-cuento-de-la-criada/9786073193078/p/52782747?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073193078",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Al este del eden",
-   "a": "John Steinbeck",
-   "u": "https://www.buscalibre.com.mx/libro-al-este-del-eden/9786070787720/p/54241605?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786070787720",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Un hombre que amaba los perros",
-   "a": "L,eonardo Padura",
-   "u": "https://www.buscalibre.com.mx/libro-el-hombre-que-amaba-a-los-perros-edicion-15-aniversario/9786073919593/p/62972300?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073919593",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Corruptible",
-   "a": "Brian Klass",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Anna Karenina",
-   "a": "Lev Tolstoy",
-   "u": "https://www.buscalibre.com.mx/libro-anna-karenina/9788413624037/p/53420852?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788413624037",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Wuthering Heights",
-   "a": "Emily Brontë",
-   "u": "https://www.buscalibre.com.mx/libro-wuthering-heights/9780141439556/p/1652483?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9780141439556",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El Mito de Sísifo",
-   "a": "Albert Camus",
-   "u": "https://www.buscalibre.com.mx/libro-el-mito-de-sisifo/9786073826334/p/54505518?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073826334",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Don Quijote de la Mancha",
-   "a": "Miguel De Cervantes Saavedra",
-   "u": "https://www.buscalibre.com.mx/libro-don-quijote-de-la-mancha/9788491050759/p/46530035?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788491050759",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Middlemarch",
-   "a": "George Eliot",
-   "u": "https://www.buscalibre.com.mx/libro-middlemarch/9788437627267/p/4122884?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788437627267",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Netochka Nezvanova",
-   "a": "Fiodor M. Dostoievski",
-   "u": "https://www.buscalibre.com.mx/libro-netochka-nezvanova-penguin-classics/9780140444551/p/1536987?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9780140444551",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "The Limits of Free Will",
-   "a": "Paul Russell",
-   "u": "https://www.buscalibre.com.mx/libro-the-limits-of-free-will/9780190627607/p/49394865?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9780190627607",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Susan Sontag On Photography",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Jane Eyre",
-   "a": "Charlotte Bronte",
-   "u": "https://www.buscalibre.com.mx/libro-jane-eyre/9788437614496/p/982804?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788437614496",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "Los miserables",
-   "a": "Victor Hugo",
-   "u": "https://www.buscalibre.com.mx/libro-los-miserables/9788494662065/p/48772866?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788494662065",
-   "e": "librero"
-  },
-  {
-   "t": "Divina Comedia",
-   "a": "Dante Alighieri",
-   "u": "https://www.buscalibre.com.mx/libro-divina-comedia/9788437632186/p/39259227?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788437632186",
-   "e": "librero"
-  },
-  {
-   "t": "Asi Hablo Zaratustra",
-   "a": "Friedrich Nietzsche",
-   "u": "https://www.buscalibre.com.mx/libro-asi-hablo-zaratustra/9788437625027/p/2725607?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788437625027",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "DE RATONES Y HOMBRES",
-   "a": "JOHN STEINBECK",
-   "e": "por_conseguir"
-  },
-  {
-   "t": "El extranjero",
-   "a": "Albert Camus",
-   "u": "https://www.buscalibre.com.mx/libro-el-extranjero/9786073803847/p/53342665?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073803847",
-   "e": "librero"
-  },
-  {
-   "t": "Más allá del bien y del mal",
-   "a": "Friedrich Nietzche",
-   "e": "librero"
-  },
-  {
-   "t": "Crepúsculo de los Ídolos",
-   "a": "Friedrich Nietzsche",
-   "u": "https://www.buscalibre.com.mx/libro-crepusculo-de-los-idolos/9788420675411/p/30227635?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788420675411",
-   "e": "leyendo",
-   "d0": "2026-09-10"
-  },
-  {
-   "t": "Apuntes del Subsuelo",
-   "a": "Fiodor M. Dostoievski",
-   "u": "https://www.buscalibre.com.mx/libro-apuntes-del-subsuelo/9786076410936/p/66639714?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786076410936",
-   "s": 5,
-   "e": "leido",
-   "d0": "2026-06-01",
-   "d1": "2026-06-26",
-   "r": true
-  },
-  {
-   "t": "El Principe",
-   "a": "Nicolás Maquiavelo",
-   "u": "https://www.buscalibre.com.mx/libro-el-principe/9786075942186/p/63716668?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786075942186",
-   "s": 5,
-   "e": "leido",
-   "d0": "2026-06-27",
-   "d1": "2026-07-25",
-   "r": true
-  },
-  {
-   "t": "La muerte de Iván Ilich. Jadzhí Murat",
-   "a": "Lev Tolstoy",
-   "u": "https://www.buscalibre.com.mx/libro-la-muerte-de-ivan-ilich-hadyi-murad/9788420674339/p/4142168",
-   "i": "9788420674339",
-   "s": 5,
-   "e": "leido",
-   "d0": "2026-07-26",
-   "d1": "2026-08-02",
-   "r": true
-  },
-  {
-   "t": "La sociedad del espectaculo",
-   "a": "Guy Debord",
-   "u": "https://www.buscalibre.com.mx/libro-la-sociedad-del-espectaculo/9789508891761/p/4663660?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9789508891761",
-   "e": "librero"
-  },
-  {
-   "t": "La Iliada",
-   "a": "Homero",
-   "u": "https://www.buscalibre.com.mx/libro-iliada/9788437621975/p/1515320?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788437621975",
-   "e": "leyendo",
-   "d0": "2026-09-06"
-  },
-  {
-   "t": "Dune",
-   "a": "Frank Herbert",
-   "u": "https://www.buscalibre.com.mx/libro-dune/9786073194648/p/52904284?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9786073194648",
-   "s": 5,
-   "e": "leyendo",
-   "d0": "2026-09-06",
-   "r": true,
-   "re": true
-  },
-  {
-   "t": "Kitchen",
-   "a": "Banana Yoshimoto",
-   "u": "https://www.buscalibre.com.mx/libro-kitchen/9788483837061/p/29170251?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788483837061",
-   "e": "librero"
-  },
-  {
-   "t": "Odisea",
-   "a": "Homero",
-   "u": "https://www.buscalibre.com.mx/libro-odisea/9788437606408/p/1515207?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788437606408",
-   "e": "librero"
-  },
-  {
-   "t": "Fausto",
-   "a": "Johann Wolfgang von Goethe",
-   "u": "https://www.buscalibre.com.mx/libro-fausto/9788437606774/p/981380?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788437606774",
-   "e": "librero"
-  },
-  {
-   "t": "Cuanta tierra necesita el hombre y otros cuentos",
-   "a": "Lev Tolstoy",
-   "u": "https://www.buscalibre.com.mx/libro-cuanta-tierra-necesita-el-hombre-y-otros-cuentos/9788420685915/p/41826772?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788420685915",
-   "e": "librero"
-  },
-  {
-   "t": "La Sumisa",
-   "a": "Fiodor M. Dostoievski",
-   "u": "https://www.buscalibre.com.mx/libro-la-sumisa/9788419075789/p/54394426?afiliado=987b2a6de1fbecc3eab6",
-   "i": "9788419075789",
-   "e": "librero"
+   "d0": "2024-08-05",
+   "d1": "2024-08-16",
+   "r": false,
+   "c": "/libros/portadas/9786077481232.jpg"
   }
  ]
 }
