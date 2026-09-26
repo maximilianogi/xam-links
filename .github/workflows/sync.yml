@@ -2,7 +2,7 @@ name: Sincronizar con Notion
 
 on:
   schedule:
-    - cron: "0 12 * * *"   # todos los días a las 6:00 am (hora de CDMX)
+    - cron: "0 */6 * * *"  # cada 6 horas (así el video más reciente aparece pronto)
   workflow_dispatch:        # botón "Run workflow" para actualizar al momento
     inputs:
       forzar:
@@ -43,6 +43,7 @@ jobs:
           git config user.name "wvxam-sync"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add libros peliculas
+          if [ -f recientes.json ]; then git add recientes.json; fi
           if git diff --cached --quiet; then
             echo "No hubo cambios."
           else

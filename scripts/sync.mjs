@@ -15,6 +15,12 @@ const BASES = {
   peliculas: "2f38a9a670468021b5cbdecd0f3896c6",
 };
 
+// Canales de YouTube para la tarjeta "Lo más reciente" (se muestra el último video de cada uno).
+const CANALES = [
+  { nombre: "YouTube", id: "UCh5KRE1qmG4194xMykpT2mA" },
+  { nombre: "Podcast", id: "UCWrXWoyztCWWViUdJi4n-1g" },
+];
+
 // Títulos distintos que son la misma película (para no mostrarla como pendiente si ya la viste).
 const ALIAS_PELICULAS = {
   "Train Dreams": "Dreams Trains",
@@ -368,6 +374,27 @@ async function datosTMDB(pelis) {
   console.log(`\nRESUMEN PÓSTERS: ${faltan.length} sin póster${faltan.length ? ": " + faltan.join(" | ") : ""}`);
 }
 
+/* ---------- YouTube: último video de cada canal ---------- */
+const entidades = t => (t || "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+async function ultimosVideos() {
+  const salida = [];
+  for (const c of CANALES) {
+    try {
+      const r = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${c.id}`, { headers: { "User-Agent": UA } });
+      if (!r.ok) { console.log(`YouTube (${c.nombre}) respondió ${r.status}`); continue; }
+      const xml = await r.text();
+      const videos = [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].map(m => {
+        const e = m[1]; const g = re => (e.match(re) || [])[1];
+        return { id: g(/<yt:videoId>([^<]+)</), titulo: entidades(g(/<title>([^<]*)</)), url: g(/<link rel="alternate" href="([^"]+)"/), fecha: (g(/<published>([^<]+)</) || "").slice(0, 10) };
+      }).filter(v => v.id);
+      // Se prefieren videos largos sobre Shorts
+      const v = videos.find(x => x.url && !x.url.includes("/shorts/")) || videos[0];
+      if (v) { salida.push({ canal: c.nombre, ...v }); console.log(`YouTube (${c.nombre}): ${v.titulo}`); }
+    } catch (e) { console.log(`Error con YouTube (${c.nombre}): ${e.message}`); }
+  }
+  return salida;
+}
+
 /* ---------- Guardar solo si cambió ---------- */
 async function guardar(archivo, items) {
   const file = path.join(ROOT, archivo);
@@ -378,6 +405,9 @@ async function guardar(archivo, items) {
 }
 
 /* ---------- Principal ---------- */
+const videos = await ultimosVideos();
+if (videos.length) await guardar("recientes.json", videos);
+
 const libros = transformarLibros(await leerBase(BASES.libros));
 await portadas(libros);
 await guardar("libros/libros.json", libros.map(({ k, manual, ...b }) => quitarVacios(b)));

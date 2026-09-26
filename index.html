@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>xam</title>
-<meta name="description" content="Links de xam: TikTok, Instagram, YouTube, Twitch, Spotify y contacto para marcas.">
+<meta name="description" content="xam: TikTok, Instagram, YouTube, podcast, música, lecturas, películas, proyectos y contacto para marcas.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@ a{color:inherit;text-decoration:none}
 .hero img{width:100%;aspect-ratio:700/765;object-fit:cover;transform:scale(1.25);transform-origin:50% 35%}
 .hero::after{
   content:"";position:absolute;inset:0;
-  background:linear-gradient(to bottom, transparent 45%, var(--bg) 97%);
+  background:linear-gradient(to bottom, transparent 38%, var(--bg) 90%);
 }
 .name{
   position:relative;z-index:1;margin:-0.62em 0 0;padding:0 20px;
@@ -73,23 +73,45 @@ a{color:inherit;text-decoration:none}
 .btn-dark{background:var(--signal-ink);color:var(--signal)}
 .btn-ghost{background:transparent;color:var(--signal-ink);box-shadow:inset 0 0 0 1.5px var(--signal-ink)}
 
-/* Listas: dos mosaicos lado a lado */
+/* Listas: dos mosaicos vivos lado a lado */
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 12px 0}
 .tile{
-  background:var(--surface);border-radius:18px;padding:16px;min-height:150px;
-  display:flex;flex-direction:column;justify-content:space-between;
+  position:relative;background:var(--surface);border-radius:18px;padding:16px;min-height:172px;
+  display:flex;flex-direction:column;justify-content:space-between;gap:14px;
 }
 .tile .glyph{width:34px;height:34px}
-.tile strong{font-size:19px;line-height:1.15;letter-spacing:-.01em}
-.tile span{display:block;color:var(--muted);font-size:14px;margin-top:4px}
+.tile strong{display:block;font-size:19px;line-height:1.15;letter-spacing:-.01em}
+.tile .now{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:14px;line-height:1.3;margin-top:4px}
+.tile .count{display:block;color:var(--muted);font-size:13px;margin-top:3px}
+.go{position:absolute;top:14px;right:16px;color:var(--muted);font-size:17px;line-height:1}
+.stack{display:flex;height:58px;align-items:flex-end}
+.stack img{width:39px;height:58px;object-fit:cover;border-radius:3px 5px 5px 3px;box-shadow:0 4px 10px -4px rgba(0,0,0,.45);background:var(--surface-2)}
+.stack img + img{margin-left:-14px}
 
-/* Resto: filas simples */
+/* Lo más reciente */
+.section-title{margin:30px 20px 10px;font-size:15px;font-weight:600;color:var(--muted)}
+.recent{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 12px}
+.recent a{display:block;background:var(--surface);border-radius:18px;overflow:hidden;position:relative}
+.recent img{width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--surface-2)}
+.recent .txt{padding:10px 12px 13px}
+.recent .src{font-size:12px;font-weight:600;color:var(--muted)}
+.recent .ttl{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:14px;font-weight:600;line-height:1.25;margin-top:3px}
+.recent .when{display:block;font-size:12px;color:var(--muted);margin-top:5px}
+
+/* Filas */
 .rows{margin:10px 12px 0;background:var(--surface);border-radius:18px;overflow:hidden}
-.rows a{display:flex;align-items:center;gap:14px;padding:16px}
-.rows a + a{border-top:1px solid var(--line)}
+.rows > *{display:flex;align-items:center;gap:14px;padding:16px}
+.rows > * + *{border-top:1px solid var(--line)}
 .rows .glyph{width:26px;height:26px;flex:none}
+.rows .txt{flex:1;min-width:0}
 .rows strong{font-weight:600}
 .rows span{display:block;color:var(--muted);font-size:14px}
+.rows .arrow{color:var(--muted);flex:none}
+.rows .soon{color:var(--muted)}
+.rows .soon strong{color:var(--ink)}
+.rows .soon .arrow{font-size:13px}
+.projects-title{margin-top:30px}
+.projects{margin-top:0}
 
 .glyph{stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .foot{margin:36px 20px 0;color:var(--muted);font-size:13px}
@@ -97,7 +119,7 @@ a{color:inherit;text-decoration:none}
 a:focus-visible,button:focus-visible{outline:2.5px solid var(--ink);outline-offset:3px}
 .brands a:focus-visible,.brands button:focus-visible{outline-color:var(--signal-ink)}
 @media (hover:hover){
-  .tile:hover,.rows a:hover{background:var(--surface-2)}
+  .tile:hover,.rows a:hover,.recent a:hover{background:var(--surface-2)}
   .socials a:hover{background:var(--surface)}
 }
 .toast{
@@ -129,7 +151,18 @@ a:focus-visible,button:focus-visible{outline:2.5px solid var(--ink);outline-offs
   </section>
 
   <div class="tiles" id="tiles"></div>
+
+  <section id="recent-wrap" aria-labelledby="recent-title" hidden>
+    <h2 class="section-title" id="recent-title">Lo más reciente</h2>
+    <div class="recent" id="recent"></div>
+  </section>
+
   <nav class="rows" id="rows" aria-label="Más links"></nav>
+
+  <section aria-labelledby="projects-title">
+    <h2 class="section-title projects-title" id="projects-title">Otros proyectos</h2>
+    <div class="rows projects" id="projects"></div>
+  </section>
 
   <p class="foot">© xam</p>
 </main>
@@ -151,15 +184,21 @@ const CONFIG = {
     { label: "Mi Podcast", extra: "1K", url: "https://www.youtube.com/@ElDesgraciadopodcast" },
     { label: "Twitch", extra: "25K", url: "https://www.twitch.tv/xaaaaaaaaaam" }
   ],
+  // Los mosaicos se actualizan solos con lo que sincroniza Notion.
   tiles: [
-    { label: "Libros que estoy leyendo", sub: "69 leídos", icon: "book", url: "/libros" },
-    { label: "Películas que he visto", sub: "29 vistas", icon: "film", url: "/peliculas" },
+    { label: "Lecturas",  icon: "book", url: "/libros",    datos: "libros" },
+    { label: "Películas", icon: "film", url: "/peliculas", datos: "peliculas" },
   ],
   rows: [
-    { label: "Spotify", sub: "x4m", icon: "music", url: "#" },
-    { label: "Mi Twitch", sub: "Directos", icon: "live", url: "#" },
+    { label: "Mi música en Spotify", sub: "Canciones", icon: "music", url: "https://open.spotify.com/artist/79wdjPfxv8eUyx9dFAdaqE" },
     // Ejemplo de link programado:
     // { label: "Reel con Marca X", sub: "Código XAM10", icon: "star", url: "#", desde: "2026-10-01", hasta: "2026-10-15" },
+  ],
+  // Proyectos: sin url (o con pronto: true) aparecen como "Próximamente".
+  proyectos: [
+    { label: "serendip.cool", sub: "Escribe aquí de qué trata", icon: "spark", url: "https://serendip.cool" },
+    { label: "El mito de Sísifo", sub: "Un juego sobre empujar la roca", icon: "rock", url: "https://elmitodesisifo.com" },
+    { label: "Cuaderno", sub: "Para practicar la escritura en otros idiomas", icon: "pen", pronto: true },
   ],
 };
 
@@ -169,6 +208,9 @@ const ICONS = {
   music:'<circle cx="7" cy="17" r="3"/><circle cx="17" cy="15" r="3"/><path d="M10 17V5l10-2v12"/>',
   live:'<circle cx="12" cy="12" r="2"/><path d="M8.5 8.5a5 5 0 0 0 0 7M15.5 8.5a5 5 0 0 1 0 7M5.6 5.6a9 9 0 0 0 0 12.8M18.4 5.6a9 9 0 0 1 0 12.8"/>',
   star:'<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',
+  spark:'<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M18 6l-2.5 2.5M8.5 15.5L6 18"/>',
+  rock:'<path d="M3 20h18"/><path d="M7 20l3-9 4-1 3 3 1 7"/><circle cx="12" cy="7" r="2.2"/>',
+  pen:'<path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M14 6l3 3"/>',
 };
 const svg = n => `<svg class="glyph" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n]||ICONS.star}</svg>`;
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -184,11 +226,71 @@ const attrs = u => `href="${esc(u)}"${/^https?:/.test(u) ? ' target="_blank" rel
 document.getElementById('socials').innerHTML = CONFIG.socials.filter(vigente).map(s =>
   `<li><a ${attrs(s.url)}>${esc(s.label)}${s.extra ? ` <small>${esc(s.extra)}</small>` : ''}</a></li>`).join('');
 
-document.getElementById('tiles').innerHTML = CONFIG.tiles.filter(vigente).map(t =>
-  `<a class="tile" ${attrs(t.url)}>${svg(t.icon)}<div><strong>${esc(t.label)}</strong><span>${esc(t.sub||'')}</span></div></a>`).join('');
+const flecha = u => /^https?:/.test(u) ? "↗" : "→";
 
-document.getElementById('rows').innerHTML = CONFIG.rows.filter(vigente).map(r =>
-  `<a ${attrs(r.url)}>${svg(r.icon)}<div><strong>${esc(r.label)}</strong>${r.sub ? `<span>${esc(r.sub)}</span>` : ''}</div></a>`).join('');
+function fila(r){
+  const cuerpo = `${svg(r.icon)}<div class="txt"><strong>${esc(r.label)}</strong>${r.sub ? `<span>${esc(r.sub)}</span>` : ''}</div>`;
+  if (r.pronto || !r.url) return `<div class="soon">${cuerpo}<span class="arrow">Próximamente</span></div>`;
+  return `<a ${attrs(r.url)}>${cuerpo}<span class="arrow" aria-hidden="true">${flecha(r.url)}</span></a>`;
+}
+document.getElementById('rows').innerHTML = CONFIG.rows.filter(vigente).map(fila).join('');
+document.getElementById('projects').innerHTML = CONFIG.proyectos.filter(vigente).map(fila).join('');
+
+/* Mosaicos: primero se pintan sencillos y luego se llenan con los datos de Notion */
+function mosaico(t, extra = {}){
+  const visual = extra.portadas?.length
+    ? `<div class="stack">${extra.portadas.slice(0,3).map(src => `<img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`).join('')}</div>`
+    : svg(t.icon);
+  return `<a class="tile" ${attrs(t.url)} data-k="${t.datos||''}">${visual}<span class="go" aria-hidden="true">→</span>
+    <div><strong>${esc(t.label)}</strong>${extra.ahora ? `<span class="now">${esc(extra.ahora)}</span>` : ''}${extra.total ? `<span class="count">${esc(extra.total)}</span>` : ''}</div></a>`;
+}
+const tilesEl = document.getElementById('tiles');
+const TILES = CONFIG.tiles.filter(vigente);
+tilesEl.innerHTML = TILES.map(t => mosaico(t)).join('');
+
+const cargar = u => fetch(u, { cache: "no-cache" }).then(r => r.ok ? r.json() : Promise.reject(r.status));
+const resumen = {
+  async libros(){
+    const { items } = await cargar('/libros/libros.json');
+    const leyendo = items.filter(b => b.e === 'leyendo').sort((a,b) => (b.d0||'').localeCompare(a.d0||''));
+    const leidos = items.filter(b => b.e === 'leido').length;
+    const ahora = leyendo.length ? `Leyendo: ${leyendo[0].t}` : '';
+    const total = leyendo.length > 1 ? `${leyendo.length} en curso, ${leidos} leídos` : `${leidos} leídos`;
+    return { ahora, total, portadas: leyendo.map(b => b.c).filter(Boolean) };
+  },
+  async peliculas(){
+    const { items } = await cargar('/peliculas/peliculas.json');
+    const vistas = items.filter(p => p.e === 'vista');
+    const recientes = vistas.filter(p => p.d1).sort((a,b) => b.d1.localeCompare(a.d1));
+    return {
+      ahora: recientes.length ? `Última: ${recientes[0].t}` : '',
+      total: `${vistas.length} vistas`,
+      portadas: recientes.filter(p => p.p).slice(0,3).map(p => `https://image.tmdb.org/t/p/w154${p.p}`),
+    };
+  },
+};
+TILES.forEach(async (t, i) => {
+  if (!resumen[t.datos]) return;
+  try { const extra = await resumen[t.datos](); tilesEl.children[i].outerHTML = mosaico(t, extra); } catch {}
+});
+
+/* Lo más reciente: último video y último episodio (se actualiza con la sincronización) */
+function haceCuanto(f){
+  const d = Math.floor((Date.now() - new Date(f + 'T12:00:00')) / 864e5);
+  if (d <= 0) return 'Hoy';
+  if (d === 1) return 'Ayer';
+  if (d < 7) return `Hace ${d} días`;
+  if (d < 30) return `Hace ${Math.floor(d/7)} ${Math.floor(d/7) === 1 ? 'semana' : 'semanas'}`;
+  const [y,m,dd] = f.split('-').map(Number);
+  return `${dd} de ${['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'][m-1]}`;
+}
+cargar('/recientes.json').then(({ items }) => {
+  if (!items?.length) return;
+  document.getElementById('recent').innerHTML = items.map(v =>
+    `<a ${attrs(v.url)}><img src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+      <div class="txt"><span class="src">${esc(v.canal)}</span><span class="ttl">${esc(v.titulo)}</span><span class="when">${haceCuanto(v.fecha)}</span></div></a>`).join('');
+  document.getElementById('recent-wrap').hidden = false;
+}).catch(() => {});
 
 document.getElementById('mailto').href = 'mailto:' + CONFIG.email + '?subject=' + encodeURIComponent('Colaboración con xam');
 
