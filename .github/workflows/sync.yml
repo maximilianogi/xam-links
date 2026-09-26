@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 12 * * *"   # todos los días a las 6:00 am (hora de CDMX)
   workflow_dispatch:        # botón "Run workflow" para actualizar al momento
+    inputs:
+      forzar:
+        description: "Volver a buscar las portadas y pósters que no se encontraron"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -28,6 +33,7 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+          FORZAR: ${{ inputs.forzar && '1' || '' }}
 
       - name: Guardar cambios en el repo
         run: |

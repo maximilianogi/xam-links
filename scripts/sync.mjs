@@ -25,7 +25,8 @@ const TMDB_TOKEN = process.env.TMDB_TOKEN;
 if (!NOTION_TOKEN) { console.error("Falta el secret NOTION_TOKEN"); process.exit(1); }
 
 const HOY = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Mexico_City" }).format(new Date());
-const REINTENTAR_DIAS = 30; // días antes de volver a buscar una portada que no se encontró
+const REINTENTAR_DIAS = 7; // días antes de volver a buscar una portada o póster que no se encontró
+const FORZAR = process.env.FORZAR === "1"; // botón "forzar" del workflow: reintenta todo lo que faltaba
 const UA = "Mozilla/5.0 (compatible; wvxam-sync/1.0; +https://www.wvxam.com)";
 const esperar = ms => new Promise(r => setTimeout(r, ms));
 
@@ -147,28 +148,41 @@ function transformarLibros(paginas) {
   return salida;
 }
 
-async function descargar(url, destinoSinExt) {
+async function descargar(url, destinoSinExt, referer) {
   try {
-    const r = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow" });
+    const headers = { "User-Agent": UA, Accept: "image/avif,image/webp,image/*,*/*;q=0.8" };
+    if (referer) headers.Referer = referer;
+    const r = await fetch(url, { headers, redirect: "follow" });
     const tipo = r.headers.get("content-type") || "";
-    if (!r.ok || !tipo.startsWith("image/")) return null;
+    if (!r.ok) { console.log(`   · imagen respondió ${r.status}: ${url}`); return null; }
+    if (!tipo.startsWith("image/")) { console.log(`   · no es imagen (${tipo}): ${url}`); return null; }
     const buf = Buffer.from(await r.arrayBuffer());
-    if (buf.length < 2500) return null; // imágenes vacías o de relleno
+    if (buf.length < 2500) { console.log(`   · imagen vacía (${buf.length} bytes)`); return null; }
     const ext = tipo.includes("png") ? "png" : tipo.includes("webp") ? "webp" : "jpg";
     await fs.writeFile(`${destinoSinExt}.${ext}`, buf);
     return `${path.basename(destinoSinExt)}.${ext}`;
-  } catch { return null; }
+  } catch (e) { console.log(`   · error al descargar: ${e.message}`); return null; }
 }
 
-async function portadaBuscalibre(url) {
+async function portadaBuscalibre(url, isbn) {
   if (!/buscalibre\./.test(url)) return null;
   try {
-    const html = await (await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "es-MX" } })).text();
-    const m = html.match(/<meta[^>]+property=["']og:image["'][^>]*content=["']([^"']+)["']/i)
-           || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]*property=["']og:image["']/i);
-    const img = m?.[1];
-    return img && !/logo/i.test(img) ? img.replace(/^\/\//, "https://") : null;
-  } catch { return null; }
+    const r = await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "es-MX,es;q=0.9", Accept: "text/html" } });
+    if (!r.ok) { console.log(`   · Buscalibre respondió ${r.status}`); return null; }
+    const html = await r.text();
+    const candidatos = [
+      /<meta[^>]+(?:property|name)=["']og:image(?::secure_url)?["'][^>]*content=["']([^"']+)["']/i,
+      /<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["']og:image["']/i,
+      /<meta[^>]+name=["']twitter:image["'][^>]*content=["']([^"']+)["']/i,
+      /"image"\s*:\s*"([^"]+)"/i,
+    ].map(re => html.match(re)?.[1]).filter(Boolean);
+    // Respaldo: cualquier imagen del CDN de Buscalibre que contenga el ISBN
+    const cdn = [...html.matchAll(/https?:\/\/images\.cdn\d*\.buscalibre\.com\/[^"'\s)]+/g)].map(m => m[0]);
+    if (isbn) candidatos.push(...cdn.filter(u => u.includes(isbn)));
+    const img = candidatos.map(u => u.replace(/&amp;/g, "&").replace(/^\/\//, "https://")).find(u => !/logo|placeholder|no[-_]?image/i.test(u));
+    if (!img) console.log(`   · Buscalibre sin imagen en la página (${html.length} caracteres)`);
+    return img || null;
+  } catch (e) { console.log(`   · error con Buscalibre: ${e.message}`); return null; }
 }
 
 async function portadaGoogle(b) {
@@ -198,12 +212,13 @@ async function portadas(libros) {
     const c = cache[id];
     const vigente = c?.f && existentes.has(c.f) && (c.src === "manual") === Boolean(b.manual) && (!b.manual || c.url === b.manual);
     if (vigente) { b.c = `/libros/portadas/${c.f}`; continue; }
-    if (c?.miss && !b.manual && diasDesde(c.miss) < REINTENTAR_DIAS) continue;
+    if (c?.miss && !b.manual && !FORZAR && diasDesde(c.miss) < REINTENTAR_DIAS) continue;
+    console.log(`Buscando portada: ${b.t}`);
 
     const destino = path.join(dir, id);
     const fuentes = [
       ["manual", async () => b.manual],
-      ["buscalibre", async () => b.u && portadaBuscalibre(b.u)],
+      ["buscalibre", async () => b.u && portadaBuscalibre(b.u, b.i)],
       ["google", async () => portadaGoogle(b)],
       ["openlibrary", async () => b.i && `https://covers.openlibrary.org/b/isbn/${b.i}-L.jpg?default=false`],
     ];
@@ -211,7 +226,7 @@ async function portadas(libros) {
     for (const [src, obtener] of fuentes) {
       const url = await obtener();
       if (!url) continue;
-      const f = await descargar(url, destino);
+      const f = await descargar(url, destino, src === "buscalibre" ? b.u : undefined);
       await esperar(400);
       if (f) {
         cache[id] = { f, src, ...(src === "manual" ? { url } : {}) };
@@ -223,6 +238,9 @@ async function portadas(libros) {
     if (!hecho) { cache[id] = { miss: HOY }; console.log(`Sin portada: ${b.t}`); }
   }
   await escribirJSON(cacheFile, cache);
+  const faltan = libros.filter(b => (b.e === "leido" || b.e === "leyendo") && !b.c).map(b => b.t);
+  console.log(`\nRESUMEN PORTADAS: ${libros.filter(b => b.c).length} con portada, ${faltan.length} sin portada`);
+  if (faltan.length) console.log("Sin portada: " + faltan.join(" | "));
 }
 
 /* ---------- Películas ---------- */
@@ -266,7 +284,7 @@ async function datosTMDB(pelis) {
     if (p.e !== "vista") continue;
     const c = cache[p.k];
     if (c && !c.miss) { Object.assign(p, { p: c.p, sin: c.sin }); continue; }
-    if (c?.miss && diasDesde(c.miss) < REINTENTAR_DIAS) continue;
+    if (c?.miss && !FORZAR && diasDesde(c.miss) < REINTENTAR_DIAS) continue;
     try {
       const año = (p.t.match(/\b(19|20)\d{2}\b/) || [])[0];
       const esSerie = /\bserie\b/i.test(p.t);
