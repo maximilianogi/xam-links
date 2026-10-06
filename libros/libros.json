@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29",
+ "actualizado": "2026-10-05",
  "items": [
   {
    "t": "La Sumisa",
@@ -105,8 +105,11 @@
    "a": "Friedrich Nietzsche",
    "u": "https://www.buscalibre.com.mx/libro-crepusculo-de-los-idolos/9788420675411/p/30227635?afiliado=987b2a6de1fbecc3eab6",
    "i": "9788420675411",
-   "e": "leyendo",
+   "s": 5,
+   "e": "leido",
    "d0": "2026-09-10",
+   "d1": "2026-10-05",
+   "r": true,
    "c": "https://images.cdn1.buscalibre.com/fit-in/660x660/02/29/0229c8061ed530a6e6ffc9aef10e5073.jpg"
   },
   {
