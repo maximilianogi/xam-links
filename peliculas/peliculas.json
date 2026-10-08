@@ -1,6 +1,36 @@
 {
- "actualizado": "2026-09-26",
+ "actualizado": "2026-10-08",
  "items": [
+  {
+   "t": "The Bourne Supremacy",
+   "a": "Paul Greengrass",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-09-19",
+   "r": false,
+   "p": "/wKrCaaQe4nXnipmYuf3WVdDiP54.jpg",
+   "sin": "Cuando Jason Bourne es incriminado en una operación de la CIA que salió mal, se ve obligado a reanudar su vida anterior como asesino entrenado para sobrevivir."
+  },
+  {
+   "t": "Identidad desconocida",
+   "a": "Doug Liman",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-09-12",
+   "r": true,
+   "p": "/nCER98LPsNoAqKC46SzSBEdQDS1.jpg",
+   "sin": "Un hombre es rescatado por un barco de pesca, acribillado a balazos y sufriendo de amnesia, antes de correr para eludir asesinos e intentar recuperar su memoria."
+  },
+  {
+   "t": "Revenant",
+   "a": "Alejandro González Iñárritu",
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-10-07",
+   "r": false,
+   "p": "/xDWCJg0Ax29j5D5CM5c5suLKPLJ.jpg",
+   "sin": "Un fronterizo en una expedición de comercio de pieles en la década de 1820 lucha por la supervivencia después de haber sido atacado por un oso y dejado por muerto por los miembros de su propio equipo de caza."
+  },
   {
    "t": "Quisiera ser millonario",
    "a": "Danny Boyle",

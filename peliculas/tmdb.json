@@ -208,5 +208,26 @@
   "tipo": "movie",
   "p": "/gLXXzIynvst1lvcoQraaHWQKT6N.jpg",
   "sin": "Un adolescente de Mumbai reflexiona sobre su vida después de ser acusado de engañar a la versión india de «¿Quién quiere ser millonario?»."
+ },
+ "thebournesupremacy": {
+  "v": 2,
+  "id": 2502,
+  "tipo": "movie",
+  "p": "/wKrCaaQe4nXnipmYuf3WVdDiP54.jpg",
+  "sin": "Cuando Jason Bourne es incriminado en una operación de la CIA que salió mal, se ve obligado a reanudar su vida anterior como asesino entrenado para sobrevivir."
+ },
+ "identidaddesconocida": {
+  "v": 2,
+  "id": 2501,
+  "tipo": "movie",
+  "p": "/nCER98LPsNoAqKC46SzSBEdQDS1.jpg",
+  "sin": "Un hombre es rescatado por un barco de pesca, acribillado a balazos y sufriendo de amnesia, antes de correr para eludir asesinos e intentar recuperar su memoria."
+ },
+ "revenant": {
+  "v": 2,
+  "id": 281957,
+  "tipo": "movie",
+  "p": "/xDWCJg0Ax29j5D5CM5c5suLKPLJ.jpg",
+  "sin": "Un fronterizo en una expedición de comercio de pieles en la década de 1820 lucha por la supervivencia después de haber sido atacado por un oso y dejado por muerto por los miembros de su propio equipo de caza."
  }
 }
