@@ -21,7 +21,11 @@
   "sin": "Paris, hijo de Príamo y príncipe de Troya, rapta a Helena, esposa de Menelao, el rey de Esparta, lo que desencadena la Guerra de Troya, en la que se enfrentan griegos y troyanos. El ejército griego asedió la ciudad de Troya durante más de diez años. Aquiles era el gran héroe de los griegos, mientras Héctor, el hijo mayor de Príamo, el rey de Troya, representaba la única esperanza de salvación para la ciudad."
  },
  "dreamstrains": {
-  "miss": "2026-09-26"
+  "v": 2,
+  "id": 1241983,
+  "tipo": "movie",
+  "p": "/2gE6z0de4RZVW7YG1IcYBClH9MZ.jpg",
+  "sin": "Un leñador que lleva una vida tranquila experimenta el amor y la pérdida durante una era de cambios monumentales en los Estados Unidos de principios del siglo XX."
  },
  "ciudaddedios": {
   "v": 2,
@@ -229,5 +233,19 @@
   "tipo": "movie",
   "p": "/xDWCJg0Ax29j5D5CM5c5suLKPLJ.jpg",
   "sin": "Un fronterizo en una expedición de comercio de pieles en la década de 1820 lucha por la supervivencia después de haber sido atacado por un oso y dejado por muerto por los miembros de su propio equipo de caza."
+ },
+ "residentevil": {
+  "v": 2,
+  "id": 1423191,
+  "tipo": "movie",
+  "p": "/ntmaNFJ7O60n45E1E6HZlXeSV5e.jpg",
+  "sin": "Un desafortunado mensajero, encargado de entregar un paquete a un hospital remoto, se ve atrapado en medio de un brote y debe luchar contra hordas de criaturas mutantes para sobrevivir."
+ },
+ "se7en": {
+  "v": 2,
+  "id": 807,
+  "tipo": "movie",
+  "p": "/4dSivge4jxozWgbD6GW2NkOYGaD.jpg",
+  "sin": "Somerset es un solitario y veterano detective a punto de retirarse que se encuentra con Mills, un joven impulsivo. Ambos investigan un particular asesinato. Es este el primero de una serie de crímenes que aluden los siete pecados capitales."
  }
 }
