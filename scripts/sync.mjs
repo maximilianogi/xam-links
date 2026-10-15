@@ -139,6 +139,7 @@ function transformarLibros(paginas) {
       i: (u.match(/\/(97[89]\d{10})\//) || [])[1], s, e, d0, d1,
       r: siNo(val(prop(P, "¿Lo volvería a leer?"))),
       manual: limpio(val(prop(P, "Portada"))) || undefined,
+      n: pg.created_time?.slice(0, 10), // cuándo se agregó a Notion (para "Nuevo" en el librero)
       k: clave(t),
     };
   }).filter(b => b.t);
@@ -227,7 +228,7 @@ async function portadas(libros) {
 
   const huella = u => createHash("md5").update(u).digest("hex").slice(0, 8);
   for (const b of libros) {
-    if (b.e !== "leido" && b.e !== "leyendo") continue;
+    if (b.e !== "leido" && b.e !== "leyendo" && b.e !== "librero") continue;
     const id = b.i || slug(`${b.t} ${b.a}`);
     const c = cache[id];
     const archivoOk = c?.f && existentes.has(c.f);
@@ -270,7 +271,7 @@ async function portadas(libros) {
     if (!hecho) { cache[id] = { miss: HOY }; console.log(`Sin portada: ${b.t}`); }
   }
   await escribirJSON(cacheFile, cache);
-  const faltan = libros.filter(b => (b.e === "leido" || b.e === "leyendo") && !b.c).map(b => b.t);
+  const faltan = libros.filter(b => (b.e === "leido" || b.e === "leyendo" || b.e === "librero") && !b.c).map(b => b.t);
   console.log(`\nRESUMEN PORTADAS: ${libros.filter(b => b.c).length} con portada, ${faltan.length} sin portada`);
   if (faltan.length) console.log("Sin portada: " + faltan.join(" | "));
 }
@@ -410,7 +411,7 @@ if (videos.length) await guardar("recientes.json", videos);
 
 const libros = transformarLibros(await leerBase(BASES.libros));
 await portadas(libros);
-await guardar("libros/libros.json", libros.map(({ k, manual, ...b }) => quitarVacios(b)));
+await guardar("libros/libros.json", libros.map(({ k, manual, n, ...b }) => quitarVacios(b.e === "librero" ? { ...b, n } : b)));
 
 const pelis = transformarPeliculas(await leerBase(BASES.peliculas));
 await datosTMDB(pelis);

@@ -126,6 +126,16 @@ dialog::backdrop{background:rgba(20,17,15,.55)}
 a:focus-visible,button:focus-visible,.search:focus-visible,summary:focus-visible{outline:2.5px solid var(--ink);outline-offset:3px}
 .now :focus-visible{outline-color:var(--signal-ink)}
 @media (prefers-reduced-motion: reduce){.cover img{transition:none}}
+
+/* En mi librero */
+.shelf{margin-top:36px;scroll-margin-top:16px}
+.shelf .year-head{justify-content:space-between}
+.shelf .year-head h2{font-size:36px}
+.shelf .lede-s{margin:-8px 4px 16px;color:var(--muted);font-size:15px;max-width:40ch}
+.badge{position:absolute;top:6px;right:6px;z-index:3;background:var(--signal);color:var(--signal-ink);font-size:10px;font-weight:800;letter-spacing:.02em;padding:3px 6px;border-radius:999px;text-transform:uppercase}
+.book{position:relative}
+.more{display:block;width:100%;margin-top:18px;padding:13px;border-radius:14px;border:1px solid var(--line);background:transparent;font-weight:600;font-size:15px;cursor:pointer}
+.more:hover{background:var(--surface)}
 </style>
 </head>
 <body>
@@ -138,6 +148,13 @@ a:focus-visible,button:focus-visible,.search:focus-visible,summary:focus-visible
   <section class="now" aria-labelledby="now-title">
     <h2 id="now-title">Leyendo ahora</h2>
     <div class="now-list" id="now"></div>
+  </section>
+
+  <section class="shelf" id="librero" aria-labelledby="shelf-title" hidden>
+    <div class="year-head"><h2 id="shelf-title">En mi librero</h2><span id="shelf-count"></span></div>
+    <p class="lede-s">Los que ya tengo y vienen después.</p>
+    <div class="grid" id="shelf"></div>
+    <button class="more" id="shelf-more" type="button" hidden></button>
   </section>
 
   <div class="controls">
@@ -153,9 +170,8 @@ a:focus-visible,button:focus-visible,.search:focus-visible,summary:focus-visible
   <p class="empty" id="empty" hidden>Ningún libro coincide con la búsqueda.</p>
 
   <section class="pending" aria-labelledby="pend-title">
-    <div class="year-head"><h2 id="pend-title" style="font-size:32px">Pendientes</h2></div>
-    <details id="d-librero"><summary>En el librero <span></span></summary><ul></ul></details>
-    <details id="d-conseguir"><summary>Por conseguir <span></span></summary><ul></ul></details>
+    <div class="year-head"><h2 id="pend-title" style="font-size:32px">Por conseguir</h2></div>
+    <details id="d-conseguir"><summary>Mi lista de deseos <span></span></summary><ul></ul></details>
   </section>
 
   <p class="foot">Registro personal de xam. Las calificaciones son a gusto propio.</p>
@@ -208,7 +224,10 @@ document.getElementById("now").innerHTML = ahora.map(b =>
 ).join("") || `<p>Nada por ahora.</p>`;
 
 /* Archivo por año */
-let filtro = "all", q = "";
+let filtro = "all", q = "", verTodo = false;
+const LIMITE = window.matchMedia("(min-width:560px)").matches ? 10 : 9;
+const DIAS_NUEVO = 45; // los libros agregados al librero en estos días llevan la etiqueta "Nuevo"
+const esNuevo = b => b.n && (Date.now() - new Date(b.n)) / 864e5 <= DIAS_NUEVO;
 const norm = s => (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 
 function render(){
@@ -230,7 +249,20 @@ function render(){
   }).join("");
   document.getElementById("empty").hidden = orden.length > 0;
 
-  for (const [id, estado] of [["d-librero","librero"],["d-conseguir","por_conseguir"]]){
+  /* En mi librero: lo más reciente primero */
+  const librero = LIBROS.filter(b => b.e === "librero" && match(b))
+    .sort((a,b) => (b.n||"").localeCompare(a.n||"") || a.t.localeCompare(b.t));
+  const shelfSec = document.getElementById("librero");
+  shelfSec.hidden = librero.length === 0 || filtro !== "all";
+  const visibles = (verTodo || nq) ? librero : librero.slice(0, LIMITE);
+  document.getElementById("shelf-count").textContent = `${librero.length} ${librero.length === 1 ? "libro" : "libros"}`;
+  document.getElementById("shelf").innerHTML = visibles.map(b =>
+    `<button class="book" data-id="${b.id}">${esNuevo(b) ? '<span class="badge">Nuevo</span>' : ''}${cover(b)}<span class="title">${esc(b.t)}</span><span class="meta" style="color:var(--muted);font-size:12px">${esc(b.a)}</span></button>`).join("");
+  const mas = document.getElementById("shelf-more");
+  mas.hidden = visibles.length >= librero.length;
+  mas.textContent = `Ver los ${librero.length}`;
+
+  for (const [id, estado] of [["d-conseguir","por_conseguir"]]){
     const el = document.getElementById(id);
     const lista = LIBROS.filter(b => b.e === estado && match(b)).sort((a,b) => a.t.localeCompare(b.t));
     el.querySelector("summary span").textContent = lista.length;
@@ -241,6 +273,8 @@ function render(){
   }
 }
 render();
+document.getElementById("shelf-more").addEventListener("click", () => { verTodo = true; render(); });
+if (location.hash === "#librero") document.getElementById("librero").scrollIntoView();
 
 document.getElementById("q").addEventListener("input", e => { q = e.target.value; render(); });
 document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
@@ -256,6 +290,7 @@ document.addEventListener("click", e => {
   const b = LIBROS[+t.dataset.id];
   let cuando = "";
   if (b.e === "leyendo") cuando = `<dt>Empezado</dt><dd>${fecha(b.d0)}</dd>`;
+  else if (b.e === "librero") cuando = `<dt>Estado</dt><dd>En mi librero, pendiente de leer</dd>`;
   else if (b.d0 && b.d1) cuando = `<dt>Leído</dt><dd>Del ${fecha(b.d0, b.d0.slice(0,4)!==b.d1.slice(0,4))} al ${fecha(b.d1)} (${dias(b.d0,b.d1)} ${dias(b.d0,b.d1)===1?"día":"días"})</dd>`;
   else if (b.d1) cuando = `<dt>Terminado</dt><dd>${fecha(b.d1)}</dd>`;
   const again = b.r === undefined ? "" : `<dt>¿Lo volvería a leer?</dt><dd>${b.r ? "Sí" : "No"}</dd>`;
