@@ -60,7 +60,7 @@ h1{
 @media (min-width:600px){.now-list{grid-template-columns:repeat(3,1fr)}.now-item{grid-template-columns:78px 1fr}.now-item .cover{width:78px;font-size:10px}}
 
 /* Controles */
-.controls{position:sticky;top:0;z-index:5;background:var(--bg);margin:28px -16px 0;padding:12px 16px;padding-top:calc(12px + env(safe-area-inset-top,0px));border-bottom:1px solid var(--line)}
+.controls{scroll-margin-top:0;position:sticky;top:0;z-index:5;background:var(--bg);margin:28px -16px 0;padding:12px 16px;padding-top:calc(12px + env(safe-area-inset-top,0px));border-bottom:1px solid var(--line)}
 .search{width:100%;font:inherit;font-size:16px;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
 .search::placeholder{color:var(--muted)}
 .chips{display:flex;gap:8px;margin-top:10px;overflow-x:auto;scrollbar-width:none}
@@ -128,7 +128,7 @@ a:focus-visible,button:focus-visible,.search:focus-visible,summary:focus-visible
 @media (prefers-reduced-motion: reduce){.cover img{transition:none}}
 
 /* En mi librero */
-.shelf{margin-top:36px;scroll-margin-top:16px}
+.shelf{margin-top:36px}
 .shelf .year-head{justify-content:space-between}
 .shelf .year-head h2{font-size:36px}
 .shelf .lede-s{margin:-8px 4px 16px;color:var(--muted);font-size:15px;max-width:40ch}
@@ -150,21 +150,21 @@ a:focus-visible,button:focus-visible,.search:focus-visible,summary:focus-visible
     <div class="now-list" id="now"></div>
   </section>
 
-  <section class="shelf" id="librero" aria-labelledby="shelf-title" hidden>
-    <div class="year-head"><h2 id="shelf-title">En mi librero</h2><span id="shelf-count"></span></div>
-    <p class="lede-s">Los que ya tengo y vienen después.</p>
-    <div class="grid" id="shelf"></div>
-    <button class="more" id="shelf-more" type="button" hidden></button>
-  </section>
-
   <div class="controls">
     <input class="search" id="q" type="search" placeholder="Buscar libro o autor" aria-label="Buscar libro o autor" autocomplete="off">
     <div class="chips" role="group" aria-label="Filtros">
-      <button class="chip" data-f="all" aria-pressed="true">Todos</button>
+      <button class="chip" data-f="all" aria-pressed="true">Leídos</button>
+      <button class="chip" data-f="librero" aria-pressed="false">En mi librero <span id="chip-librero" style="opacity:.6;font-weight:400"></span></button>
       <button class="chip" data-f="five" aria-pressed="false">5 estrellas</button>
       <button class="chip" data-f="again" aria-pressed="false">Los volvería a leer</button>
     </div>
   </div>
+
+  <section class="shelf" id="librero" aria-labelledby="shelf-title" hidden>
+    <div class="year-head"><h2 id="shelf-title">En mi librero</h2><span id="shelf-count"></span></div>
+    <p class="lede-s">Los que ya tengo y vienen después.</p>
+    <div class="grid" id="shelf"></div>
+  </section>
 
   <div id="years"></div>
   <p class="empty" id="empty" hidden>Ningún libro coincide con la búsqueda.</p>
@@ -224,8 +224,7 @@ document.getElementById("now").innerHTML = ahora.map(b =>
 ).join("") || `<p>Nada por ahora.</p>`;
 
 /* Archivo por año */
-let filtro = "all", q = "", verTodo = false;
-const LIMITE = window.matchMedia("(min-width:560px)").matches ? 10 : 9;
+let filtro = location.hash === "#librero" ? "librero" : "all", q = "";
 const DIAS_NUEVO = 45; // los libros agregados al librero en estos días llevan la etiqueta "Nuevo"
 const esNuevo = b => b.n && (Date.now() - new Date(b.n)) / 864e5 <= DIAS_NUEVO;
 const norm = s => (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
@@ -249,18 +248,16 @@ function render(){
   }).join("");
   document.getElementById("empty").hidden = orden.length > 0;
 
-  /* En mi librero: lo más reciente primero */
+  /* En mi librero: se ve con el filtro "En mi librero", lo más reciente primero */
   const librero = LIBROS.filter(b => b.e === "librero" && match(b))
     .sort((a,b) => (b.n||"").localeCompare(a.n||"") || a.t.localeCompare(b.t));
-  const shelfSec = document.getElementById("librero");
-  shelfSec.hidden = librero.length === 0 || filtro !== "all";
-  const visibles = (verTodo || nq) ? librero : librero.slice(0, LIMITE);
+  const enLibrero = filtro === "librero";
+  document.getElementById("librero").hidden = !enLibrero;
+  document.getElementById("years").hidden = enLibrero;
+  if (enLibrero) document.getElementById("empty").hidden = librero.length > 0;
   document.getElementById("shelf-count").textContent = `${librero.length} ${librero.length === 1 ? "libro" : "libros"}`;
-  document.getElementById("shelf").innerHTML = visibles.map(b =>
+  document.getElementById("shelf").innerHTML = librero.map(b =>
     `<button class="book" data-id="${b.id}">${esNuevo(b) ? '<span class="badge">Nuevo</span>' : ''}${cover(b)}<span class="title">${esc(b.t)}</span><span class="meta" style="color:var(--muted);font-size:12px">${esc(b.a)}</span></button>`).join("");
-  const mas = document.getElementById("shelf-more");
-  mas.hidden = visibles.length >= librero.length;
-  mas.textContent = `Ver los ${librero.length}`;
 
   for (const [id, estado] of [["d-conseguir","por_conseguir"]]){
     const el = document.getElementById(id);
@@ -273,13 +270,15 @@ function render(){
   }
 }
 render();
-document.getElementById("shelf-more").addEventListener("click", () => { verTodo = true; render(); });
-if (location.hash === "#librero") document.getElementById("librero").scrollIntoView();
+document.getElementById("chip-librero").textContent = LIBROS.filter(b => b.e === "librero").length || "";
+document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.f === filtro)));
+if (filtro === "librero") document.querySelector(".controls").scrollIntoView();
 
 document.getElementById("q").addEventListener("input", e => { q = e.target.value; render(); });
 document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
   filtro = c.dataset.f;
   document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x === c)));
+  history.replaceState(null, "", filtro === "librero" ? "#librero" : location.pathname);
   render();
 }));
 
