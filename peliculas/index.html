@@ -133,6 +133,15 @@ a:focus-visible,button:focus-visible,.search:focus-visible,summary:focus-visible
 .cover.poster i{position:relative;z-index:1;order:1}
 .cover.poster img{z-index:2}
 .tmdb{margin-top:8px}
+
+/* Botón para volver arriba */
+.to-top{position:fixed;right:max(16px,calc(50vw - 380px + 16px));bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:20;
+  width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:var(--ink);color:var(--bg);
+  display:grid;place-items:center;cursor:pointer;box-shadow:0 8px 20px -8px rgba(0,0,0,.5);
+  opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .2s,transform .2s}
+.to-top.show{opacity:1;transform:none;pointer-events:auto}
+.to-top svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+@media (prefers-reduced-motion: reduce){.to-top{transition:none}}
 </style>
 </head>
 <body>
@@ -257,6 +266,16 @@ document.addEventListener("click", e => {
   sheet.querySelector("#close").onclick = () => sheet.close();
 });
 sheet.addEventListener("click", e => { if (e.target === sheet) sheet.close(); });
+</script>
+<button class="to-top" id="to-top" type="button" aria-label="Volver arriba"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script>
+(() => {
+  const b = document.getElementById("to-top");
+  const reducido = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const revisar = () => b.classList.toggle("show", scrollY > innerHeight * 1.2);
+  addEventListener("scroll", revisar, { passive: true }); revisar();
+  b.addEventListener("click", () => scrollTo({ top: 0, behavior: reducido ? "auto" : "smooth" }));
+})();
 </script>
 </body>
 </html>
