@@ -1,12 +1,23 @@
 {
- "actualizado": "2026-10-23",
+ "actualizado": "2026-10-24",
  "items": [
+  {
+   "t": "Once Upon a Time",
+   "a": "Quentin Tarantino",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-10-23",
+   "r": true,
+   "p": "/zLMSIALbAuX0FjA94JvDFqpspD7.jpg",
+   "sin": "Los Angeles, 1969. La estrella de televisión Rick Dalton, un actor en horas bajas especializado en westerns, y el doble de acción Cliff Booth, su mejor amigo, tratan de sobrevivir a una industria cinematográfica en constante cambio. Dalton es vecino de la joven y prometedora actriz y modelo Sharon Tate, que acaba de casarse con el prestigioso director polaco Roman Polanski…"
+  },
   {
    "t": "Inglourious Basterds",
    "a": "Quentin Tarantino",
    "s": 5,
    "e": "vista",
    "d1": "2026-10-22",
+   "r": true,
    "p": "/zO4RPoYUv8S0na2K1Sff9wU3Sg2.jpg",
    "sin": "Segunda Guerra Mundial (1939-1945). En la Francia ocupada por los alemanes, Shosanna Dreyfus presencia la ejecución de su familia por orden del coronel Hans Landa. Después de huir a París, adopta una nueva identidad como propietaria de un cine. En otro lugar de Europa, el teniente Aldo Raine adiestra a un grupo de soldados judíos (“The Basterds”) para atacar objetivos concretos. Los hombres de Raine y una actriz alemana, que trabaja para los aliados, deben llevar a cabo una misión para hacer caer a los jefes del Tercer Reich. El destino quiere que todos se encuentren bajo la marquesina de un cine donde Shosanna espera para vengarse."
   },
