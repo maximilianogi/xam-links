@@ -268,5 +268,23 @@
   "tipo": "movie",
   "p": "/zLMSIALbAuX0FjA94JvDFqpspD7.jpg",
   "sin": "Los Angeles, 1969. La estrella de televisión Rick Dalton, un actor en horas bajas especializado en westerns, y el doble de acción Cliff Booth, su mejor amigo, tratan de sobrevivir a una industria cinematográfica en constante cambio. Dalton es vecino de la joven y prometedora actriz y modelo Sharon Tate, que acaba de casarse con el prestigioso director polaco Roman Polanski…"
+ },
+ "casinoroyale": {
+  "v": 2,
+  "id": 36557,
+  "tipo": "movie",
+  "p": "/2Tygvjqrd6EfvOLwuS7bEIbHwH9.jpg",
+  "sin": "Después de ganar el estatus de 00 y una licencia para matar, el agente secreto James Bond emprende su primera misión como 007. Bond debe derrotar a un banquero privado que financia a terroristas en un juego de póquer de alto riesgo en Casino Royale, Montenegro."
+ },
+ "bourneultimatum": {
+  "v": 2,
+  "id": 2503,
+  "tipo": "movie",
+  "p": "/nNbROU14Ft3DPe7yTz2mFmtv1Oo.jpg",
+  "sin": "Jason Bourne esquiva a un despiadado oficial de la C.I.A. y a sus agentes de un nuevo programa de asesinatos mientras busca los orígenes de su vida como asesino entrenado."
+ },
+ "nocontryforoldman": {
+  "v": 2,
+  "miss": "2026-10-26"
  }
 }

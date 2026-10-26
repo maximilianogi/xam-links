@@ -1,6 +1,25 @@
 {
- "actualizado": "2026-10-24",
+ "actualizado": "2026-10-26",
  "items": [
+  {
+   "t": "Casino Royale",
+   "a": "Martín Campbell",
+   "s": 3,
+   "e": "vista",
+   "d1": "2026-10-18",
+   "p": "/2Tygvjqrd6EfvOLwuS7bEIbHwH9.jpg",
+   "sin": "Después de ganar el estatus de 00 y una licencia para matar, el agente secreto James Bond emprende su primera misión como 007. Bond debe derrotar a un banquero privado que financia a terroristas en un juego de póquer de alto riesgo en Casino Royale, Montenegro."
+  },
+  {
+   "t": "Bourne Ultimatum",
+   "a": "Paul Greengrass",
+   "s": 5,
+   "e": "vista",
+   "d1": "2026-10-25",
+   "r": true,
+   "p": "/nNbROU14Ft3DPe7yTz2mFmtv1Oo.jpg",
+   "sin": "Jason Bourne esquiva a un despiadado oficial de la C.I.A. y a sus agentes de un nuevo programa de asesinatos mientras busca los orígenes de su vida como asesino entrenado."
+  },
   {
    "t": "Once Upon a Time",
    "a": "Quentin Tarantino",
@@ -54,7 +73,7 @@
   {
    "t": "Identidad desconocida",
    "a": "Doug Liman",
-   "s": 4,
+   "s": 5,
    "e": "vista",
    "d1": "2026-09-12",
    "r": true,
@@ -476,7 +495,10 @@
   {
    "t": "No contry for old man",
    "a": "Ethan Coen, Joel Coen",
-   "e": "por_ver"
+   "s": 4,
+   "e": "vista",
+   "d1": "2026-09-04",
+   "r": false
   },
   {
    "t": "Mishima",
