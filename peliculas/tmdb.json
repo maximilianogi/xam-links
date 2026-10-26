@@ -286,5 +286,19 @@
  "nocontryforoldman": {
   "v": 2,
   "miss": "2026-10-26"
+ },
+ "thesecretagentoagentesecreto": {
+  "v": 2,
+  "id": 1220564,
+  "tipo": "movie",
+  "p": "/qYWybdgL6casJxbZE0xLGXsdWOP.jpg",
+  "sin": "En 1977, durante la dictadura militar brasileña, Marcelo, un profesor que huye de un pasado turbulento, regresa huyendo a la ciudad de Recife, donde espera construir una nueva vida y reencontrarse con su hijo. Pero pronto se da cuenta de que la ciudad está lejos de ser el refugio que busca, que las fuerzas gubernamentales le persiguen y las amenazas de muerte se ciernen sobre él."
+ },
+ "nocountryforoldmen": {
+  "v": 2,
+  "id": 6977,
+  "tipo": "movie",
+  "p": "/zEPHUBFa7mFsF9xO5Vzx6mjZ1JE.jpg",
+  "sin": "Un cazador de tesoros se encuentra en una espiral de violencia después de tropezar con una bolsa de dinero en medio del desierto texano. Perseguido por un despiadado asesino, se desencadena una serie de eventos mortales que ponen a prueba su astucia y su supervivencia en un juego donde cada decisión tiene consecuencias letales."
  }
 }
